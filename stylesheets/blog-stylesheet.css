@@ -1,5 +1,5 @@
 html {
-  background-color:white;
+  background-color:#ccffff;
 }
 
 #header {
@@ -62,14 +62,27 @@ a:visited {
   color:red;
   text-align: right;
 }
+a:hover {
+  color:cc99ff;
+}
 
 #footer {
   text-align: center;
-  background-color:d3d3d3;
+  background-color:ccffff;
   margin:15px 4% 15px 2%;
   margin-top:15px;
   margin-bottom: 15px;
   border-radius: 2px;
-  padding:.1% .1% .1% .1%;
+  /*padding:.1% .1% .1% .1%;*/
   /*padding is temporary, will remove once I insert content, just needed to show wireframe for footer*/
+}
+h4 a {
+  color:#6666cc;
+  text-decoration:none;
+  padding-left: 15px
+}
+
+h4 span {
+  color:6666cc;
+  padding-left: 15px;
 }
