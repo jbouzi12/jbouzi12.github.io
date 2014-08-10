@@ -79,10 +79,13 @@ a:hover {
 h4 a {
   color:#6666cc;
   text-decoration:none;
-  padding-left: 15px
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family:Comic Sans MS, sans-serif;
 }
 
 h4 span {
   color:6666cc;
-  padding-left: 15px;
+  padding-left: 10px;
+  font-family: Comic Sans MS, sans-serif;
 }
