@@ -9,6 +9,7 @@ html {
   border-top-right-radius: 10px;
   background-color: #bdbdbd;
   padding:60px;
+  position:relative;
 }
 /*format div#menu after i lay out the content, provide borders and padding*/
 
@@ -18,6 +19,7 @@ html {
   background-color:#7e7e7e;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
+  position:relative;
 }
 
 ul {
