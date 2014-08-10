@@ -1,5 +1,5 @@
 html {
-  background-color:#ccffff;
+  background-color:white;
 }
 
 #header {
@@ -7,9 +7,15 @@ html {
   /*border:1px solid black;*/
   border-top-left-radius:10px;
   border-top-right-radius: 10px;
-  background-color: #bdbdbd;
-  padding:60px;
+  background-color: #ccffcc;
+  padding-top:100px;
+  padding-bottom:30px;
   position:relative;
+
+}
+#blog-name {
+  text-align: left;
+  font-size: 60px;
 }
 /*format div#menu after i lay out the content, provide borders and padding*/
 
@@ -70,7 +76,7 @@ a:hover {
 
 #footer {
   text-align: center;
-  background-color:ccffff;
+  background-color:white;
   margin:15px 4% 15px 2%;
   margin-top:15px;
   margin-bottom: 15px;
