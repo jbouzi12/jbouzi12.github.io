@@ -51,6 +51,7 @@ background-color: #a8a8a8;
   /*border-radius:5px;*/
   box-shadow: rgba(0,0,0,0.2) 10px 10px;
   padding-left: 20px;
+  padding-right: 10px;
 }
 hr {
   float: left;
