@@ -45,12 +45,12 @@ background-color: #a8a8a8;
 }
 
 #main-body {
-  margin:15px 30px 15px 10px;
+  margin:15px 30px 0px 10px;
   background-color: #eee8cd;
-  text-align: center;
+  text-align: left;
   /*border-radius:5px;*/
   box-shadow: rgba(0,0,0,0.2) 10px 10px;
-
+  padding-left: 20px
 }
 
 .post {
@@ -64,9 +64,6 @@ background-color: #a8a8a8;
   font-family:Georgia,serif;
 }
 
-#next-page {
-  text-align: right;
-}
 
 a:visited {
   color:red;
