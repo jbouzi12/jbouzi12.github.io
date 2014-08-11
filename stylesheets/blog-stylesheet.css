@@ -52,6 +52,13 @@ background-color: #a8a8a8;
   box-shadow: rgba(0,0,0,0.2) 10px 10px;
   padding-left: 20px;
 }
+hr {
+  float: left;
+  display: block;
+}
+#date {
+  display: block;
+}
 imgs {
   display:block;
 }
