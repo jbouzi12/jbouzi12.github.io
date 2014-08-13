@@ -9,12 +9,14 @@ header {
   background-repeat: no-repeat;
   padding-bottom:225px;
   padding-top: 100px;
+  height:190px;
 }
 #blog-name {
   text-align: left;
   font-size: 60px;
   display: inline;
   color: rgb(217, 243, 169);
+  text-shadow:2px 2px black;
 }
 
 #menu-bar {
