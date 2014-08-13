@@ -68,6 +68,10 @@ img {
   width:50%;
   float: right;
 }
+a img {
+  width:25px;
+  height:25px;
+}
 hr {
   float: left;
   display: block;
@@ -90,7 +94,7 @@ a:hover {
 
 footer {
   text-align: center;
-  background-color:white;
+  background-color:rgb(172, 170, 170);
   margin:15px 4% 15px 2%;
   margin-top:15px;
   margin-bottom: 15px;
@@ -98,15 +102,13 @@ footer {
   position: absolute;
 }
 h4 a {
-  color:#6666cc;
-  text-decoration:none;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
   font-family:Comic Sans MS, sans-serif;
 }
 
 h4 span {
-  color:6666cc;
+  color:rgb(126, 124, 124);
   padding-left: 10px;
   font-family: Comic Sans MS, sans-serif;
 }
