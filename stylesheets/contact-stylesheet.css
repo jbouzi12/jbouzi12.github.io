@@ -1,6 +1,8 @@
 
 html {
   background-color:rgb(172, 170, 170);
+  background-image:url(https://raw.githubusercontent.com/jbouzi12/phase-0-unit-1/master/week-1/imgs/cover-malcolm.JPG?token=8241921__eyJzY29wZSI6IlJhd0Jsb2I6amJvdXppMTIvcGhhc2UtMC11bml0LTEvbWFzdGVyL3dlZWstMS9pbWdzL2NvdmVyLW1hbGNvbG0uSlBHIiwiZXhwaXJlcyI6MTQwODkxNDQ3OX0%3D--d6e4e0f55fffeb1690384d7a800007c107f06571);
+  background-size: cover;
 }
 body {
   margin:0;
@@ -66,13 +68,20 @@ section {
   display: block
 }
 #content {
-  font-size: 2em
+  font-size: 2em;
+  opacity:0;
 }
 #contact {
-  margin: -1em 2em 2em 2em;
+  margin: -1em 4em 2em 2em;
+  background:rgb(255, 153, 0);
+  opacity: .7;
 }
 div {
   font-family: Lato, sans-serif;
+  font-weight: bold
+}
+div p {
+  padding-bottom: 1.5em;
 }
 
 a {
@@ -104,7 +113,7 @@ a:hover {
 
 footer {
   text-align: center;
-  background-color:rgb(172, 170, 170);
+  /*background-color:rgb(172, 170, 170);*/
   margin:15px 4% 15px 2%;
   margin-top:15px;
   margin-bottom: 15px;
@@ -117,8 +126,10 @@ h4 a {
 }
 
 h4 span {
-  color:rgb(126, 124, 124);
+  color:black;
+  font-weight: bold;
   padding-left: 10px;
   font-family: Lato, sans-serif;
   font-weight: bold;
+  font
 }
