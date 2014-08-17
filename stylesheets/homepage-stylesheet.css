@@ -17,7 +17,7 @@ header {
   opacity: .7;
   font-family: Lato, sans-serif;
   color:rgb(255, 153, 0);
-  background:rgb(48, 47, 47)
+  background:#272727;
   font-weight:bold;
 }
 #name {
