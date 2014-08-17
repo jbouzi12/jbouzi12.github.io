@@ -50,6 +50,10 @@ background-color: #a8a8a8;
   padding-left: 20px;
   padding-right: 10px;
 }
+h1 {
+  font-size: 2em;
+  padding-top: 1.15em;
+}
 p {
   display: block;
 }
@@ -58,7 +62,7 @@ img {
 }
 .two-images {
   display:inline-block;
-  padding-bottom:17px;
+  padding-bottom:1.05em;
 }
 .left-img {
   width:50%;
