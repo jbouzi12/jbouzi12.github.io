@@ -1,0 +1,62 @@
+/* include your css here */
+
+<style>
+html {
+  background-color: #CDEFFF;
+}
+header {
+  background-color: black;
+  color: white;
+  font-size: 4em;
+  font-weight: bold;
+  text-align: center;
+  padding: 1em;
+}
+
+#one {
+ /* background-color:blue; */
+}
+#two {
+  /* background-color:green; */
+}
+#three {
+  /* background-color:yellow; */
+}
+
+section {
+  background-color:#FFE4C2;
+  box-shadow: 5px 5px gray;
+  margin-right:6em;
+  margin-top:4em;
+  margin-left:4em;
+  padding:2em;
+}
+
+
+html {
+ font-family:Verdana;
+}
+footer {
+  text-align: right;
+  margin-top: 2em;
+  padding-right: 4em;
+  background-color:black;
+  color:white;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 220px;
+}
+#dev-img img {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:300px;
+  height:150px;
+}
+#date {
+  text-align:center;
+}
