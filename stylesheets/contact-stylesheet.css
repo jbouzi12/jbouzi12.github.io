@@ -3,6 +3,7 @@ html {
   background-color:rgb(172, 170, 170);
   background-image:url(https://raw.githubusercontent.com/jbouzi12/phase-0-unit-1/master/week-1/imgs/cover-malcolm.JPG?token=8241921__eyJzY29wZSI6IlJhd0Jsb2I6amJvdXppMTIvcGhhc2UtMC11bml0LTEvbWFzdGVyL3dlZWstMS9pbWdzL2NvdmVyLW1hbGNvbG0uSlBHIiwiZXhwaXJlcyI6MTQwODkxNDQ3OX0%3D--d6e4e0f55fffeb1690384d7a800007c107f06571);
   background-size: cover;
+  margin: 0;
 }
 body {
   margin:0;
@@ -96,9 +97,6 @@ h1 {
 
 img {
   width:75%;
-}
-img:hover{
-  behavior
 }
 
 a img {
