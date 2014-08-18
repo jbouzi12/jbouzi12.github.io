@@ -90,11 +90,14 @@ imgs {
 
 
 a:visited {
-  color:red;
+  color:none;
   text-align: right;
 }
 a:hover {
   color:cc99ff;
+}
+a {
+  text-decoration: none;
 }
 
 footer {
