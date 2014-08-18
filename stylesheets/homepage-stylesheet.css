@@ -1,6 +1,5 @@
 html {
   background-image:url(https://raw.githubusercontent.com/jbouzi12/phase-0-unit-1/master/week-1/imgs/cover-malcolm-color.JPG?token=8241921__eyJzY29wZSI6IlJhd0Jsb2I6amJvdXppMTIvcGhhc2UtMC11bml0LTEvbWFzdGVyL3dlZWstMS9pbWdzL2NvdmVyLW1hbGNvbG0tY29sb3IuSlBHIiwiZXhwaXJlcyI6MTQwODkxOTg1OH0%3D--0dafbc05feaa7e2db113a0627deb439bb9378e4c);*/
-  background-color: red;
   background-size: cover;
   margin:0;
 }
@@ -9,26 +8,38 @@ header {
   float:left;
   margin:0 0 2em 0;
   width:100%;
-  background-color: black;
   display: block;
 }
 
 nav {
-  /*text-shadow: 2px 2px 2px #5c5a5a;*/
   font-family:Lato;
   text-align: right;
   position:relative;
   margin:1em 0 0;
-  background:none;
   float:right;
   width:45%;
   font-size:1.25em;
   color:white;
 }
-/*a:hover {
+ul {
+  padding-left:30px;
+  padding-right:30px;
+  color:white;
+  list-style-type: none;
+}
+li {
+  display: inline;
+  color:white;
+  padding-left: 5px;
+}
+a:hover {
   color:rgb(200, 200, 235);
   transition:all .2s ease-in;
-}*/
+}
+a {
+  text-decoration: none;
+  color:white;
+}
 
 .welcome {
   opacity: .7;
@@ -36,6 +47,7 @@ nav {
   color:rgb(255, 153, 0);
   background:#272727;
   font-weight:bold;
+  clear: both;
 }
 #name {
   font-size: 5em;
