@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <title>Blog Template</title>
+    <title>Borders Margins Padding</title>
     <link type="text/css" rel="stylesheet" href="../stylesheets/blog-stylesheet.css"></link>
     <link href="http://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet" type="text/css"></link>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
@@ -22,8 +22,27 @@
       </nav>
     </section>
     <article class="post">
-      <h1>--Insert Title--</h1>
-      <p></p>
+      <h1>Padding Borders Margins<h1>
+      <p>After a nice long, frustrating day of coding, I think its time that I dive into a few concepts that I&apos;ve become familiar with over the past two weeks at DBC. If you are just beginning web design, mastering borders, margins, and padding will be essential to properly format content on your web page and achieve your optimal end result. However, it is often confusing to discern which concept to use and when. Thus, I&apos;ve dedicated this post help with that decision.<p>
+      <p>The following model offers a great visualization of where each property is located around the content. Remember, content can be any element such as text (see model), images, lists, etc. that is in our html document. The content&apos;s padding is located immediately around it; the border is located outside of the padding, and the margin is located outside of the border:</p>
+      <img src="https://raw.githubusercontent.com/jbouzi12/phase-0-unit-1/master/week-1/imgs/border-box-model.png?token=8241921__eyJzY29wZSI6IlJhd0Jsb2I6amJvdXppMTIvcGhhc2UtMC11bml0LTEvbWFzdGVyL3dlZWstMS9pbWdzL2JvcmRlci1ib3gtbW9kZWwucG5nIiwiZXhwaXJlcyI6MTQwODkzMzI2NX0%3D--26439417e9c94ab8e423b4d633229c7fa4e9a67d"/>
+
+      <p>Once you get familiar with this model (memorize it), you can start to figure out how to use each property. You can consider padding as almost a part of the content. For example, if you increase the padding the edges of the content will be pushed out. Below you can see some of this in action. I gave the image a red background color so you can see the changes. See what happens to that red background when I increased the padding around “example” by 30px:</p>
+      <div class="two-images">
+        <div class="left-img">
+          <img src="https://raw.githubusercontent.com/jbouzi12/phase-0-unit-1/master/week-1/imgs/padding-ex1.png?token=8241921__eyJzY29wZSI6IlJhd0Jsb2I6amJvdXppMTIvcGhhc2UtMC11bml0LTEvbWFzdGVyL3dlZWstMS9pbWdzL3BhZGRpbmctZXgxLnBuZyIsImV4cGlyZXMiOjE0MDg5MzM0ODF9--b86257b6f6da119f3bbb1c7bf7862944dedf96b2"/>
+        </div>
+        <div class="right-img">
+          <img src="https://raw.githubusercontent.com/jbouzi12/phase-0-unit-1/master/week-1/imgs/padding-ex2.png?token=8241921__eyJzY29wZSI6IlJhd0Jsb2I6amJvdXppMTIvcGhhc2UtMC11bml0LTEvbWFzdGVyL3dlZWstMS9pbWdzL3BhZGRpbmctZXgyLnBuZyIsImV4cGlyZXMiOjE0MDg5MzMzMjV9--c2fcc5bd9acb6d096e0972ddf21aa1ab8a20696b"/>
+        </div>
+      </div>
+      <p>The red just expanded! Essentially the space between the border(edge of the content) and the content itself expanded. Since the background is red, the red part ended up expanding. Now, if we play with the margins a little bit, something different happens. See what happens now when I increase the margin by 40px:</p>
+      <img src="https://raw.githubusercontent.com/jbouzi12/phase-0-unit-1/master/week-1/imgs/margin-ex.png?token=8241921__eyJzY29wZSI6IlJhd0Jsb2I6amJvdXppMTIvcGhhc2UtMC11bml0LTEvbWFzdGVyL3dlZWstMS9pbWdzL21hcmdpbi1leC5wbmciLCJleHBpcmVzIjoxNDA4OTMzNTUxfQ%3D%3D--ace835dd63e9c097927ef6b2443d45ce52070d0d"
+      <p>Now the space between the edges of the content and the web-page itself has increased. Now lets just add a thick, black border just so you can see where it will be:</p>
+      <img src="https://raw.githubusercontent.com/jbouzi12/phase-0-unit-1/master/week-1/imgs/border-ex.png?token=8241921__eyJzY29wZSI6IlJhd0Jsb2I6amJvdXppMTIvcGhhc2UtMC11bml0LTEvbWFzdGVyL3dlZWstMS9pbWdzL2JvcmRlci1leC5wbmciLCJleHBpcmVzIjoxNDA4OTMzNTg5fQ%3D%3D--fd687bd52137fe3a264279417a7b9cab8c2687a2"/>
+
+      <p>Overall, if you want to increase the space that is within the content, you should change the padding property. However, you want to distance the content from other elements in the page including the edges of the page itself, you should change the margins. If you simply want to add a defining border, then border is pretty self explanatory. But note that changing the padding will seem to cause a change in the size of the content while changing the margins will seem to cause a change in the space around the content. I hope you all found this little tutorial helpful and not confusing.</p>
+
       <hr width="95%"></hr><br></br>
       <div id="date">Jensen Bouzi, August 17, 2014</div>
     </article>
