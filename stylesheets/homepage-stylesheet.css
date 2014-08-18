@@ -6,7 +6,24 @@ html {
 }
 
 header {
-  float: right;
+  float:left;
+  margin:0 0 2em 0;
+  width:100%;
+  background-color: black;
+  display: block;
+}
+
+nav {
+  /*text-shadow: 2px 2px 2px #5c5a5a;*/
+  font-family:Lato;
+  text-align: right;
+  position:relative;
+  margin:1em 0 0;
+  background:none;
+  float:right;
+  width:45%;
+  font-size:1.25em;
+  color:white;
 }
 /*a:hover {
   color:rgb(200, 200, 235);
