@@ -68,8 +68,14 @@ section {
   display: block
 }
 
-
-#contact {
+div {
+  font-family: Lato, sans-serif;
+  font-weight: bold
+}
+div p {
+  padding-bottom: 1.5em;
+}
+#about {
   margin: -1em 4em 2em 2em;
   background:rgb(255, 153, 0);
   opacity: .7;
@@ -78,6 +84,15 @@ section {
 a {
   text-decoration: none;
   color:white;
+}
+a:hover {
+  color:rgb(200, 200, 235);
+  transition:all .2s ease-in;
+}
+
+h1 {
+  font-size: 4aem;
+  padding-top: 1.15em;
 }
 
 
