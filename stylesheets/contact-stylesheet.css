@@ -68,10 +68,10 @@ li {
 section {
   display: block
 }
-#content {
+/*#content {
   font-size: 2em;
   opacity:0;
-}
+}*/
 #contact {
   margin: -1em 4em 2em 2em;
   background:rgb(255, 153, 0);
