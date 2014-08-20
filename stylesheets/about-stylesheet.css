@@ -4,7 +4,41 @@ html {
   background-size: cover;
   margin: 0;
 }
+header {
+  float:left;
+  margin:0 0 2em 0;
+  width:100%;
+  background-color: black;
+  display: block;
+}
 
+#logo {
+  float:left;
+  margin-left:2em;
+  text-align: left;
+  width: 45%;
+  text-decoration: none;
+}
+#my-name {
+  font-family: Lato, sans-serif;
+  font-weight:normal;
+  font-size: 3em;
+  color:white;
+  line-height: .8em;
+  margin: 15px 0;
+  padding:0px;
+  display: block;
+  text-shadow: 2px 2px 2px #5c5a5a;
+}
+
+
+#sub-name {
+  font-family: Lato, sans-serif;
+  font-size: 0.9em;
+  margin-bottom: 2em;
+  color:white;
+  text-shadow: 2px 2px 2px #5c5a5a;
+}
 
 
 footer {
