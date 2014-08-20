@@ -1,7 +1,7 @@
 html {
   background-image:url(https://raw.githubusercontent.com/jbouzi12/phase-0-unit-1/master/week-1/imgs/cover-malcolm-color.JPG?token=8241921__eyJzY29wZSI6IlJhd0Jsb2I6amJvdXppMTIvcGhhc2UtMC11bml0LTEvbWFzdGVyL3dlZWstMS9pbWdzL2NvdmVyLW1hbGNvbG0tY29sb3IuSlBHIiwiZXhwaXJlcyI6MTQwODkxOTg1OH0%3D--0dafbc05feaa7e2db113a0627deb439bb9378e4c);
+  margin: 0;
   background-size: cover;
-  margin:0;
 }
 
 header {
