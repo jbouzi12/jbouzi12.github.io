@@ -79,6 +79,9 @@ div p {
   margin: -1em 4em 2em 2em;
   background:rgb(255, 153, 0);
   opacity: .7;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: .5em;
 }
 
 a {
