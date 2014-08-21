@@ -10,7 +10,7 @@ body {
 }
 header {
   float:left;
-  margin:0 0 2em 0;
+  margin:-2.8em 0 2em 0;
   width:100%;
   background-color: black;
   display: block;
@@ -68,14 +68,23 @@ li {
 section {
   display: block
 }
-/*#content {
+#content {
   font-size: 2em;
   opacity:0;
 }*/
+h5 {
+ display: inline;
+}
+h5:after{
+ content:"\a";
+ white-space: pre;
+}
 #contact {
-  margin: -1em 4em 2em 2em;
+  margin:  7em 2em 2em;
   background:rgb(255, 153, 0);
   opacity: .7;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 div {
   font-family: Lato, sans-serif;
