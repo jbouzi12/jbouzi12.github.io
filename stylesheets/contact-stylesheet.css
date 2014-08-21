@@ -10,7 +10,7 @@ body {
 }
 header {
   float:left;
-  margin:-2.8em 0 2em 0;
+  margin:0 0 2em 0;
   width:100%;
   background-color: black;
   display: block;
@@ -68,7 +68,7 @@ li {
 section {
   display: block
 }
-#content {
+/*#content {
   font-size: 2em;
   opacity:0;
 }*/
@@ -80,7 +80,7 @@ h5:after{
  white-space: pre;
 }
 #contact {
-  margin:  7em 2em 2em;
+  margin:  11em 2em 2em;
   background:rgb(255, 153, 0);
   opacity: .7;
   padding-left: 1em;
