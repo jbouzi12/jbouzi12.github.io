@@ -4,6 +4,9 @@ html {
   background-size: cover;
   margin: 0;
 }
+body{
+  margin: 0;
+}
 header {
   float:left;
   margin:0 0 2em 0;
