@@ -52,7 +52,7 @@ background-color: #a8a8a8;
   padding-right: 10px;
 }
 h1 {
-  font-size: 4aem;
+  font-size: 4em;
   padding-top: 1.15em;
 }
 p {
@@ -61,6 +61,10 @@ p {
 }
 img {
   width:75%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 2em;
 }
 .two-images {
   display:inline-block;
