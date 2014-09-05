@@ -4,6 +4,9 @@ html {
   background-size: cover;
   margin: 0;
 }
+body {
+  margin: 0;
+}
 header {
   float:left;
   margin:0 0 2em 0;
@@ -41,7 +44,6 @@ header {
 }
 
 nav {
-  /*text-shadow: 2px 2px 2px #5c5a5a;*/
   font-family:Lato;
   text-align: right;
   position:relative;
@@ -65,7 +67,14 @@ li {
 }
 
 section {
-  display: block
+  display: block;
+}
+h5 {
+ display: inline;
+}
+h5:after{
+ content:"\a";
+ white-space: pre;
 }
 
 div {
@@ -76,13 +85,14 @@ div p {
   padding-bottom: 1.5em;
 }
 #about {
-  margin: -1em 4em 2em 2em;
+  margin: 11em 4em 2em 2em;
   background:rgb(255, 153, 0);
   opacity: .7;
   padding-left: 1em;
   padding-right: 1em;
   padding-bottom: .5em;
 }
+
 
 a {
   text-decoration: none;
