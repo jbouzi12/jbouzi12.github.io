@@ -20,7 +20,7 @@ header {
   text-shadow:2px 2px black;
   font-weight: bold;
 }
-#menu-bar {
+nav {
   text-align: center;
   background-color:#521405;
   position:relative;
@@ -96,15 +96,13 @@ imgs {
 }
 
 
-a:visited {
-  color:none;
-  text-align: right;
-}
-a:hover {
-  color:cc99ff;
-}
 a {
   text-decoration: none;
+  color:white;
+}
+a:hover {
+  color:rgb(200, 200, 235);
+  transition:all .2s ease-in;
 }
 
 footer {
