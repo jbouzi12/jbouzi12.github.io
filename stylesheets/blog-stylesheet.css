@@ -60,7 +60,7 @@ p {
 
 }
 img {
-  width:65%;
+  width:50%;
 }
 #single {
   margin-left: auto;
@@ -90,9 +90,6 @@ hr {
 }
 #date {
   display: block;
-}
-imgs {
-  display:block;
 }
 
 
