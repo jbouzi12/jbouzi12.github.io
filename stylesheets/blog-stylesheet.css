@@ -1,6 +1,7 @@
 
 html {
   background-color:rgb(172, 170, 170);
+  /*font-family: 'Open Sans Condensed', sans-serif;*/
 }
 
 header {
@@ -8,7 +9,7 @@ header {
   background-image:url(../imgs/road-image.JPG);
   background-size: cover;
   background-repeat: no-repeat;
-  padding-bottom:225px;
+  padding-bottom:200px;
   padding-top: 100px;
   height:190px;
 }
@@ -53,11 +54,14 @@ background-color: #a8a8a8;
 }
 h1 {
   font-size: 3.8em;
-  padding-top: 1.15em;
+  padding-top: .5em;
+  font-weight: 700;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 p {
   display: block;
-
+  font-family: sans-serif;
+  font-weight: 300;
 }
 img {
   width:50%;
@@ -90,6 +94,8 @@ hr {
 }
 #date {
   display: block;
+  font-weight: 300;
+  font-family: sans-serif;
 }
 
 
@@ -114,11 +120,13 @@ footer {
 h4 a {
   padding-left: 5px;
   padding-right: 5px;
-  font-family:Comic Sans MS, sans-serif;
+
 }
 
 h4 span {
   color:rgb(126, 124, 124);
   padding-left: 10px;
-  font-family: Comic Sans MS, sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300
+
 }
