@@ -21,22 +21,22 @@
       </nav>
     </section>
     <article class="post">
-      <h1>SQL INJECTION: An in Depth Lookh1>
+      <h1>SQL INJECTION: An in Depth Look</h1>
       <hr width="95%"></hr><br></br>
       <p>SQL Injection is one of the many tools in a hacker&apos;s arsenal that is used to steal data from organizations. In fact, it is one of the most common web attack mechanisms today. It occurs when an incorrectly coded application allows SQL statements to pass through the available fields and query the database directly. </p>
 
-      <p>Databases are the bread and butter of modern websites; they store data needed for websites to send specific, private information to visitors, customers, suppliers, employees, or anyone else with a personal account on the website. This information may consist of financial and payment information, user contact information, and employee or medical records. Databases are absolutely vital for any business. SQL injection can undermine a company’s internal web application structure by passing SQL commands through the application for the database to execute. This may allow hackers to view confidential information from the database (or worse, destroy it) if the code isn&apos;t sanitized properly. </p>
+      <p>Databases are the bread and butter of modern websites; they store data needed for websites to send specific, private information to visitors, customers, suppliers, employees, or anyone else with a personal account on the website. This information may consist of financial and payment information, user contact information, and employee or medical records. Databases are absolutely vital for any business. SQL injection can undermine a company&apos;s internal web application structure by passing SQL commands through the application for the database to execute. This may allow hackers to view confidential information from the database (or worse, destroy it) if the code isn&apos;t sanitized properly. </p>
 
-      <p>Lets look at a simple example of how SQL Injection works. Say we are at a login page where a user would enter a username and password to enter a secure area to view their personal information. When this information is entered, it becomes an SQL query that is retrieved by the database for confirmation; if valid the user is allowed access. Imagine this particular website was built with database query that resembled this:
-        <span>SELECT id</span>
-        <span>FROM logins</span>
-        <span>WHERE username = ‘$username’ AND password = ‘$password’</span>
-      </p>
-      <p>The database can easily be compromised if $username and $password are directly requested from the user&apos;s input. For instance, we may submit “Mike” as a username and use this as a password: &apos;anything&apos; OR &apos;x&apos;=&apos;x&apos;. By using single quotes, we have rendered password to be a two-component clause. The &apos;x&apos;=&apos;x&apos; part will always be true no matter what the first part contains; this will allow us access to the database even without a valid username/password combination. </p>
+      <p>Lets look at a simple example of how SQL Injection works. Say we are at a login page where a user would enter a username and password to enter a secure area to view their personal information. When this information is entered, it becomes an SQL query that is retrieved by the database for confirmation; if valid the user is allowed access. Imagine this particular website was built with database query that resembled this:</p>
+
+      <span>SELECT id</span>
+      <span>FROM logins</span>
+      <span>WHERE username = &apos;$username&apos; AND password = &apos;$password&apos;</span>
+      <p>The database can easily be compromised if $username and $password are directly requested from the user&apos;s input. For instance, we may submit &apos;Mike&apos; as a username and use this as a password: &apos;anything&apos; OR &apos;x&apos;=&apos;x&apos;. By using single quotes, we have rendered password to be a two-component clause. The &apos;x&apos;=&apos;x&apos; part will always be true no matter what the first part contains; this will allow us access to the database even without a valid username/password combination. </p>
       <p>A significant number of websites are vulnerable to SQL Injection, and if hackers are unable to alter the database, they can at least view confidential information. It is difficult to suggest the best method to combat this threat due to my lack of coding experience. My research pertaining to this issue hasn&apos;s produced a solid solution. Reinforcing your servers, databases, programming languages, and operating systems will help, but won&apos;t make your website completely immune.</p>
 
       <hr width="95%"></hr><br></br>
-      <div id="date">Jensen Bouzi, ---DATE---</div>
+      <div id="date">Jensen Bouzi, September 19, 2014</div>
     </article>
     <footer>
       <h4>
