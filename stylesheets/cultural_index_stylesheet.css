@@ -1,29 +1,44 @@
 html {
-  background-color:rgb(172, 170, 170);
-  background-image:url(../imgs/cover-malcolm.JPG);
-  background-size: cover;
-  margin: 0;
+  /*background-color:rgb(172, 170, 170);*/
+
+  /*overflow:scroll;*/
 }
 body {
   margin: 0;
+  background: #B6C5C3;
+  background-image:url(../imgs/cover-malcolm.JPG) no-repeat center center fixed;
+  background-size: cover;
+  display: block
 }
-header {
-  float:left;
-  margin:0 0 2em 0;
-  width:100%;
-  background-color: black;
+div {
   display: block;
 }
-
-#logo {
-  float:left;
-  margin-left:2em;
-  text-align: left;
-  width: 45%;
-  text-decoration: none;
+.header-wrapper {
+  background-color::#521405;
+  width: 100%;
+  top: 50px;
+  position: fixed;
+  z-index: 1000;
 }
-#my-name {
+
+#container {
+  margin: auto;
+  width: 960px;
   font-family: Lato, sans-serif;
+  text-decoration: none;
+  color: white;
+}/*
+#top {
+  margin:0px auto;
+  padding:0 .3em;
+}*/
+
+.logo {
+  float:left;
+  padding: 0 10px 10px 0;
+}
+
+#my-name {
   font-weight:normal;
   font-size: 3em;
   color:white;
@@ -36,7 +51,6 @@ header {
 
 
 #sub-name {
-  font-family: Lato, sans-serif;
   font-size: 0.9em;
   margin-bottom: 2em;
   color:white;
@@ -44,13 +58,9 @@ header {
 }
 
 nav {
-  font-family:Lato;
   text-align: right;
   position:relative;
-  margin:1em 0 0;
-  background:none;
   float:right;
-  width:45%;
   font-size:1.25em;
   color:white;
 }
