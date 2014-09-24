@@ -1,0 +1,132 @@
+
+html {
+  background-color:rgb(172, 170, 170);
+  /*font-family: 'Open Sans Condensed', sans-serif;*/
+}
+
+header {
+  text-align: center;
+  background-image:url(../imgs/road-image.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom:200px;
+  padding-top: 100px;
+  height:190px;
+}
+#blog-name {
+  text-align: left;
+  font-size: 60px;
+  display: inline;
+  color: white;
+  text-shadow:2px 2px black;
+  font-weight: bold;
+}
+nav {
+  text-align: center;
+  background-color:#521405;
+  position:relative;
+  padding:20px;
+  margin-top: 35px;
+  margin-bottom: 65px;
+}
+
+ul {
+  padding-left:30px;
+  padding-right:30px;
+}
+li {
+  display: inline;
+  color:white;
+  padding-left: 5px;
+}
+#search {
+box-shadow: inset 0 0 10px #000000;
+background-color: #a8a8a8;
+}
+
+.post {
+  margin:15px 30px 0px 10px;
+  background-color: #eee8cd;
+  text-align: left;
+  box-shadow: rgba(0,0,0,0.2) 10px 10px;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+h1 {
+  font-size: 3.8em;
+  padding-top: .5em;
+  font-weight: 700;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+p {
+  display: block;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+img {
+  width:50%;
+}
+#single {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 2em;
+}
+.two-images {
+  display:inline-block;
+  padding-bottom:1.05em;
+}
+.left-img {
+  width:50%;
+  float:left;
+}
+.right-img{
+  width:50%;
+  float: right;
+}
+a img {
+  width:25px;
+  height:25px;
+}
+hr {
+  float: left;
+  display: block;
+}
+#date {
+  display: block;
+  font-weight: 300;
+  font-family: sans-serif;
+}
+
+
+a {
+  text-decoration: none;
+  color:white;
+}
+a:hover {
+  color:rgb(200, 200, 235);
+  transition:all .2s ease-in;
+}
+
+footer {
+  text-align: center;
+  background-color:rgb(172, 170, 170);
+  margin:15px 4% 15px 2%;
+  margin-top:15px;
+  margin-bottom: 15px;
+  border-radius: 2px;
+  position: absolute;
+}
+h4 a {
+  padding-left: 5px;
+  padding-right: 5px;
+
+}
+
+h4 span {
+  color:rgb(126, 124, 124);
+  padding-left: 10px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300
+
+}
