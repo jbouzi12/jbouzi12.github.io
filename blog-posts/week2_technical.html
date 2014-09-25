@@ -1,53 +1,74 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
   <head>
-    <title>Borders Margins Padding</title>
     <link type="text/css" rel="stylesheet" href="../stylesheets/blog-stylesheet.css"></link>
     <link href="http://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet" type="text/css"></link>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Blog Template</title>
   </head>
   <body>
-    <header>
-      <h1 id="blog-name">TheCream</h1><h1 id="blog-name">TheCrop<h1>
+    <header class = "header-wrapper">
+      <div id = "container">
+        <a href="http://jbouzi12.github.io/"class = "logo">
+          <h1 id="my-name">Jensen Bouzi</h1>
+          <h2 id="sub-name">Aspiring Developer</h2>
+        </a>
+        <nav>
+          <ul>
+            <li><a href="http://jbouzi12.github.io/">Home</a></li>
+            <li><a href="about-me.html">About Me</a></li>
+            <li><a href="../projects/projects-page.html">Projects</a></li>
+            <li><a href="../blog-posts/contact-page.html">Contact</a></li>
+            <li id = "blog-bar"><a href="cultural_blog_index.html">Blog</a>
+              <ul id = "submenu">
+                <li class = "nav-text"><a href="../blog-posts/cultural_blog_index.html">Cultural Blog</a></li>
+                <li class = "nav-text"><a href="technical_blog_index.html">Technical Blog</a></li></li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <nav>
-        <ul>
-          <li><a href="http://jbouzi12.github.io/"><i class="fa fa-home"></i>Home</a></li>
-          <li><a href="about-me.html"><i class="fa fa-user"></i>About Me</a></li>
-          <li><i class="fa fa-laptop"></i>Blog</li>
-          <li><a href="../projects/projects-page.html"><i class="fa fa-folder"></i>Projects</a></li>
-          <li><a href="../blog-posts/contact-page.html"<i class="fa fa-phone-square"></i>Contact</a></li>
-        </ul>
-    </nav>
-    <section>
-    <article class="post">
-      <h1>Padding Borders Margins</h1>
-        <p>After a nice long, frustrating day of coding, I think its time that I dive into a few concepts that I&apos;ve become familiar with over the past two weeks at DBC. If you are just beginning web design, mastering borders, margins, and padding will be essential to properly format content on your web page and achieve your optimal end result. However, it is often confusing to discern which concept to use and when. Thus, I&apos;ve dedicated this post help with that decision.</p>
-        <p>The following model offers a great visualization of where each property is located around the content. Remember, content can be any element such as text (see model), images, lists, etc. that is in our html document. The content&apos;s padding is located immediately around it; the border is located outside of the padding, and the margin is located outside of the border:</p>
-        <img src="../imgs/border-box-model.png"/>
 
-        <p>Once you get familiar with this model (memorize it), you can start to figure out how to use each property. You can consider padding as almost a part of the content. For example, if you increase the padding the edges of the content will be pushed out. Below you can see some of this in action. I gave the image a red background color so you can see the changes. See what happens to that red background when I increased the padding around “example” by 30px:</p>
-        <div class="two-images">
-          <div class="left-img">
-              <img src="../imgs/padding-ex1.png"/>
-          </div>
-          <div class="right-img">
-            <img src="../imgs/padding-ex2.png"/>
-          </div>
-        </div>
-        <p>The red just expanded! Essentially the space between the border(edge of the content) and the content itself expanded. Since the background is red, the red part ended up expanding. Now, if we play with the margins a little bit, something different happens. See what happens now when I increase the margin by 40px:</p>
-        <img src="../imgs/margin-ex.png"/>
-
-        <p>Now the space between the edges of the content and the web-page itself has increased. Now lets just add a thick, black border just so you can see where it will be:</p>
-
-        <img src="../imgs/border-ex.png"/>
-
-        <p>Overall, if you want to increase the space that is within the content, you should change the padding property. However, you want to distance the content from other elements in the page including the edges of the page itself, you should change the margins. If you simply want to add a defining border, then border is pretty self explanatory. But note that changing the padding will seem to cause a change in the size of the content while changing the margins will seem to cause a change in the space around the content. I hope you all found this little tutorial helpful and not confusing.</p>
-
-        <hr width="95%"></hr><br></br>
-        <div id="date">Jensen Bouzi, August 17, 2014</div>
-    </article>
+    <section class = "blog-title">
+      <div class="clear">
+        <h5><!-- CLEARANCE SPACE --></h5>
+      </div>
+      <div class = "title-box" id = "container">
+        <h1 class = "title-text1">THE CREAM | THE CROP</h1>
+      </div>
     </section>
+
+    <section id="archive">
+      <div class="container">
+        <div id = "post">
+        <h1>Padding Borders Margins</h1>
+          <p>After a nice long, frustrating day of coding, I think its time that I dive into a few concepts that I&apos;ve become familiar with over the past two weeks at DBC. If you are just beginning web design, mastering borders, margins, and padding will be essential to properly format content on your web page and achieve your optimal end result. However, it is often confusing to discern which concept to use and when. Thus, I&apos;ve dedicated this post help with that decision.</p>
+          <p>The following model offers a great visualization of where each property is located around the content. Remember, content can be any element such as text (see model), images, lists, etc. that is in our html document. The content&apos;s padding is located immediately around it; the border is located outside of the padding, and the margin is located outside of the border:</p>
+          <img src="../imgs/border-box-model.png"/>
+
+          <p>Once you get familiar with this model (memorize it), you can start to figure out how to use each property. You can consider padding as almost a part of the content. For example, if you increase the padding the edges of the content will be pushed out. Below you can see some of this in action. I gave the image a red background color so you can see the changes. See what happens to that red background when I increased the padding around “example” by 30px:</p>
+          <div class="two-images">
+            <div class="left-img">
+                <img src="../imgs/padding-ex1.png"/>
+            </div>
+            <div class="right-img">
+              <img src="../imgs/padding-ex2.png"/>
+            </div>
+          </div>
+          <p>The red just expanded! Essentially the space between the border(edge of the content) and the content itself expanded. Since the background is red, the red part ended up expanding. Now, if we play with the margins a little bit, something different happens. See what happens now when I increase the margin by 40px:</p>
+          <img src="../imgs/margin-ex.png"/>
+
+          <p>Now the space between the edges of the content and the web-page itself has increased. Now lets just add a thick, black border just so you can see where it will be:</p>
+
+          <img src="../imgs/border-ex.png"/>
+
+          <p>Overall, if you want to increase the space that is within the content, you should change the padding property. However, you want to distance the content from other elements in the page including the edges of the page itself, you should change the margins. If you simply want to add a defining border, then border is pretty self explanatory. But note that changing the padding will seem to cause a change in the size of the content while changing the margins will seem to cause a change in the space around the content. I hope you all found this little tutorial helpful and not confusing.</p>
+
+          <hr width="95%"></hr><br></br>
+          <p id="date">Jensen Bouzi, August 17, 2014</p>
+        </div>
+      </div>
+    </section>
+
     <footer>
       <h4>
         <span>Jensen Bouzi &copy; 2014  | Follow me on:</span>
