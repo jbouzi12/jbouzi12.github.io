@@ -137,7 +137,7 @@ li {
   margin: 0 auto;
   display:inline-block;
   font-size: 4.5em;
-  padding-left: 6%;
+  padding-left: 4.5%;
   padding-top: 27%;
 }
 
@@ -167,7 +167,7 @@ div p {
 
 
 #archive {
-  padding: 50px 0 50px 0;
+  padding: 4em 0 0px 0;
   background-color:#DFD5CC;
   width: 100%;
   font-family: Lato, sans-serif;
@@ -176,8 +176,13 @@ div p {
 #post {
   margin: auto;
   padding: 30px;
-  margin-top:50px;
+  margin:4em 0 0 0;
   background-color: white;
+}
+
+#post h1{
+  padding-bottom: .5em;
+  font-size: 3em;
 }
 
 
@@ -189,12 +194,6 @@ a:hover {
   color:rgb(200, 200, 235);
   transition:all .2s ease-in;
 }
-
-h1 {
-  font-size: 4aem;
-  padding-top: 1.15em;
-}
-
 
 footer {
   width: 100%;
