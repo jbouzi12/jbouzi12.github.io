@@ -1,43 +1,66 @@
-<DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
   <head>
-    <title>Week5 Technical Blog</title>
     <link type="text/css" rel="stylesheet" href="../stylesheets/blog-stylesheet.css"></link>
     <link href="http://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet" type="text/css"></link>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>WEEK5 Technical</title>
   </head>
   <body>
-    <header>
-      <h1 id="blog-name">TheCream</h1><h1 id="blog-name">TheCrop<h1>
+    <header class = "header-wrapper">
+      <div id = "container">
+        <a href="http://jbouzi12.github.io/"class = "logo">
+          <h1 id="my-name">Jensen Bouzi</h1>
+          <h2 id="sub-name">Aspiring Developer</h2>
+        </a>
+        <nav>
+          <ul>
+            <li><a href="http://jbouzi12.github.io/">Home</a></li>
+            <li><a href="about-me.html">About Me</a></li>
+            <li><a href="../projects/projects-page.html">Projects</a></li>
+            <li><a href="../blog-posts/contact-page.html">Contact</a></li>
+            <li id = "blog-bar"><a href="cultural_blog_index.html">Blog</a>
+              <ul id = "submenu">
+                <li class = "nav-text"><a href="../blog-posts/cultural_blog_index.html">Cultural Blog</a></li>
+                <li class = "nav-text"><a href="technical_blog_index.html">Technical Blog</a></li></li>
+          </ul>
+        </nav>
+      </div>
     </header>
-      <nav>
-        <ul>
-          <li><a href="http://jbouzi12.github.io/"><i class="fa fa-home"></i>Home</a></li>
-          <li><a href="about-me.html"><i class="fa fa-user"></i>About Me</a></li>
-          <li><i class="fa fa-laptop"></i>Blog</li>
-          <li><a href="../projects/projects-page.html"><i class="fa fa-folder"></i>Projects</a></li>
-          <li><a href="../blog-posts/contact-page.html"<i class="fa fa-phone-square"></i>Contact</a></li>
-        </ul>
-      </nav>
-    </section>
-    <article class="post">
-      <h1>Experimenting with Ruby Classes</h1>
-      <hr width="95%"></hr><br></br>
-      <p>Ruby is an object oriented programming language. In other words, Ruby programs can operate in a real-world manner. We can create concepts such as &#8220people&#8221, &#8220dogs&#8221, or anything really. An object-oriented language such as Ruby allows you to create objects based upon these concepts. A great way to do so is by using classes. I will demonstrate by creating a sports team generator.</p>
 
-      <p>I will begin by defining the concept, &#8220Team_Generator&#8221, as a Ruby class (all classes have capital letters:</p>
+    <section class = "blog-title">
+      <div class="clear">
+        <h5><!-- CLEARANCE SPACE --></h5>
+      </div>
+      <div class = "title-box" id = "container">
+        <h1 class = "title-text1">THE CREAM | THE CROP</h1>
+      </div>
+    </section>
+
+    <section id="archive">
+      <div class="container">
+        <div id = "post">
+          <h1>Experimenting with Ruby Classes</h1>
+          <hr width="95%"></hr><br></br>
+          <p>Ruby is an object oriented programming language. In other words, Ruby programs can operate in a real-world manner. We can create concepts such as &#8220people&#8221, &#8220dogs&#8221, or anything really. An object-oriented language such as Ruby allows you to create objects based upon these concepts. A great way to do so is by using classes. I will demonstrate by creating a sports team generator.</p>
+
+          <p>I will begin by defining the concept, &#8220Team_Generator&#8221, as a Ruby class (all classes have capital letters:</p>
       <img src="../imgs/team1.png"/>
 
-      <p>The <strong>initialize</strong> method will be executed every time you make a new instance of the class; essentially each time you use this class to create a new team you must pass the team name into the parameters as an argument. Within the initialize method, I created an instance variable of the team name. Instance variables differ from regular variables in that they can be used within the scope of the class and they begin with &#8220@.&#8221 I initialized the roster as an empty array with which I will later fill with all the players and their respective numbers.</p>
+          <p>The <strong>initialize</strong> method will be executed every time you make a new instance of the class; essentially each time you use this class to create a new team you must pass the team name into the parameters as an argument. Within the initialize method, I created an instance variable of the team name. Instance variables differ from regular variables in that they can be used within the scope of the class and they begin with &#8220@.&#8221 I initialized the roster as an empty array with which I will later fill with all the players and their respective numbers.</p>
 
-      <p>Now I&apos;ll complete the class by adding methods that add players to the roster and print the roster:</p>
-      <img src="../imgs/team2.png"/>
+          <p>Now I&apos;ll complete the class by adding methods that add players to the roster and print the roster:</p>
+          <img src="../imgs/team2.png"/>
 
-      <p>The two methods, <strong>add_player</strong> and <strong>print_roster</strong>, are instance methods of the class Team_Generator. Instance methods are defined within a class and can be used by all instances of that class. Now I will create one of my favorite soccer teams, Arsenal, and add some players to show you how the class works: </p>
-      <img src="../imgs/team3.png"/>
+          <p>The two methods, <strong>add_player</strong> and <strong>print_roster</strong>, are instance methods of the class Team_Generator. Instance methods are defined within a class and can be used by all instances of that class. Now I will create one of my favorite soccer teams, Arsenal, and add some players to show you how the class works: </p>
+          <img src="../imgs/team3.png"/>
 
-      <hr width="95%"></hr><br></br>
-      <div id="date">Jensen Bouzi, September 7, 2014</div>
-    </article>
+          <hr width="100%"></hr><br></br>
+          <p id="date">Jensen Bouzi, September 7, 2014</p>
+        </div>
+      </div>
+    </section>
+
     <footer>
       <h4>
         <span>Jensen Bouzi &copy; 2014  | Follow me on:</span>
