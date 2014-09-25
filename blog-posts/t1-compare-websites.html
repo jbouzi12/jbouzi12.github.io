@@ -1,61 +1,80 @@
 <!DOCTYPE html>
-
 <html>
   <head>
-    <title>Website Comparisons</title>
     <link type="text/css" rel="stylesheet" href="../stylesheets/blog-stylesheet.css"></link>
     <link href="http://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet" type="text/css"></link>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Website Comparisons</title>
   </head>
   <body>
-    <header>
-      <h1 id="blog-name">TheCream</h1><h1 id="blog-name">TheCrop</h1>
-    </header>
-    <section id="menu">
-      <nav id="menu-bar">
-        <ul>
-          <li><a href="http://jbouzi12.github.io/"><i class="fa fa-home"></i>Home</a></li>
-          <li><a href="about-me-page.html"><i class="fa fa-user"></i>About Me</a></li>
-          <li><i class="fa fa-laptop"></i>Blog</li>
-          <li><i class="fa fa-folder"></i>Projects</li>
-          <li><a href="contact-page.html"<i class="fa fa-phone-square"></i>Contact</a></li>
+    <header class = "header-wrapper">
+      <div id = "container">
+        <a href="http://jbouzi12.github.io/"class = "logo">
+          <h1 id="my-name">Jensen Bouzi</h1>
+          <h2 id="sub-name">Aspiring Developer</h2>
+        </a>
+        <nav>
+          <ul>
+            <li><a href="http://jbouzi12.github.io/">Home</a></li>
+            <li><a href="about-me.html">About Me</a></li>
+            <li><a href="../projects/projects-page.html">Projects</a></li>
+            <li><a href="../blog-posts/contact-page.html">Contact</a></li>
+            <li id = "blog-bar"><a href="cultural_blog_index.html">Blog</a>
+              <ul id = "submenu">
+                <li class = "nav-text"><a href="../blog-posts/cultural_blog_index.html">Cultural Blog</a></li>
+                <li class = "nav-text"><a href="technical_blog_index.html">Technical Blog</a></li></li>
           </ul>
-      </nav>
+        </nav>
+      </div>
+    </header>
+
+    <section class = "blog-title">
+      <div class="clear">
+        <h5><!-- CLEARANCE SPACE --></h5>
+      </div>
+      <div class = "title-box" id = "container">
+        <h1 class = "title-text1">THE CREAM | THE CROP</h1>
+      </div>
     </section>
-    <section>
-    <article class="post">
-      <h1>Website Comparisons</h1>
-        <p>Since joining Dev Bootcamp, I&apos;ve begun to view the websites that I visit daily with an increasingly critical eye. Today, I&apos;ll be discussing some of my favorite sites; namely how their design and functionality combine to contribute to on overall user experience (UX). I chose each because they not only cover widely differing subject matter, but they also provide vastly contrasting visual aesthetics.</p>
 
-        <h3>Business Insider</h3>
+    <section id="archive">
+      <div class="container">
+        <div id = "post">
+          <h1>Website Comparisons</h1>
+          <p>Since joining Dev Bootcamp, I&apos;ve  begun to view the websites that I visit daily with an increasingly critical eye. Today, I&apos;ll be discussing some of my favorite sites; namely how their design and functionality combine to contribute to on overall user experience (UX). I chose each because they not only cover widely differing subject matter, but they also provide vastly contrasting visual aesthetics.</p>
 
-        <img src="../imgs/BusInsider-pic.png"/>
-        <p>Business Insider covers everything business from finance and media to tech and other industries, but seemingly has a more entrepreneurial tint.  The layout is smooth and simple, sparing the user the oh so heavy burden of clicking &apos;next-page&apos; by offering seamless stream of content. What I appreciate the most about the design is its focus on the most important aspect of the site: the content. The simple color scheme and enlarged fonts help guide the reader&apos;s eye toward each article. I utilize the site to get quickly updated on all the most important events in various industries, and their daily &apos;top ten most important things in tech today&apos; posts offer readers links to some of the most intriguing developments in the industry at the moment. In addition, the viewer can gage the popularity or importance of the content since the site accompanies each article with their individual view counts. In addition, they employ many interesting lists that give readers quick insight into various topics (although I personally don&apos;t like the lists such as &apos;things to do before 30,&apos; but that goes for any site).</p>
-        <h3>Potholesinmyblog</h3>
-        <div class="two-images">
-          <div class="left-img">
-            <img src="../imgs/Potholes-pic1.png"/>
+          <h3>Business Insider</h3>
+
+          <img src="../imgs/BusInsider-pic.png"/>
+          <p>Business Insider covers everything business from finance and media to tech and other industries, but seemingly has a more entrepreneurial tint.  The layout is smooth and simple, sparing the user the oh so heavy burden of clicking &apos;next-page&apos; by offering seamless stream of content. What I appreciate the most about the design is its focus on the most important aspect of the site: the content. The simple color scheme and enlarged fonts help guide the reader&apos;s eye toward each article. I utilize the site to get quickly updated on all the most important events in various industries, and their daily &apos;top ten most important things in tech today&apos; posts offer readers links to some of the most intriguing developments in the industry at the moment. In addition, the viewer can gage the popularity or importance of the content since the site accompanies each article with their individual view counts. In addition, they employ many interesting lists that give readers quick insight into various topics (although I personally don&apos;t like the lists such as &apos;things to do before 30,&apos; but that goes for any site).</p>
+          <h3>Potholesinmyblog</h3>
+          <div class="two-images">
+            <div class="left-img">
+              <img src="../imgs/Potholes-pic1.png"/>
+            </div>
+            <div class="right-img">
+              <img src="../imgs/Potholes-pic2.png"/>
+            </div>
           </div>
-          <div class="right-img">
-            <img src="../imgs/Potholes-pic2.png"/>
+          <p>For years I&apos;ve consulted this site for musical inspiration, discover new artists from a wide variety of genres (although the focus is hip hop), and just really get exposed amazing talent outside the boring mainstream. The makes an effort to keep up with any news or releases related to great under-ground and indie artists, while making an effort to provide fresh faces with exposure via posts such as &apos;Best Downloads of the Week.&apos; Visually you are drawn toward the top of the page, which streams a slide show of the most recent content. Immediately after, your eyes navigate the all the articles below. There very few advertisements, so the viewer feels less distracted during their visit. However, one way in which UX falls short is when attempting to view content from previous days. You must do this by clicking &apos;More&apos; below either of the columns of content. However, depending on which column you choose, you may only be able to view certain posts from previous pages; in order to view the others you must click more from the other column. This can become confusing especially when attempting to view posts from the previous day. Overall, this does not take away from why I enjoy this blog: the amazing music.</p>
+          <h3>101GreatGoals</h3>
+          <img src="../imgs/101goals-pic1.png"/>
+          <p>This is one of the best sites for any soccer (or futbol) fanatic who want to get update news on their favorite teams, watch highlight videos of games from across the globe, and view funny posts from fans and players alike. Ironically, this site completely changed its layout just a week ago. I don&apos;t remember exactly what the previous layout was, so I&apos;m just going to discuss this new one. Although it looks much more modern than its predecessor, I find the homepage to have too much content so close together. Mainly, the social feed right in the middle column as you scroll down is somewhat distracting; quickly glancing over the site you can easily mistaken twitter and instagram posts for site articles and the continuous stream of the social feed aids in this distraction. However, navigating away from the main page sees much improvement in the visual appeal of the site. Articles are accompanied by images, and at the top of each page there is a stream of the most recent content. This is a much better improvement from the previous site, which simply listed links to content (ex: game highlights) with a title and paragraph summary for each.</p>
+          <div class="two-images">
+            <div class="left-img">
+              <img src="../imgs/101goals-pic2.png"/>
+            </div>
+            <div class="right-img">
+              <img src="../imgs/101goals-pic3.jpg.png"/>
+            </div>
           </div>
+          <hr width="100%"></hr><br></br>
+          <p id = "date">August 10, 2014</p>
         </div>
-        <p>For years I&apos;ve consulted this site for musical inspiration, discover new artists from a wide variety of genres (although the focus is hip hop), and just really get exposed amazing talent outside the boring mainstream. The makes an effort to keep up with any news or releases related to great under-ground and indie artists, while making an effort to provide fresh faces with exposure via posts such as &apos;Best Downloads of the Week.&apos; Visually you are drawn toward the top of the page, which streams a slide show of the most recent content. Immediately after, your eyes navigate the all the articles below. There very few advertisements, so the viewer feels less distracted during their visit. However, one way in which UX falls short is when attempting to view content from previous days. You must do this by clicking &apos;More&apos; below either of the columns of content. However, depending on which column you choose, you may only be able to view certain posts from previous pages; in order to view the others you must click more from the other column. This can become confusing especially when attempting to view posts from the previous day. Overall, this does not take away from why I enjoy this blog: the amazing music.</p>
-        <h3>101GreatGoals</h3>
-        <img src="../imgs/101goals-pic1.png"/>
-        <p>This is one of the best sites for any soccer (or futbol) fanatic who want to get update news on their favorite teams, watch highlight videos of games from across the globe, and view funny posts from fans and players alike. Ironically, this site completely changed its layout just a week ago. I don&apos;t remember exactly what the previous layout was, so I&apos;m just going to discuss this new one. Although it looks much more modern than its predecessor, I find the homepage to have too much content so close together. Mainly, the social feed right in the middle column as you scroll down is somewhat distracting; quickly glancing over the site you can easily mistaken twitter and instagram posts for site articles and the continuous stream of the social feed aids in this distraction. However, navigating away from the main page sees much improvement in the visual appeal of the site. Articles are accompanied by images, and at the top of each page there is a stream of the most recent content. This is a much better improvement from the previous site, which simply listed links to content (ex: game highlights) with a title and paragraph summary for each.</p>
-        <div class="two-images">
-          <div class="left-img">
-            <img src="../imgs/101goals-pic2.png"/>
-          </div>
-          <div class="right-img">
-            <img src="../imgs/101goals-pic3.jpg.png"/>
-          </div>
-        </div>
-        <hr width="95%"></hr><br></br>
-        <div id="date">Jensen Bouzi, August 10, 2014</div>
-    </article>
-  </section>
-  <footer>
+      </div>
+    </section>
+
+    <footer>
       <h4>
         <span>Jensen Bouzi &copy; 2014  | Follow me on:</span>
         <a href="https://www.facebook.com/jbouzi"><img src="../imgs/FB-f-Logo__white_512.png"/></a>
