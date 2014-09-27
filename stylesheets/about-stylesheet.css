@@ -140,21 +140,37 @@ h5:after{
   font-family: Lato, sans-serif;
 
 }
-#about {
+.about-container {
   margin: auto;
-  padding: 30px;
-  margin:4em 0 0 0;
+  width: 60%;
+  font-family: Lato, sans-serif;
+  text-decoration: none;
+  color: black;
+  float: left;
   background-color: white;
 }
 
-#post h1{
-  padding-bottom: .5em;
-  font-size: 3em;
+#about {
+/*  margin: auto;
+*/  padding: 30px;
+  margin:0 0 2.7em;
+  background-color: white;
+  float: left;
+/*  width: 100%;
+*/}
+
+#portrait-wrapper {
+  float: right;
+  width: 40%;
+  background-color: white;
 }
-#date {
-  display: block;
-  font-weight: 300;
-  font-family: sans-serif;
+figure {
+  margin-top: 4em;
+  padding-left: 2em;
+}
+
+figure img{
+  width: 100%;
 }
 
 
@@ -174,6 +190,7 @@ footer {
   margin:20px 4% 20px 2%;
   padding-top: 2%;
   padding-bottom: 2%;
+  clear: both;
 }
 h4 a {
   padding-left: 5px;
