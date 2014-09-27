@@ -142,7 +142,7 @@ h5:after{
 }
 .about-container {
   margin: auto;
-  width: 60%;
+  width: 100%;
   font-family: Lato, sans-serif;
   text-decoration: none;
   color: black;
@@ -151,18 +151,32 @@ h5:after{
 }
 
 #about {
-/*  margin: auto;
-*/  padding: 30px;
-  margin:0 0 2.7em;
+  /*display: block
+  padding: 30px;
+*/  margin:auto 2.7em;
   background-color: white;
   float: left;
 /*  width: 100%;
 */}
+#about img{
+  border-radius: 100%;
+  margin: 0px, auto auto;
+  max-width: 200px;
+  display: block;
+}
+#about h1{
+  text-align: center;
+}
+#about p {
+  display: block;
+  text-align: left;
+}
 
 #portrait-wrapper {
   float: right;
   width: 40%;
   background-color: white;
+  display: block
 }
 figure {
   margin-top: 4em;
