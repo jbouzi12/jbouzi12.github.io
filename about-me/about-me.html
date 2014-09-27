@@ -1,45 +1,52 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link type="text/css" rel="stylesheet" href="../stylesheets/about-stylesheet.css"></link>
+    <link type="text/css" rel="stylesheet" href="../stylesheets/blog-stylesheet.css"></link>
     <link href="http://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet" type="text/css"></link>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <title>About Me</title>
+    <title>Blog Template</title>
   </head>
   <body>
-    <header>
-      <a href="http://jbouzi12.github.io/" id="logo">
+    <header class = "header-wrapper">
+      <div id = "container">
+        <a href="http://jbouzi12.github.io/"class = "logo">
           <h1 id="my-name">Jensen Bouzi</h1>
           <h2 id="sub-name">Aspiring Developer</h2>
-      </a>
-      <nav>
-        <ul>
-          <li><a href="http://jbouzi12.github.io/"><i class="fa fa-home"></i>Home</a></li>
-          <li><a href="about-me.html"><i class="fa fa-user"></i>About Me</a></li>
-          <li><i class="fa fa-laptop"></i>Blog</li>
-          <li><a href="../projects/projects-page.html"><i class="fa fa-folder"></i>Projects</a></li>
-          <li><a href="../blog-posts/contact-page.html"<i class="fa fa-phone-square"></i>Contact</a></li>
+        </a>
+        <nav>
+          <ul>
+            <li><a href="http://jbouzi12.github.io/">Home</a></li>
+            <li><a href="about-me.html">About Me</a></li>
+            <li><a href="../projects/projects-page.html">Projects</a></li>
+            <li><a href="../blog-posts/contact-page.html">Contact</a></li>
+            <li id = "blog-bar"><a href="cultural_blog_index.html">Blog</a>
+              <ul id = "submenu">
+                <li class = "nav-text"><a href="../blog-posts/cultural_blog_index.html">Cultural Blog</a></li>
+                <li class = "nav-text"><a href="technical_blog_index.html">Technical Blog</a></li></li>
           </ul>
-      </nav>
+        </nav>
+      </div>
     </header>
-    <section>
-        <div id="content">
-        <h5></h5>
-        </div>
+
+    <section class = "blog-title">
+      <div class="clear">
+        <h5><!-- CLEARANCE SPACE --></h5>
+      </div>
+      <div class = "title-box" id = "container">
+        <h1 class = "title-text1">THE CREAM | THE CROP</h1>
+      </div>
     </section>
-    <div id="wrapper">
-      <div id="about-wrapper">
-        <div class="about">
-          <h1>About Me</h1>
-          <p>My name is Jensen Bouzi and I was born in Brooklyn but raised in Queens, NY. I recently graduated from Amherst College with a B.A. in Asian Languages and Civilizations and a minor concentration in Mathematics. Although I've had a unique undergraduate experience, seemingly unrelated to computer programming, growing up I've always enjoyed the technical aspect of math and the sciences, yet loved expressing myself creatively through various outlets such as poetry, music, and futbol; I've been able to combine both through my newfound coding passion. I am currently a Dev Bootcamp student, on the road to becoming a web developer. I am a futbol fanatic, music enthusiast, aspiring world traveler, bi-linguist (English and Japanese), and an aspiring full-stack web developer.</p>
+
+    <section id="archive">
+      <div class="container">
+        <div id = "post">
+          <h1>--title--</h1>
+            <p>--content--</p>
+            <hr width="100%"></hr><br></br>
+            <p id = "date">Jensen Bouzi --date--</p>
         </div>
       </div>
-      <div id="portrait-wrapper">
-        <figure>
-          <img src="../imgs/my_portrait.png"/>
-        </figure>
-      </div>
-    </div>
+    </section>
 
     <footer>
       <h4>
