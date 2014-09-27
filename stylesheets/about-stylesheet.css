@@ -151,16 +151,13 @@ h5:after{
 }
 
 #about {
-  /*display: block
-  padding: 30px;
-*/  margin:auto 2.7em;
+  margin:auto 2.7em;
   background-color: white;
   float: left;
-/*  width: 100%;
-*/}
+}
 #about img{
   border-radius: 100%;
-  margin: 0px, auto auto;
+  margin: 0px auto auto;
   max-width: 200px;
   display: block;
 }
