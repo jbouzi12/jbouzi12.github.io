@@ -14,7 +14,6 @@ header {
 
 nav {
   font-family:Lato;
-  text-align: right;
   position:relative;
   margin:1em 0 0;
   float:right;
@@ -45,7 +44,7 @@ li {
 #blog-bar:hover #submenu .nav-text {
   list-style: none;
   display: block;
-  text-align: left;
+  /*text-align: left;*/
   padding-left: 0px;
 }
 #submenu {
