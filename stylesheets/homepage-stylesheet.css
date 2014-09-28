@@ -4,12 +4,12 @@ html {
   background-size: cover;
 }
 
-/*header {
+header {
   float:left;
   margin:0 0 2em 0;
   width:100%;
   display: block;
-}*/
+}
 .header-wrapper {
 /*  background-color:white;
 */  margin-top: 1em;
