@@ -12,14 +12,14 @@ div {
 .header-wrapper {
   background-color:rgba(43, 120, 162, 1);
   margin-top: 1em;
-  width: 100%;
+  width: 95%;
   position: fixed;
   z-index: 1000;
 }
 
 #container {
   margin: auto;
-  width: 960px;
+  width: 100%;
   font-family: Lato, sans-serif;
   text-decoration: none;
   color: black;
@@ -92,7 +92,7 @@ li {
   font-size: inherit;
   clear: both;
   z-index: 99;
-  right: 30%;
+  right: 50%;
 }
 
 

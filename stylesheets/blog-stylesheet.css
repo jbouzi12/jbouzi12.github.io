@@ -23,7 +23,7 @@ div {
 
 #container {
   margin: auto;
-  width: 960px;
+  width: 95%;
   font-family: Lato, sans-serif;
   text-decoration: none;
   color: black;
@@ -97,7 +97,7 @@ li {
   font-size: inherit;
   clear: both;
   z-index: 99;
-  right: 30%;
+  right: 50%;
 }
 
 
