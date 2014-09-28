@@ -1,7 +1,7 @@
 
 body {
   margin: 0;
-  background: #151615;
+  background: #212427;
   background-image:url(../imgs/road-image.JPG) no-repeat center center fixed;
   background-size: cover;
   display: block
@@ -10,7 +10,7 @@ div {
   display: block;
 }
 .header-wrapper {
-  background-color:white;
+  background-color:rgba(43, 120, 162, 1);
   margin-top: 1em;
   width: 100%;
   position: fixed;
@@ -33,17 +33,18 @@ div {
 #my-name {
   font-weight:normal;
   font-size: 3em;
-  color:black;
+  color:white;
   line-height: .8em;
   margin: 15px 0;
   padding:0px;
   display: block;
+  text-shadow:1px 1px black;
 }
 
 
 #sub-name {
   font-size: 0.9em;
-  color:black;
+  color:white;
 }
 
 nav {
@@ -56,11 +57,9 @@ nav {
 ul {
   padding-left:30px;
   padding-right:30px;
-  color:black;
 }
 li {
   display: inline-block;
-  color:rgb(141, 139, 139);
   padding-left: 5px;
   position: relative;
 }
@@ -134,7 +133,6 @@ h5:after{
 
 
 #about-wrapper {
-  padding: 4em 0 0px 0;
   background-color:#DFD5CC;
   width: 100%;
   font-family: Lato, sans-serif;
@@ -187,7 +185,7 @@ figure img{
 
 a {
   text-decoration: none;
-  color:rgb(141, 139, 139);
+  color:white;
 }
 a:hover {
   color:rgb(200, 200, 235);
