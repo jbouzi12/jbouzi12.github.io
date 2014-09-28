@@ -4,12 +4,28 @@ html {
   background-size: cover;
 }
 
-header {
+/*header {
   float:left;
   margin:0 0 2em 0;
   width:100%;
   display: block;
+}*/
+.header-wrapper {
+/*  background-color:white;
+*/  margin-top: 1em;
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
 }
+
+#container {
+  margin: auto;
+  width: 95%;
+  font-family: Lato, sans-serif;
+  text-decoration: none;
+  /*color: black;*/
+}
+
 
 nav {
   font-family:Lato;
