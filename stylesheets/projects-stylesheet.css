@@ -55,8 +55,8 @@ nav {
 }
 
 ul {
-  padding-left:30px;
-  padding-right:30px;
+  padding-left:1.5em;
+  padding-right:1.5em;
 }
 li {
   display: inline-block;
@@ -86,7 +86,7 @@ li {
 .nav-text {
   display: none;
   width: 6.5em;
-  margin-left: 70px;
+  margin-left: 4em;
   font-family: inherit;
   text-align: center;
   font-size: inherit;
