@@ -72,13 +72,12 @@ li {
 .nav-text {
   display: none;
   width: 6.5em;
-  margin-left: 4em;
   font-family: inherit;
   text-align: center;
   font-size: inherit;
   clear: both;
   z-index: 99;
-  right: 30%;
+  right: 27%;
 }
 a:hover {
   color:rgb(200, 200, 235);
