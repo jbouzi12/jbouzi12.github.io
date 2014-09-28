@@ -19,7 +19,7 @@ div {
 
 #container {
   margin: auto;
-  width: 960px;
+  width: 95%;
   font-family: Lato, sans-serif;
   text-decoration: none;
   color: black;
@@ -55,8 +55,8 @@ nav {
 }
 
 ul {
-  padding-left:30px;
-  padding-right:30px;
+  padding-left:1.5em;
+  padding-right:1.5em;
 }
 li {
   display: inline-block;
@@ -85,14 +85,14 @@ li {
 
 .nav-text {
   display: none;
-  width: 150px;
-  margin-left: 70px;
+  width: 6.5em;
+  /*margin-left: 70px;*/
   font-family: inherit;
   text-align: center;
   font-size: inherit;
   clear: both;
   z-index: 99;
-  right: 30%;
+  right: 50%;
 }
 
 

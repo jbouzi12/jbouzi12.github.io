@@ -86,7 +86,7 @@ li {
 .nav-text {
   display: none;
   width: 6.5em;
-  margin-left: 4em;
+  /*margin-left: 4em;*/
   font-family: inherit;
   text-align: center;
   font-size: inherit;
