@@ -19,6 +19,7 @@ div {
   width: 100%;
   position: fixed;
   z-index: 1000;
+  border-bottom: 1px solid black;
 }
 
 #container {
