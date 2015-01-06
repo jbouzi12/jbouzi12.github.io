@@ -43,7 +43,6 @@ div {
   margin: 15px 0;
   padding:0px;
   display: block;
-  /*text-shadow: 2px 2px 2px #5c5a5a;*/
 }
 
 
@@ -121,7 +120,6 @@ li {
   line-height: 1.4;
   background-size: cover;
   margin-top: -1em;
-  /*padding-bottom: 4em;*/
 }
 .title-box {
   height:200px;
@@ -148,19 +146,6 @@ h5:after{
  content:"\a";
  white-space: pre;
 }
-
-/*div {
-  font-family: Lato, sans-serif;
-  font-weight: bold
-}
-div p {
-  padding-bottom: 1.5em;
-}*/
-/*
-#archive-wrapper{
-  width: 95%;
-  margin: -5% 0 0 2.55%;
-}*/
 
 
 #archive {
