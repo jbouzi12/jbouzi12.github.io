@@ -122,10 +122,10 @@ li {
 }
 
 .title-box h1 {
-  color: rgb(6, 5, 31)
+  color: rgb(6, 5, 31);
   font-weight: bold;
+  text-align: center;
   margin: 0 auto;
-  display:inline-block;
   font-size: 4.5em;
   padding-left: 4.5%;
   padding-top: 27%;
