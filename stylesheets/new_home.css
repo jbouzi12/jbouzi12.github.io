@@ -7,6 +7,24 @@ body {
   font-family: Lato, sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color:rgb(141, 139, 139);
+}
+a:hover {
+  color:rgb(200, 200, 235);
+  transition:all .2s ease-in;
+}
+
+a img {
+  width:25px;
+  height:25px;
+}
+
+img {
+  width:75%;
+}
+
 .header-wrapper {
   background-color:white;
   margin-top: 1em;
@@ -28,23 +46,6 @@ body {
 .logo {
   float:left;
   padding: 0 10px 10px 0;
-}
-
-#my-name {
-  font-weight:normal;
-  font-family: Lato, sans-serif;
-  font-size: 3em;
-  color:black;
-  line-height: .8em;
-  margin: 15px 0;
-  padding:0px;
-  display: block;
-}
-
-
-#sub-name {
-  font-size: 0.9em;
-  color:black;
 }
 
 nav {
@@ -162,16 +163,6 @@ h5:after{
   font-size: 3em;
 }
 
-
-a {
-  text-decoration: none;
-  color:rgb(141, 139, 139);
-}
-a:hover {
-  color:rgb(200, 200, 235);
-  transition:all .2s ease-in;
-}
-
 footer {
   width: 100%;
   height:20%;
@@ -194,11 +185,4 @@ footer h4 span {
   text-shadow:2px 2px black;
 }
 
-img {
-  width:75%;
-}
 
-a img {
-  width:25px;
-  height:25px;
-}
