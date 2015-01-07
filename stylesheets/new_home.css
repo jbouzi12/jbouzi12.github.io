@@ -93,15 +93,12 @@ li:first-child:before {
   font-weight: bold;
   text-align: center;
   margin: 0 auto;
-  font-size: 4.5em;
+  font-size: 6em;
   transition: .4s ease-in;
   padding-left: 4.5%;
-  padding-top: 27%;
+  padding-top: 23%;
 }
-/*#title-box h1:hover {
-  color: orange;
-}
-*/
+
 section {
   display: block;
 }
