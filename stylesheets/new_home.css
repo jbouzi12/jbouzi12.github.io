@@ -1,31 +1,26 @@
-html {
-  /*background-color:rgb(172, 170, 170);*/
-
-  /*overflow:scroll;*/
-}
 body {
   margin: 0;
   background: #151615;
   background-image:url(../imgs/road-image.JPG) no-repeat center center fixed;
   background-size: cover;
-  display: block
-}
-div {
   display: block;
+  font-family: Lato, sans-serif;
 }
+
 .header-wrapper {
   background-color:white;
   margin-top: 1em;
   width: 100%;
   position: fixed;
+  font-family: Lato, sans-serif;
   z-index: 1000;
   border-bottom: 1px solid black;
 }
 
+
 #container {
   margin: auto;
   width: 95%;
-  font-family: Lato, sans-serif;
   text-decoration: none;
   color: black;
 }
@@ -37,6 +32,7 @@ div {
 
 #my-name {
   font-weight:normal;
+  font-family: Lato, sans-serif;
   font-size: 3em;
   color:black;
   line-height: .8em;
@@ -55,7 +51,6 @@ nav {
   text-align: right;
   float:right;
   font-size:1.25em;
-  /*color:white;*/
   padding-left: 0 0 10px 10px;
 }
 
@@ -181,25 +176,20 @@ footer {
   width: 100%;
   height:20%;
   text-align: center;
-  /*background-color:rgb(172, 170, 170);*/
   margin:20px 4% 20px 2%;
-  /*margin-top:15px;
-  margin-bottom: 15px;
-  border-radius: 2px;*/
-  /*clear:both;*/
   padding-top: 2%;
   padding-bottom: 2%;
 }
-h4 a {
+footer h4 a {
   padding-left: 5px;
   padding-right: 5px;
 }
 
-h4 span {
+footer h4 span {
   color:white;
   font-weight: bold;
   padding-left: 10px;
-  font-family: Lato, sans-serif;
+  /*font-family: Lato, sans-serif;*/
   font-weight: bold;
   text-shadow:2px 2px black;
 }
