@@ -14,7 +14,6 @@ a {
 a:hover {
   color:rgb(200, 200, 235);
   transition:all .2s ease-in;
-  font-size: 1.05em;
 }
 
 a img {
@@ -24,6 +23,25 @@ a img {
 
 img {
   width:75%;
+}
+
+nav {
+  float:right;
+  font-size:1.25em;
+  padding-right: 4em;
+}
+
+
+li {
+  display: inline-block;
+  position: relative;
+}
+
+li:before {
+  content: "|"
+}
+li:first-child:before {
+  content: none;
 }
 
 .header-wrapper {
@@ -48,19 +66,6 @@ img {
   margin-top: 0;
   font-size: 1em;
 }
-
-nav {
-  float:right;
-  font-size:1.25em;
-  padding-right: 4em;
-}
-
-
-li {
-  display: inline-block;
-  position: relative;
-}
-
 
 .clear {
   clear:both;
@@ -93,10 +98,10 @@ li {
   padding-left: 4.5%;
   padding-top: 27%;
 }
-#title-box h1:hover {
+/*#title-box h1:hover {
   color: orange;
 }
-
+*/
 section {
   display: block;
 }
