@@ -107,14 +107,37 @@ h5:after{
  white-space: pre;
 }
 
-
-#archive {
-  padding: .5em 0 0px 0;
-  background-color:#DFD5CC;
+.wrapper {
+  margin: auto;
   width: 100%;
-  font-family: Lato, sans-serif;
-
 }
+
+.wrapper h1 {
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.wrapper-pic {
+  height: 200px;
+  border-bottom: 2px solid yellow;
+  background-color: blue;
+}
+
+#about {
+  padding: 2em 5em 2em 5em;
+  background-color:white;
+  position: relative;
+}
+
+#about img {
+  text-align: center;
+  border-radius: 100%;
+  margin: 0px auto auto;
+  max-width: 200px;
+  display: block;
+}
+
 #post {
   margin: auto;
   padding: 30px;
