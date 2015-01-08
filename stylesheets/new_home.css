@@ -49,7 +49,6 @@ li:first-child:before {
   padding: 1em 0 0 1em;
   position: fixed;
   z-index: 1000;
-  border-bottom: 1px solid black;
   margin-top: -1em;
 }
 
@@ -138,11 +137,13 @@ h5:after{
   background-image: url(../imgs/between_trees.jpg);
 
 }
-/* About Me section */
-#about {
+/* About Me & Contact section */
+#about, #projects {
   padding: 2em 5em 2em 5em;
-  background-color:white;
   position: relative;
+}
+#about {
+  background-color:white;
 }
 
 #about img {
@@ -151,6 +152,18 @@ h5:after{
   margin: 0px auto auto;
   max-width: 200px;
   display: block;
+}
+
+#contact {
+  background-color: blue;
+  padding: 7em;
+  color: white;
+}
+#contact ul li{
+  display: block;
+}
+#contact ul li:before {
+  content: none;
 }
 
 /* Footer */
