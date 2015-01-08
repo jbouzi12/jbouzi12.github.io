@@ -79,7 +79,8 @@ li:first-child:before {
   background: transparent;
 }
 #welcome {
-  background: url(../imgs/road-image.JPG) no-repeat center center fixed;
+  background: url(../imgs/road-image.JPG);
+  background-attachment: fixed, scroll;
   height: 35em;
   line-height: 1.4;
   background-size: cover;
@@ -123,16 +124,19 @@ h5:after{
 }
 
 .wrapper-pic1, .wrapper-pic2 {
-  height: 22em;
+  height: 230px;
   background-size: cover;
+  background-attachment: fixed, scroll;
 }
 
 .wrapper-pic1 {
   background-image: url(../imgs/amherst_trees.jpg);
+  background-attachment: fixed, scroll;
 }
 
 .wrapper-pic2 {
   background-image: url(../imgs/between_trees.jpg);
+
 }
 /* About Me section */
 #about {
