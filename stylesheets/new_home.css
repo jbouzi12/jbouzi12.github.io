@@ -122,10 +122,18 @@ h5:after{
   font-weight: bold;
 }
 
-.wrapper-pic {
-  height: 200px;
+.wrapper-pic1, .wrapper-pic2 {
+  height: 22em;
   border-bottom: 2px solid yellow;
-  background-color: blue;
+  background-size: cover;
+}
+
+.wrapper-pic1 {
+  background-image: url(../imgs/amherst_trees.jpg)
+}
+
+.wrapper-pic2 {
+  background-image: url(../imgs/smith_lake.jpg)
 }
 /* About Me section */
 #about {
