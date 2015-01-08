@@ -150,18 +150,6 @@ h5:after{
   display: block;
 }
 
-#post {
-  margin: auto;
-  padding: 30px;
-  margin:4em 0 0 0;
-  background-color: white;
-}
-
-#post h1{
-  padding-bottom: .5em;
-  font-size: 3em;
-}
-
 /* Footer */
 footer {
   width: 100%;
