@@ -1,8 +1,7 @@
 body {
   margin: 0;
   background: #151615;
-/*  background-image:url(../imgs/road-image.JPG) no-repeat center center fixed;
-*/  background-size: cover;
+  background-size: cover;
   font-family: Lato, sans-serif;
 }
 
