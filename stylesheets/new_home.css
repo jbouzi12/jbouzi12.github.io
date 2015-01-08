@@ -41,7 +41,8 @@ li {
 }
 
 li:before {
-  content: "|"
+  content: "|";
+  padding-right:.5em;
 }
 li:first-child:before {
   content: none;
