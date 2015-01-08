@@ -123,7 +123,7 @@ h5:after{
 }
 
 .wrapper-pic1, .wrapper-pic2 {
-  height: 230px;
+  height: 25em;
   background-size: cover;
   background-attachment: fixed, scroll;
 }
@@ -153,11 +153,12 @@ h5:after{
   max-width: 200px;
   display: block;
 }
-
+#contact, #projects {
+  color: white;
+}
 #contact {
   background-color: rgb(6, 74, 249);
   padding: 7em;
-  color: white;
 }
 #contact ul li{
   display: block;
