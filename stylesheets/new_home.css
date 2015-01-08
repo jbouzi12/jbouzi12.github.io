@@ -166,6 +166,16 @@ h5:after{
   content: none;
 }
 
+/* Projects section */
+
+.project-box {
+  width:25%;
+}
+
+.project-box.w2 {
+  width:50%;
+}
+
 /* Footer */
 footer {
   width: 100%;
