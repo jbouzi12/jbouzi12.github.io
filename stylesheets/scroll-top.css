@@ -1,12 +1,12 @@
 
 .scroll-top-wrapper {
     position: fixed;
-	opacity: .5;
+	opacity: 0;
 	visibility: hidden;
 	overflow: hidden;
 	text-align: center;
 	z-index: 99999999;
-    background-color:rgba(150, 142, 142, 0.48);
+    background-color:rgba(150, 142, 142, 0.2);
 	color: white;
 	width: 50px;
 	height: 48px;
@@ -14,10 +14,7 @@
 	right: 30px;
 	bottom: 30px;
 	padding-top: 2px;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-	border-bottom-right-radius: 10px;
-	border-bottom-left-radius: 10px;
+	border-radius: 100%;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-ms-transition: all 0.2s ease-in-out;
