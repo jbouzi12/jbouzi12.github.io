@@ -5,6 +5,10 @@ body {
   font-family: Lato, sans-serif;
 }
 
+.fa-lg {
+  color: white;
+}
+
 a {
   text-decoration: none;
   color:rgb(141, 139, 139);
@@ -168,7 +172,9 @@ h5:after{
 }
 
 /* Projects section */
-
+#projects {
+  background-color: rgb(72, 187, 144);
+}
 .project-box {
   width:50%;
 }
