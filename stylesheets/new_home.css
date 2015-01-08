@@ -1,8 +1,8 @@
 body {
   margin: 0;
   background: #151615;
-  background-image:url(../imgs/road-image.JPG) no-repeat center center fixed;
-  background-size: cover;
+/*  background-image:url(../imgs/road-image.JPG) no-repeat center center fixed;
+*/  background-size: cover;
   font-family: Lato, sans-serif;
 }
 
@@ -112,7 +112,8 @@ h5:after{
 /* Wrappers separating each section of the site */
 /* Each wrapper will have a background image, breaking up the content as users scroll*/
 .wrapper {
-  margin: auto;
+  margin-bottom: -2em;
+  margin-top: 0;
   width: 100%;
 }
 
@@ -124,16 +125,15 @@ h5:after{
 
 .wrapper-pic1, .wrapper-pic2 {
   height: 22em;
-  border-bottom: 2px solid yellow;
   background-size: cover;
 }
 
 .wrapper-pic1 {
-  background-image: url(../imgs/amherst_trees.jpg)
+  background-image: url(../imgs/amherst_trees.jpg);
 }
 
 .wrapper-pic2 {
-  background-image: url(../imgs/between_trees.jpg)
+  background-image: url(../imgs/between_trees.jpg);
 }
 /* About Me section */
 #about {
@@ -170,5 +170,3 @@ footer h4 span {
   padding-left: 10px;
   font-weight: bold;
 }
-
-
