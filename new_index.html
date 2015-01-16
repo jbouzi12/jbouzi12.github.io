@@ -2,8 +2,11 @@
 <html>
   <head>
     <link type="text/css" rel="stylesheet" href="stylesheets/new_home.css"></link>
+    <link type="text/css" rel="stylesheet" href="stylesheets/grid.css"></head>
+    <link type="text/css" rel="stylesheet" href="stylesheets/scroll-top.css"></link>
     <link href="http://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css"></link>
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"></link>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="stylesheets/normalize.css" type="text/css"></link>
     <title>Home</title>
   </head>
@@ -11,23 +14,18 @@
     <header class = "header-wrapper">
       <a href="http://jbouzi12.github.io/"class = "logo">
         <h1 id="my-name">Jensen Bouzi</h1>
-        <h2 id="sub-name">Full Stack Developer</h2>
+        <h2 id="sub-name">Full Stack Web Developer</h2>
       </a>
       <nav>
         <ul>
           <li><a href="http://jbouzi12.github.io/">Home</a></li>
-          <li><a href="../about-me/about-me.html">About Me</a></li>
-          <li><a href="../projects/projects-page.html">Projects</a></li>
-          <li><a href="../blog-posts/contact-page.html">Contact</a></li>
+          <li><a class="about" href="#about">About</a></li>
+          <li><a class="projects" href="#projects">Projects</a></li>
+          <li><a class="contact" href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
-    <!-- TODO: -->
-    <!-- Add section for each nav link -->
-    <!-- In between each, add a section like one below with padding and background image -->
-    <!-- fill them with content -->
-    <!-- make links animate toward corresponding section (vanilla js?) -->
-    <section id = "blog-title">
+    <section id = "welcome">
       <div class="clear">
         <h5><!-- CLEARANCE SPACE --></h5>
       </div>
@@ -35,66 +33,83 @@
         <h1>Welcome</h1>
       </div>
     </section>
+    <section class ="wrapper">
+      <section id="about">
+        <h1>About Me</h1>
+        <img src="imgs/dbc_profile_pic.jpg"/>
+        <p>My name is Jensen Bouzi and was born in Brooklyn but I grew up in Queens, NY. I recently graduated from Amherst College with a B.A. in Asian Languages and Civilizations and a minor concentration in Mathematics. Although I've had a unique undergraduate experience, seemingly unrelated to computer programming, I've had a passion for technology ever since joining an after school engineering program in the 7th grade.</p>
 
-    <section id="archive">
-      <div class="container">
-        <div id = "post">
-          <h1>Recent Posts</h1>
-          <h2>Big O Complexity and Notation</h2>
-            <p>September 26,2014</p>
-            <p> How efficient is a piece of code or an algorithm? This is an important question for developers, and one that I&apos;ve been contemplating for the past few weeks at Dev Bootcamp. Many factors affect efficiency, but there are two in particular that I wish to focus on: performance and complexity...</p>
-            <span id = "read-more"><a href="../blog-posts/week8_technical.html">READ MORE</a></span></span>
-            <hr width="100%"></hr><br></br>
-          <h2>SQL INJECTION: An In Depth Look</h2>
-            <p>September 17,2014</p>
-            <p> SQL Injection is one of the many tools in a hacker&apos;s arsenal that is used to steal data from organizations. In fact, it is one of the most common web attack mechanisms today. It occurs when an incorrectly coded application allows SQL statements to pass through the available fields and query the database directly...</p>
-            <span id = "read-more"><a href="../blog-posts/week7_technical.html">READ MORE</a></span></span>
-            <hr width="100%"></hr><br></br>
-          <h2>Variable Scope</h2>
-            <p>September 14,2014</p>
-            <p> The main difference between Ruby variables relies in their scope. Scope defines where in which a variable is accessible in a program. Ruby contains five types of variables:  local variables, global variables, instance variables, class variables, and constants. Each of which vary in scope and declared using a special character at the start of the variable name. Ruby also has two variables...</p>
-            <span id = "read-more"><a href="../blog-posts/week6_technical.html">READ MORE</a></span></span>
-            <hr width="100%"></hr><br></br>
-          <h2>Experimenting with Ruby Classes</h2>
-            <p>September 7,2014</p>
-            <p> Ruby is an object oriented programming language. In other words, Ruby programs can operate in a real-world manner. We can create concepts such as &#8220people&#8221, &#8220dogs&#8221, or anything really. An object-oriented language such as Ruby allows you to create objects based upon these concepts. A great way to do so is by using...</p>
-            <span id = "read-more"><a href="../blog-posts/week5_technical.html">READ MORE</a></span></span>
-            <hr width="100%"></hr><br></br>
-          <h2>Style Wars</h2>
-            <p>August 31,2014</p>
-            <p> As a beginner programmer, it&apos;s often difficult to discern which programming language is best used for what and which would be the best to focus on. While doing some research I stumbled upon this great graphic that compares and contrasts three prominent languages: PHP, Ruby, and Python...</p>
-            <span id = "read-more"><a href="../blog-posts/week4_technical.html">READ MORE</a></span></span>
-            <hr width="100%"></hr><br></br>
-          <h2>The Rise of a Juggernaut</h2>
-            <p>August 23,2014</p>
-            <p> For this week&apos;s technical series, I will be exploring the rise of one of web development&apos;s most prominent languages; JavaScript. Ever since its inception in the mid 90&apos;s, JavaScript has become a top language due to its ease of use, and ability to deliver rich, dynamic web content. In 1995, Brendan Eich created JavaScript as a lightweight complement to Java (after many name changes, they decided to go with JavaScript in order to ride the rising the popularity of Java). However, ...</p>
-            <span id = "read-more"><a href="../blog-posts/week3_technical.html">READ MORE</a></span></span>
-            <hr width="100%"></hr><br></br>
-          <h2>Borders, Margins, Padding</h2>
-            <p>August 17,2014</p>
-            <p>After a nice long, frustrating day of coding, I think its time that I dive into a few concepts that I&apos;ve become familiar with over the past two weeks at DBC. If you are just beginning web design, mastering borders, margins, and padding will be essential to properly format content on your web page and achieve your optimal end result. However, it is often confusing to discern which concept to use and when. Thus, I&apos;ve dedicated this post help with that decision...</p>
-            <span id = "read-more"><a href="../blog-posts/week2_technical.html">READ MORE</a></span></span>
-            <hr width="100%"></hr><br></br>
-          <h2>Website Comparison</h2>
-            <p>August 10,2014</p>
-            <p>Since joining Dev Bootcamp, I&apos;ve begun to view the websites that I visit daily with an increasingly critical eye. Today, I&apos;ll be discussing some of my favorite sites; namely how their design and functionality combine to contribute to on overall user experience (UX). I chose each because they not only cover widely differing subject matter, but they also provide vastly contrasting visual aesthetics.... </p>
-            <span id = "read-more"><a href="../blog-posts/t1-compare-websites.html">READ MORE</a></span></span>
-            <hr width="100%"></hr><br></br>
-
-        </div>
-      </div>
+        <p>I have experience developing applications with Ruby on Rails, JavaScript, PostgreSQL, RSpec, Sinatra, MVC, among other technologies and methodologies. My meticulous nature drives me to procude modular, flexible code with a proven track record for learning and implementing new technologies quickly. If I am not coding I am most likely enthusiastically watching a soccer game or heavily involved in a music debate with other music connoisseurs.</p>
+      </section>
     </section>
-
+    <section class = "wrapper wrapper-pic1">
+    </section>
+    <section class = "wrapper">
+      <section id="projects">
+        <h1>Recent Projects</h1>
+        <section class="grid-container">
+          <div class="row">
+            <div class="col-1 first">
+              <a href="https://chrome.google.com/webstore/detail/pinpoint/khcfpddiephakfkdhfnbbdihopbdopam"><img src="imgs/pinpoint.png"/></a>
+              <h2>PinPoint</h2>
+              <p>A revolutionary way to annotate your videos</p>
+              <p><strong>Built with:</strong> JavaScript, Google-Chrome API</p>
+            </div>
+            <div class="col-1 second">
+              <a href="https://github.com/jbouzi12/GameOverflow"><img src="imgs/game-overflow.png"/></a>
+              <h2>GameOverflow</h2>
+              <p>The perfect place for gamers to connect</p>
+              <p><strong>Built with:</strong> Ruby, Rails, TDD, RSpec, PostgreSQL, CSS</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-1 third">
+              <a href="http://jb-avalanche.herokuapp.com/"><img src="imgs/avalanche-game.png"/></a>
+              <h2>Avalanche Game</h2>
+              <p>Try to avoid the falling rocks!</p>
+              <p><strong>Built with:</strong> Sinatra, Ruby, CSS, JavaScript, AJAX, jQuery, ActiveRecord</p>
+            </div>
+            <div class="col-1 fourth">
+              <a href="themiddleground.herokuapp.com"><img src="imgs/middle-ground.png"/></a>
+              <h2>MiddleGround</h2>
+              <p>Find the distance between you and a friend (based on time) with some suggested activities</p>
+              <p><strong>Built with: Ruby, Google Maps API, Yelp API, Sinatra, jQuery, AJAX</strong></p>
+            </div>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class = "wrapper wrapper-pic2">
+    </section>
+    <section class="wrapper">
+      <section id="contact">
+        <h1>Contact</h1>
+        <ul>
+          <li>Jensen.Bouzi@gmail.com</li>
+          <li>1.917.470.4307</li>
+          <li>You can also refer to the links below <i class="fa fa-arrow-down"></i></li> 
+          <li>Or view my <a href="https://resume.creddle.io/resume/1vwjbdpgcrj">resume</a> for more information on my background</li>
+      </ul>
+      </section>
+    </section>
+    <section class="scroll-top-wrapper ">
+      <span class="scroll-top-inner">
+        Top
+        <!-- <i class="fa fa-caret-square-o-up"></i>  -->
+      </span>
+    </section>
     <footer>
       <h4>
         <span>Jensen Bouzi &copy; 2015  | Follow me on:</span>
-        <a href="https://www.facebook.com/jbouzi"><img src="imgs/FB-f-Logo__white_512.png"/></a>
-        <a href="http://www.linkedin.com/in/jensenbouzi/"><img src="imgs/linkedin.png"/></a>
-        <a href="https://github.com/jbouzi12"><img src="imgs/Octocat.png"/></a>
-        <a href="http://instagram.com/immerse_12"><img src="imgs/Instagram_Icon_Large.png"/></a>
-        <a href="https://twitter.com/jensenbouzi"><img src="imgs/Twitter_logo_blue.png"/></a>
-        <a href="https://plus.google.com/u/0/118433877871429485489/posts?cfem=1"><img src="imgs/Gplus.png"/></a>
+        <a href="https://www.facebook.com/jbouzi"><i class="fa fa-facebook-square fa-lg"></i></a>
+        <a href="http://www.linkedin.com/in/jensenbouzi/"><i class="fa fa-linkedin-square fa-lg"></i></a>
+        <a href="https://github.com/jbouzi12"><i class="fa fa-github-square fa-lg"></i></a>
+        <a href="https://twitter.com/jensenbouzi"><i class="fa fa-twitter-square fa-lg"></i></a>
+        <a href="https://plus.google.com/u/0/118433877871429485489/posts?cfem=1"><i class="fa fa-google-plus-square fa-lg"></i></a>
         </h4>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/menu.js"></script>
+    <script type="text/javascript" src="js/projects.js"></script>
   </body>
 </html>

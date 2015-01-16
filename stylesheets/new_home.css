@@ -1,10 +1,12 @@
 body {
   margin: 0;
   background: #151615;
-  background-image:url(../imgs/road-image.JPG) no-repeat center center fixed;
   background-size: cover;
-  display: block;
   font-family: Lato, sans-serif;
+}
+
+.fa-lg {
+  color: white;
 }
 
 a {
@@ -14,7 +16,6 @@ a {
 a:hover {
   color:rgb(200, 200, 235);
   transition:all .2s ease-in;
-  font-size: 1.05em;
 }
 
 a img {
@@ -26,29 +27,7 @@ img {
   width:75%;
 }
 
-.header-wrapper {
-  background-color:white;
-  width: 100%;
-  padding: 1em 0 0 1em;
-  position: fixed;
-  z-index: 1000;
-  border-bottom: 1px solid black;
-}
-
-.logo {
-  float:left;
-  margin-top: -10px;
-}
-
-.logo h1 {
-  font-size: 2.2em;
-  margin-bottom: 0;
-}
-.logo h2 {
-  margin-top: 0;
-  font-size: 1em;
-}
-
+/* Top Navigation Menu */
 nav {
   float:right;
   font-size:1.25em;
@@ -61,10 +40,41 @@ li {
   position: relative;
 }
 
+li:before {
+  content: "|";
+  padding-right:.5em;
+}
+li:first-child:before {
+  content: none;
+}
 
+.header-wrapper {
+  background-color:white;
+  width: 100%;
+  padding: 1em 0 0 1em;
+  position: fixed;
+  z-index: 1000;
+  margin-top: -1em;
+}
+
+.logo {
+  float:left;
+  margin-top: -10px;
+  font-weight: bold;
+}
+
+.logo h1 {
+  font-size: 2.2em;
+  margin-bottom: 0;
+}
+.logo h2 {
+  margin-top: 0;
+  font-size: 1em;
+}
+
+/* Welcome Section, both background and 'Welcome' sign*/
 .clear {
   clear:both;
-  display: block;
   overflow: hidden;
   visibility: hidden;
   width: 0;
@@ -72,8 +82,9 @@ li {
   vertical-align: baseline;
   background: transparent;
 }
-#blog-title {
-  background: url(../imgs/road-image.JPG) no-repeat center center fixed;
+#welcome {
+  background: url(../imgs/road-image.JPG);
+  background-attachment: fixed, scroll;
   height: 35em;
   line-height: 1.4;
   background-size: cover;
@@ -88,18 +99,12 @@ li {
   font-weight: bold;
   text-align: center;
   margin: 0 auto;
-  font-size: 4.5em;
+  font-size: 6em;
   transition: .4s ease-in;
   padding-left: 4.5%;
-  padding-top: 27%;
-}
-#title-box h1:hover {
-  color: orange;
+  padding-top: 23%;
 }
 
-section {
-  display: block;
-}
 h5 {
  display: inline;
 }
@@ -108,26 +113,71 @@ h5:after{
  white-space: pre;
 }
 
-
-#archive {
-  padding: 4em 0 0px 0;
-  background-color:#DFD5CC;
+/* Wrappers separating each section of the site */
+/* Each wrapper will have a background image, breaking up the content as users scroll*/
+.wrapper {
+  margin-bottom: -2em;
+  margin-top: 0;
   width: 100%;
-  font-family: Lato, sans-serif;
-
-}
-#post {
-  margin: auto;
-  padding: 30px;
-  margin:4em 0 0 0;
-  background-color: white;
 }
 
-#post h1{
-  padding-bottom: .5em;
+.wrapper h1 {
+  text-align: center;
   font-size: 3em;
+  font-weight: bold;
 }
 
+.wrapper-pic1, .wrapper-pic2 {
+  height: 18em;
+  background-size: cover;
+  background-attachment: fixed, scroll;
+}
+
+.wrapper-pic1 {
+  background-image: url(../imgs/amherst_trees.jpg);
+  background-attachment: fixed, scroll;
+}
+
+.wrapper-pic2 {
+  background-image: url(../imgs/between_trees.jpg);
+
+}
+/* About Me & Contact section */
+#about, #projects {
+  padding: 2em 5em 2em 5em;
+  position: relative;
+}
+#about {
+  background-color:white;
+}
+
+#about img {
+  text-align: center;
+  border-radius: 100%;
+  margin: 0px auto auto;
+  max-width: 200px;
+  display: block;
+}
+#contact, #projects {
+  color: white;
+}
+#contact {
+  background-color: rgb(6, 74, 249);
+  padding: 7em;
+}
+#contact ul li{
+  display: block;
+}
+#contact ul li:before {
+  content: none;
+}
+
+/* Projects section */
+#projects {
+  background-color: rgb(72, 187, 144);
+}
+
+/* Footer */
 footer {
   width: 100%;
   height:20%;
@@ -147,5 +197,3 @@ footer h4 span {
   padding-left: 10px;
   font-weight: bold;
 }
-
-
