@@ -178,8 +178,9 @@ h5:after{
 }
 .grid-container {
   width: 100%;
-  /*max-width: 1200px;*/
+  box-sizing: border-box;  
 }
+
 .row:before,
 .row:after {
   content:"";
@@ -192,7 +193,14 @@ h5:after{
   width: 50%;
 }
 
+.col-1 {
+  width: 50%; 
+  /*Or 100% */
+}
 
+.col-2 {
+  width: 50%;
+}
 /*
 .project-box {
   width:50%;
