@@ -1,4 +1,4 @@
-.grid-container {
+/*.grid-container {
   width: 100%;
   box-sizing: border-box;  
 }
@@ -13,16 +13,15 @@
   float: left;
   min-height: 1px;
   width: 50%;
-  /* the gutter */
   padding: 12px;
   background-color: red;
 }
 
 .col-1 {
   width: 50%; 
-  /*Or 100% */
 }
 
 .col-2 {
   width: 50%;
 }
+*/
