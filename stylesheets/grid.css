@@ -7,6 +7,7 @@
 *,*:after, *:before {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
 .col-1 img {width: 395px;height: 192px}
 .col-1 h2 {text-align: center;}
+
 @media all and (max-width: 800px) {.col-1{width: 100%}}
 @media only screen and (max-width: 480px) {
   .col-1{width: 100%;padding: 1em 1.5em 1em 1em}
