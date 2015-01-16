@@ -1,6 +1,3 @@
-// $(document).ready(function() {  
-//   
-// })
 $(document).ready(function() {
   $('.scroll-top-wrapper').on('click', scrollToTop);
 
