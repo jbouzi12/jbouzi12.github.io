@@ -176,13 +176,31 @@ h5:after{
 #projects {
   background-color: rgb(72, 187, 144);
 }
+.grid-container {
+  width: 100%;
+  /*max-width: 1200px;*/
+}
+.row:before,
+.row:after {
+  content:"";
+  display: table;
+  clear: both;
+}
+[class*='col-'] {
+  float: left;
+  min-height: 1px;
+  width: 50%;
+}
+
+
+/*
 .project-box {
   width:50%;
 }
 
 .project-box.w2 {
   width:50%;
-}
+}*/
 
 /* Footer */
 footer {
