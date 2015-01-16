@@ -128,7 +128,7 @@ h5:after{
 }
 
 .wrapper-pic1, .wrapper-pic2 {
-  height: 25em;
+  height: 18em;
   background-size: cover;
   background-attachment: fixed, scroll;
 }
