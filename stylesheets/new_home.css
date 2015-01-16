@@ -191,6 +191,9 @@ h5:after{
   float: left;
   min-height: 1px;
   width: 50%;
+  /* the gutter */
+  padding: 12px;
+  background-color: red;
 }
 
 .col-1 {
