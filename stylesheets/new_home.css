@@ -13,8 +13,8 @@ a {
   text-decoration: none;
   color:black;
 }
-a:hover {
-  color:rgb(200, 200, 235);
+a:hover, .fa-lg:hover {
+  color:rgb(8, 239, 249);
   transition:all .2s ease-in;
 }
 
@@ -151,7 +151,7 @@ h5:after{
 }
 
 #about p {
-  font-size: 1.6em;
+  font-size: 1.5em;
 }
 
 #about img {
