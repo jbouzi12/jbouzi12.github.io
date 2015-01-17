@@ -11,7 +11,7 @@ body {
 
 a {
   text-decoration: none;
-  color:rgb(141, 139, 139);
+  color:black;
 }
 a:hover {
   color:rgb(200, 200, 235);
@@ -30,7 +30,7 @@ img {
 /* Top Navigation Menu */
 nav {
   float:right;
-  font-size:1.25em;
+  font-size:1.45em;
   padding-right: 4em;
 }
 
@@ -123,7 +123,7 @@ h5:after{
 
 .wrapper h1 {
   text-align: center;
-  font-size: 3em;
+  font-size: 4em;
   font-weight: bold;
 }
 
@@ -135,7 +135,6 @@ h5:after{
 
 .wrapper-pic1 {
   background-image: url(../imgs/amherst_trees.jpg);
-  background-attachment: fixed, scroll;
 }
 
 .wrapper-pic2 {
@@ -144,11 +143,15 @@ h5:after{
 }
 /* About Me & Contact section */
 #about, #projects {
-  padding: 2em 5em 2em 5em;
+  padding: 3em 5em 3em 5em;
   position: relative;
 }
 #about {
   background-color:white;
+}
+
+#about p {
+  font-size: 1.6em;
 }
 
 #about img {
@@ -166,7 +169,8 @@ h5:after{
   padding: 7em;
 }
 #contact ul li{
-  display: block;
+  /*display: block;*/
+  font-size: 1.45em;
 }
 #contact ul li:before {
   content: none;
@@ -175,6 +179,13 @@ h5:after{
 /* Projects section */
 #projects {
   background-color: rgb(72, 187, 144);
+}
+
+#projects h2 {
+  font-size: 1.5em;
+}
+#projects p {
+  font-size: 1.2em;
 }
 
 /* Footer */
