@@ -28,6 +28,12 @@ img {
 }
 
 /* Top Navigation Menu */
+#nav-button {
+  display: none;
+  float: right;
+  font-size: 3.5em;
+  padding-right: 1em;
+}
 nav {
   float:right;
   font-size:1.45em;
