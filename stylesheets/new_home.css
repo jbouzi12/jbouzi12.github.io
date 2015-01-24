@@ -31,8 +31,22 @@ img {
 #nav-button {
   display: none;
   float: right;
+  margin-right: .5em;
+}
+#nav-button i {
   font-size: 3.5em;
-  padding-right: 1em;
+}
+#nav-button ul {
+  margin-right: 1em;
+  position: relative;
+}
+#nav-button ul li {
+  display: block;
+  margin-left: -2em;
+}
+#nav-button ul li:before {
+  content:none;
+  padding: 0;
 }
 nav {
   float:right;
