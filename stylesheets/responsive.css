@@ -9,7 +9,10 @@ and (-webkit-min-device-pixel-ratio: 2){}
 @media screen and (min-device-width: 375px){
 
 }
-@media and (max-device-width: 667px) {}
+@media all and (max-width: 690px) {
+  body nav {display: none}
+  #nav-button {display: block}
+}
 
 /* < 568px */
 
