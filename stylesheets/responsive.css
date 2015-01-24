@@ -4,16 +4,17 @@
 and (max-device-width: 1024px) 
 and (-webkit-min-device-pixel-ratio: 2){}
 
-/* < 667px */
 
 @media all and (max-width: 375px){
-  footer span{display: none}
-  footer .fa {font-size: 2em}
-
+  
 }
 @media all and (max-width: 690px) {
   body nav {display: none}
   #nav-button {display: block}
+  footer span{display: none}
+  footer .fa {font-size: 2em}
+  .wrapper-pic1, .wrapper-pic1 {height: 0}
+
 }
 
 /* < 568px */
