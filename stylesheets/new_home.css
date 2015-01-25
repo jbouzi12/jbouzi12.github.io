@@ -192,6 +192,7 @@ h5:after{
 
 #about p {
   font-size: 1.5em;
+  text-indent: 2em;
 }
 
 #about img {
@@ -200,6 +201,11 @@ h5:after{
   margin: 0px auto auto;
   max-width: 200px;
   display: block;
+  margin-bottom: 4em;
+}
+
+hr {
+  margin-bottom: 3em;
 }
 #contact, #projects {
   color: white;
@@ -209,7 +215,7 @@ h5:after{
   padding: 7em;
 }
 #contact ul li{
-  /*display: block;*/
+  display: block;
   font-size: 1.45em;
 }
 #contact ul li:before {
