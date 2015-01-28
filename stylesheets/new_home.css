@@ -231,11 +231,12 @@ hr {
   background-color: rgb(72, 187, 144);
 }
 
-/*#projects h3 {
-  font-size: 1.5em;
-}
-*/#projects p {
+#projects p {
   font-size: 1.2em;
+}
+
+#skills {
+  margin: 0;
 }
 
 /* Footer */
