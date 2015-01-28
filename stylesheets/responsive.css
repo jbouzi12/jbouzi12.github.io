@@ -41,9 +41,3 @@ and (-webkit-min-device-pixel-ratio: 2){}
   footer {width: 100%;height:40%;text-align: center;margin:3em;padding: 2em 5em 1em 0}
 
 }
-/*
-TODO:
-make new drop down nav menu for this media query
-make new footer for this one too
-target specific device sizes
-*/
