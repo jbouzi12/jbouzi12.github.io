@@ -3,18 +3,18 @@
 [class*='col-'] {float: left;min-height: 1px; width: 16.66%;padding: 12px}
 
 .col-1 {width: 50%;padding: 2em 4em 3em 2em}
-.col-3 {width: 33.33%;padding: 2em}
+.col-3 {width: 33.33%;padding: 1em;}
 .grid-container:after {content: "";display: table;clear: both}
 *,*:after, *:before {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
 .col-1 img {width: 395px;height: 192px}
-.col-1 h2 {text-align: center;}
+.col-1 h3 {text-align: center;}
 
 
 /* Tablet/Iphone Devices, Vertical View*/
 @media all and (max-width: 800px) {
 	.col-1{width: 100%; padding: 1em}
 	#projects {padding: 1em}
-  	#projects h2 {font-size: 2em}
+  	#projects h3 {font-size: 2em}
   	#projects p {font-size: 1.5em}}
 }
 
@@ -34,7 +34,7 @@
 	.col-1 img {width: 100%;height: 100%}
 	.col-1 {width:100%;height:100%; padding: .5em}
 	#projects {padding: 1em}
-	#projects h2 {font-size: 1.5em}
+	#projects h3 {font-size: 1.5em}
 	#projects p {font-size: .8em}
 }
 /* Iphone 6 and under horizontal*/
@@ -42,5 +42,5 @@
 	.col-1 img {width: 100%;height: 100%}
 	.col-1 {width:100%;height:100%; padding: .5em;text-align: center}
 	#projects {padding: 1em}
-	#projects h2 {font-size: 1.5em}
+	#projects h3 {font-size: 1.5em}
 	#projects p {font-size: .8em}}

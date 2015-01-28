@@ -161,10 +161,14 @@ h5:after{
   width: 100%;
 }
 
-.wrapper h1 {
+.wrapper h2 {
   text-align: center;
   font-size: 4em;
   font-weight: bold;
+}
+
+.wrapper h3 {
+  font-size: 1.5em;
 }
 
 .wrapper-pic1, .wrapper-pic2 {
@@ -227,10 +231,10 @@ hr {
   background-color: rgb(72, 187, 144);
 }
 
-#projects h2 {
+/*#projects h3 {
   font-size: 1.5em;
 }
-#projects p {
+*/#projects p {
   font-size: 1.2em;
 }
 
