@@ -50,9 +50,10 @@ img {
 .slide-menu.is-visible {
   visibility: visible;
   transition: visibility 0s 0s;
+  margin-bottom: -4em;
 }
 .slide-menu li {
-  display: inline-block;
+  display: block;
   margin-left: -2em;
 }
 .slide-menu li:before {
@@ -71,7 +72,7 @@ img {
 nav {
   float:right;
   font-size:1.45em;
-  padding-right: 4em;
+  padding-right: 1em;
 }
 
 
