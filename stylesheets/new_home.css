@@ -11,10 +11,10 @@ body {
 
 a {
   text-decoration: none;
-  color:rgb(141, 139, 139);
+  color:black;
 }
-a:hover {
-  color:rgb(200, 200, 235);
+a:hover, .fa-lg:hover {
+  color:rgb(8, 239, 249);
   transition:all .2s ease-in;
 }
 
@@ -28,10 +28,58 @@ img {
 }
 
 /* Top Navigation Menu */
+#nav-button {
+  display: none;
+  float: right;
+  margin-right: 5em;
+  padding-top: .5em;
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-delay 0.3s;
+  transform:translate3d(100%, 0, 0);
+}
+#nav-button i {
+  font-size: 3.5em;
+}
+.slide-menu {
+  margin-right: 1em;
+  visibility: hidden;
+  transition:visibility 0s .6s;
+  position: relative;
+}
+.slide-menu li {
+  background-color: rgba(0, 0, 0, 0.71);
+}
+.slide-menu li a {
+  color:white;
+}
+.slide-menu.is-visible {
+  font-size: 1.5em;
+  visibility: visible;
+  transition: visibility 0s 0s;
+  margin-bottom: -4em;
+}
+.slide-menu li {
+  display: block;
+  margin-left: -2em;
+}
+.slide-menu li:before {
+  content:none;
+  padding: 0;
+}
+.is-visible {
+  top: 0;
+  transition: top 0.3s 0.3s;
+}
+.is-visible #nav-button {
+  transform: translate3d(0, 0, 0);
+  transition-delay:0s;
+}
+
 nav {
   float:right;
-  font-size:1.25em;
-  padding-right: 4em;
+  font-size:1.45em;
+  padding-right: 1em;
 }
 
 
@@ -121,9 +169,9 @@ h5:after{
   width: 100%;
 }
 
-.wrapper h1 {
+.wrapper h2 {
   text-align: center;
-  font-size: 3em;
+  font-size: 4em;
   font-weight: bold;
 }
 
@@ -135,7 +183,6 @@ h5:after{
 
 .wrapper-pic1 {
   background-image: url(../imgs/amherst_trees.jpg);
-  background-attachment: fixed, scroll;
 }
 
 .wrapper-pic2 {
@@ -143,12 +190,17 @@ h5:after{
 
 }
 /* About Me & Contact section */
-#about, #projects {
-  padding: 2em 5em 2em 5em;
+#skills, #about, #projects {
+  padding: 3em 5em 3em 5em;
   position: relative;
 }
 #about {
   background-color:white;
+}
+
+#about p {
+  font-size: 1.5em;
+  text-indent: 2em;
 }
 
 #about img {
@@ -157,8 +209,13 @@ h5:after{
   margin: 0px auto auto;
   max-width: 200px;
   display: block;
+  margin-bottom: 4em;
 }
-#contact, #projects {
+
+hr {
+  margin-bottom: 3em;
+}
+#skills, #contact, #projects {
   color: white;
 }
 #contact {
@@ -167,6 +224,7 @@ h5:after{
 }
 #contact ul li{
   display: block;
+  font-size: 1.45em;
 }
 #contact ul li:before {
   content: none;
@@ -175,6 +233,14 @@ h5:after{
 /* Projects section */
 #projects {
   background-color: rgb(72, 187, 144);
+}
+
+#projects p {
+  font-size: 1.2em;
+}
+
+#skills {
+  margin: 0;
 }
 
 /* Footer */
