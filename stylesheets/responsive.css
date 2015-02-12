@@ -57,5 +57,5 @@
   #about {margin-bottom: 1em}
 }
 @media only screen and (max-device-width:320px) and (orientation: portrait) {
-  #nav-button {margin-top: -4em;margin-bottom: -6.5em;margin-right: .5em}
+  #nav-button {margin-top: -4em;margin-bottom: -6.5em;right: 0}
 }
