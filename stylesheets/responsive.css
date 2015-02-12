@@ -56,6 +56,6 @@
   #contact {margin-left: -2em;margin-right: -1em;}
   #about {margin-bottom: 1em}
 }
-@media all and (max-width:320px){
-  #nav-button {margin-top: -4em;margin-bottom: -6.5em;}
+@media only screen and (max-device-width:320px) and (orientation: portrait) {
+  #nav-button {margin-top: -4em;margin-bottom: -6.5em;margin-right: .5em}
 }
