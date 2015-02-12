@@ -52,10 +52,10 @@
 @media all and (max-width: 375px){
   #welcome {background-size: 130%;height:21em;}
   #title-box h1 {font-size: 4em; padding-top: 45%}
-  #nav-button {/*margin-right: 4em*/;margin-bottom: -6.5em;padding-top: 0}
+  #nav-button {margin-right: 4em;margin-bottom: -6.5em;padding-top: 0}
   #contact {margin-left: -2em;margin-right: -1em;}
   #about {margin-bottom: 1em}
 }
 @media all and (max-width:320px){
-  #nav-button {margin-top: -4.2em;margin-bottom: -6.5em}
+  #nav-button {margin-top: -4.2em;margin-bottom: -6.5em; margin-right: 0}
 }
