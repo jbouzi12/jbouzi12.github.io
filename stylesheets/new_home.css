@@ -3,6 +3,7 @@ body {
   background: #151615;
   background-size: cover;
   font-family: Lato, sans-serif;
+  font-weight: 300;
 }
 
 .fa-lg {
@@ -144,7 +145,7 @@ li:first-child:before {
 
 #title-box h1 {
   color: rgb(6, 5, 31);
-  font-weight: bold;
+  /*font-weight: bold;*/
   text-align: center;
   margin: 0 auto;
   font-size: 6em;
@@ -172,7 +173,7 @@ h5:after{
 .wrapper h2 {
   text-align: center;
   font-size: 4em;
-  font-weight: bold;
+  /*font-weight: bold;*/
 }
 
 .wrapper-pic1, .wrapper-pic2 {
