@@ -1,5 +1,6 @@
 @media only screen and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2){
-  .wrapper-pic1, .wrapper-pic2, #welcome {background-size: 110%;}
+  .wrapper-pic1, #welcome {background-size: 100%;}
+  .wrapper-pic2 {background-size: 110%}
 }
 @media all and (max-width: 800px) {
   nav {float:right;font-size:1.6em;padding-right: 1em}
