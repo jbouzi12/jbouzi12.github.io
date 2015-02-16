@@ -1,5 +1,5 @@
 # Jensen Bouzi's Personal Site
-==================
+
 ## About
 This is my personal website that contains information about myself, some projects I've worked on, 
 a brief overview of my skills, and means to contact me. It was built with HTML5, CSS3, and some JavaScript. 
