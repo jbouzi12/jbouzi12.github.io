@@ -30,6 +30,12 @@ button {
   box-shadow: inset 0 -2px rgb(64, 168, 129);	
   border: none;
 }
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
 /* Header */
 header {
 	color: white;
@@ -39,12 +45,6 @@ header {
 	width: 100%;
 	z-index: 1000;
 	padding:1em;
-}
-.logo {
-	float: left;
-}
-header .menu{
-	float: right;
 }
 .menu ul {
 	margin-right: 3em;
