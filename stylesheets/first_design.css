@@ -1,9 +1,15 @@
 body {
 	margin: 0;
 	font-size: 12px;
+	display: block;
+}
+h1 {
+	font-size: 2em;
 }
 a {
 	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
 }
 li {
 	list-style: none;
@@ -14,3 +20,28 @@ span {
 	padding: 10px;
 }
 /* Header */
+header {
+	color: white;
+	background-color: red;
+	margin-top: -16px;
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+	padding:1em;
+	-webkit-box-shadow: -1px 3px 2px -2px gray;
+    -moz-box-shadow: -1px 3px 2px -2px gray;
+    box-shadow: -1px 3px 2px -2px gray;
+}
+.logo {
+	float: left;
+}
+header .menu{
+	float: right;
+}
+.menu ul {
+	margin-right: 3em;
+}
+.menu li {
+	display: inline-block;
+	padding-right: 1em;
+}
