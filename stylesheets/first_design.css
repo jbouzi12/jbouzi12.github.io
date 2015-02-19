@@ -21,6 +21,9 @@ a {
 a, button {
 	cursor: pointer;
 }
+a:hover {
+	color: rgb(72, 187, 144);
+}
 li {
 	list-style: none;
 }
@@ -93,15 +96,16 @@ header {
 	font-size: 2em;
 }
 #gallery .left{
-	/*display: inline-block;*/
-	width: 45%;
+	margin-left: 1em;
+	width: 55%;
 	height:45%;
 }
 #gallery .right{
 	display: block;
-	width: 25%;
+	width: 28%;
 	height: 25%;
 	padding: 1em;
+	margin-right: 6em;
 }
 /* About */
 #gallery p, #about p {
@@ -116,6 +120,10 @@ header {
 	width: 33%;
 	height: 25%;
 	margin-left: 4em;
+}
+figcaption {
+	text-align: center;
+	padding-right: 3em;
 }
 #about article {
 	width: 50%;
