@@ -53,16 +53,6 @@ header .menu{
 	display: inline-block;
 	padding-right: 1em;
 }
-/*.clear {
-  clear:both;
-  overflow: hidden;
-  display: none;
-  width: 0;
-  height: 0;
-  vertical-align: baseline;
-  background: transparent;
-}
-*/
 /* Main Banner */
 #banner {
 	background-image:url(../imgs/wash_monument.JPG);
