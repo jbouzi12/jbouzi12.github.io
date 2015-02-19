@@ -109,11 +109,21 @@ header {
 }
 #about {
 	background-color: rgb(224, 244, 229);
+	display: inline-block;
 }
 #about img {
 	border-radius: 100%;
-	width: 25%;
+	width: 33%;
 	height: 25%;
+	margin-left: 4em;
+}
+#about article {
+	width: 50%;
+	overflow: hidden;
+}
+/* Contact 
+#contact {
+	clear: both;
 }
 /* Footer*/
 footer {
