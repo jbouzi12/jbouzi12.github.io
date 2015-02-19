@@ -11,18 +11,26 @@ a {
 	color: white;
 	font-size: 1.5em;
 }
+a, button {
+	cursor: pointer;
+}
 li {
 	list-style: none;
 }
-span {
+span, button {
 	color: white;
 	background-color: rgb(72, 187, 144);
 	padding: 10px;
 }
+button {
+  -webkit-box-shadow: inset 0 -2px rgb(64, 168, 129);
+  box-shadow: inset 0 -2px rgb(64, 168, 129);	
+  border: none;
+}
 /* Header */
 header {
 	color: white;
-	background-color: red;
+	background-color: black;
 	margin-top: -16px;
 	position: fixed;
 	width: 100%;
@@ -44,4 +52,30 @@ header .menu{
 .menu li {
 	display: inline-block;
 	padding-right: 1em;
+}
+/*.clear {
+  clear:both;
+  overflow: hidden;
+  display: none;
+  width: 0;
+  height: 0;
+  vertical-align: baseline;
+  background: transparent;
+}
+*/
+/* Main Banner */
+#banner {
+	background-image:url(../imgs/wash_monument.JPG);
+	background-attachment: fixed, scroll;
+	height: 50em;
+	background-size: 100%;
+	margin-top: -2em;
+}
+#banner h1 {
+	padding-top: 8em;
+	font-size: 3em;
+}
+#banner h1 span {
+	border: 2px solid white;
+	background-color: rgba(13, 13, 13, 0.39);
 }
