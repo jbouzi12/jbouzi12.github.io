@@ -3,8 +3,9 @@ body {
 	font-size: 12px;
 	display: block;
 }
-h1 {
+h1, h2 {
 	font-size: 2em;
+	text-align: center;
 }
 a {
 	text-decoration: none;
@@ -30,15 +31,12 @@ button {
 /* Header */
 header {
 	color: white;
-	background-color: black;
+	background-color: rgba(0, 0, 0, 0.1);
 	margin-top: -16px;
 	position: fixed;
 	width: 100%;
 	z-index: 1000;
 	padding:1em;
-	-webkit-box-shadow: -1px 3px 2px -2px gray;
-    -moz-box-shadow: -1px 3px 2px -2px gray;
-    box-shadow: -1px 3px 2px -2px gray;
 }
 .logo {
 	float: left;
