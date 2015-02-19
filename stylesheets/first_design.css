@@ -89,6 +89,9 @@ header {
 .container {
 	width: 200%;
 }
+#gallery blockquote {
+	font-size: 2em;
+}
 #gallery .left{
 	/*display: inline-block;*/
 	width: 45%;
@@ -101,8 +104,16 @@ header {
 	padding: 1em;
 }
 /* About */
+#gallery p, #about p {
+	font-size: 1.5em;
+}
 #about {
 	background-color: rgb(224, 244, 229);
+}
+#about img {
+	border-radius: 100%;
+	width: 25%;
+	height: 25%;
 }
 /* Footer*/
 footer {
