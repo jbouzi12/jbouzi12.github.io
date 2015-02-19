@@ -1,0 +1,12 @@
+a {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+
+span {
+	color: white;
+	background-color: rgb(38, 169, 2);
+	padding: 10px;
+}
