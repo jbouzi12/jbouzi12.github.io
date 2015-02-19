@@ -1,12 +1,16 @@
+body {
+	margin: 0;
+	font-size: 12px;
+}
 a {
 	text-decoration: none;
 }
 li {
 	list-style: none;
 }
-
 span {
 	color: white;
 	background-color: rgb(72, 187, 144);
 	padding: 10px;
 }
+/* Header */
