@@ -74,7 +74,7 @@ header {
 	background-color: rgba(13, 13, 13, 0.39);
 }
 /* Gallery */
-#gallery, #about, #contact {
+#gallery, #about, #contact, footer {
 	padding: 2em;
 }
 .container {
@@ -90,4 +90,23 @@ header {
 	width: 25%;
 	height: 25%;
 	padding: 1em;
+}
+/* About */
+#about {
+	background-color: rgb(198, 216, 203);
+}
+/* Footer*/
+footer {
+	background-color: rgb(229, 231, 230);
+	text-align: center;
+}
+footer i {
+	color: black;
+}
+footer li {
+	display: inline-block;
+	/*padding: 2em;*/
+}
+footer li a {
+	padding: .5em;
 }
