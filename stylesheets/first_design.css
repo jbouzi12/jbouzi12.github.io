@@ -34,6 +34,15 @@ button {
   box-shadow: inset 0 -2px rgb(64, 168, 129);	
   border: none;
 }
+blockquote {
+	font-style: italic;
+}
+blockquote:before {
+	content: "\"";
+}
+blockquote:after {
+	content:"\"";
+}
 .left {
 	float: left;
 }
@@ -93,7 +102,7 @@ header {
 }
 /* About */
 #about {
-	background-color: rgb(198, 216, 203);
+	background-color: rgb(224, 244, 229);
 }
 /* Footer*/
 footer {
