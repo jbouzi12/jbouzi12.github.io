@@ -5,6 +5,10 @@ body {
 	font-family: 'Josefin Slab', serif;
 	font-weight: 400;
 }
+img {
+	width: 50%;
+	height:50%;
+}
 h1, h2 {
 	font-size: 2em;
 	text-align: center;
@@ -69,3 +73,4 @@ header {
 	border: 2px solid white;
 	background-color: rgba(13, 13, 13, 0.39);
 }
+/* Gallery */
