@@ -27,6 +27,9 @@ a, button {
 a:hover, .logo:hover {
 	color: rgb(91, 231, 178);
 }
+hr {
+	margin: 5em 3em 5em 3em;
+}
 li {
 	list-style: none;
 }
@@ -42,6 +45,7 @@ button {
 }
 blockquote {
 	font-style: italic;
+	color: rgb(224, 206, 111);
 }
 blockquote:before {
 	content: "\"";
@@ -115,7 +119,7 @@ header {
 	font-size: 1.5em;
 }
 #about {
-	background-color: rgb(224, 244, 229);
+	background-color: #F4F5F4;
 	display: inline-block;
 }
 #about img {
