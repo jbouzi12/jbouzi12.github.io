@@ -136,13 +136,23 @@ figcaption {
 	width: 50%;
 	overflow: hidden;
 }
-/* Contact 
-#contact {
-	clear: both;
-}
-/* Footer*/
+ /* Contact */
+ .email-form {
+ 	width: 65%;
+ 	height: 30px;
+ }
+ textarea {
+ 	width: 65%;
+ 	height: 100px;
+ }
+ .email-form, textarea {
+ 	margin-bottom: 1em;
+ 	padding: 10px;
+ 	font-size: 1.3em;
+ }
+ /*Footer*/
 footer {
-	background-color: rgb(229, 231, 230);
+	background-color: #F4F5F4;
 	text-align: center;
 }
 footer i {
@@ -150,7 +160,6 @@ footer i {
 }
 footer li {
 	display: inline-block;
-	/*padding: 2em;*/
 }
 footer li a {
 	padding: .5em;
