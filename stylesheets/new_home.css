@@ -249,7 +249,7 @@ hr {
   outline: none;
 }
 
-/* Icons ---------------------------------- */
+/* Contact Icons ---------------------------------- */
 #name{
   background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
   background-size: 30px 30px;
@@ -296,7 +296,7 @@ textarea {
 #button-blue{
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   float:left;
-  width: 100%;
+  width: 30%;
   border: #fbfbfb solid 4px;
   cursor:pointer;
   background-color: #3498db;
@@ -308,12 +308,11 @@ textarea {
   -moz-transition: all 0.3s;
   transition: all 0.3s;
   margin-top:-4px;
-  font-weight:700;
 }
 
 #button-blue:hover{
   background-color: rgba(0,0,0,0);
-  color: #0493bd;
+  color: rgb(6, 74, 249);
 }
   
 .submit:hover {
@@ -332,7 +331,7 @@ textarea {
 }
 
 .submit:hover .ease{
-  width:100%;
+  width:30%;
   background-color:white;
 }
 
