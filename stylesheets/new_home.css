@@ -31,7 +31,7 @@ img {
 #nav-button {
   display: none;
   float: right;
-  margin-right: 5em;
+  /*margin-right: 5em;*/
   padding-top: .5em;
   transition-property: transform;
   transition-duration: 0.3s;

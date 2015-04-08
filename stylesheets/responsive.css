@@ -21,7 +21,7 @@
 
 @media all and (max-width: 690px) {
   header nav {display: none}
-  #nav-button {display:block;margin-top:1em;margin-bottom: -7em;padding-top: 0}
+  #nav-button {display:block;margin-top:1em;margin-bottom: -7em;margin-right:0em;padding-top: 0}
   footer span{display: none}
   footer .fa {font-size: 2em}
   #about, #contact {padding:1em;}
@@ -52,7 +52,8 @@
 @media all and (max-width: 375px){
   #welcome {background-size: 130%;height:21em;}
   #title-box h1 {font-size: 4em; padding-top: 45%}
-  #nav-button {margin-right: 4em;margin-bottom: -6.5em;padding-top: 0}
+  #nav-button {margin-right: 1.5em;margin-bottom: -6.5em;padding-top: 0}
+  .logo h1{padding-right: 1.5em}
   #contact {margin-left: -2em;margin-right: -1em;}
   #about {margin-bottom: 1em}
 }
