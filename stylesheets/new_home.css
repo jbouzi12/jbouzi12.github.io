@@ -334,7 +334,10 @@ textarea {
   width:30%;
   background-color:white;
 }
-
+.thank-you {
+  display: none;
+  color: white;
+}
 
 
 /* Projects section */
