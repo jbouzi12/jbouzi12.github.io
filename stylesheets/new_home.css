@@ -5,6 +5,11 @@ body {
   font-family: Lato, sans-serif;
 }
 
+p {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1em;
+}
+
 .fa-lg {
   color: white;
 }
@@ -196,7 +201,6 @@ h5:after{
 }
 
 #about p {
-  font-size: 1.5em;
   text-indent: 2em;
 }
 
@@ -345,9 +349,6 @@ textarea {
   background-color: rgb(72, 187, 144);
 }
 
-#projects p {
-  font-size: 1.2em;
-}
 
 #skills {
   margin: 0;
