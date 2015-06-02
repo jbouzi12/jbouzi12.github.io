@@ -349,6 +349,9 @@ textarea {
   background-color: rgb(72, 187, 144);
 }
 
+#projects img:hover {
+  opacity: .8;
+}
 
 #skills {
   margin: 0;
