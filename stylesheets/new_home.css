@@ -1,4 +1,4 @@
-body {
+/*body {
   font-size: 12px;
   margin: 0;
   background: #151615;
@@ -26,10 +26,10 @@ a img {
 
 img {
   width:75%;
-}
+}*/
 
 /* Top Navigation Menu */
-#nav-button {
+/*#nav-button {
   display: none;
   float: right;
   margin-right: 5em;
@@ -119,8 +119,8 @@ li:first-child:before {
   margin-top: 0;
   font-size: 1em;
 }
-
-/* Welcome Section, both background and 'Welcome' sign*/
+*/
+/* Welcome Section, both background and 'Welcome' sign*//*
 .clear {
   clear:both;
   overflow: hidden;
@@ -158,10 +158,10 @@ h5 {
 h5:after{
  content:"\a";
  white-space: pre;
-}
+}*/
 
 /* Wrappers separating each section of the site */
-/* Each wrapper will have a background image, breaking up the content as users scroll*/
+/* Each wrapper will have a background image, breaking up the content as users scroll*//*
 .wrapper {
   margin-bottom: -2em;
   margin-top: 0;
@@ -186,12 +186,13 @@ h5:after{
 .wrapper-pic2 {
   background-image: url(../imgs/between_trees.jpg);
 
-}
+}*/
 /* About Me & Contact section */
-#skills, #about, #projects {
+/*#skills, #about, #projects {
   padding: 3em 5em 3em 5em;
   position: relative;
-}
+}/*
+/*
 #about {
   background-color:white;
 }
@@ -212,8 +213,8 @@ h5:after{
 
 hr {
   margin-bottom: 3em;
-}
-#skills, #contact, #projects {
+}*/
+/*#skills, #contact, #projects {
   color: white;
 }
 #contact {
@@ -227,9 +228,9 @@ hr {
 #contact ul li:before {
   content: none;
 }
-
+*/
 /* Projects section */
-#projects {
+/*#projects {
   background-color: rgb(72, 187, 144);
 }
 
@@ -240,9 +241,9 @@ hr {
 #skills {
   margin: 0;
 }
-
+*/
 /* Footer */
-footer {
+/*footer {
   width: 100%;
   height:20%;
   text-align: center;
@@ -259,4 +260,4 @@ footer h4 span {
   color:white;
   font-weight: bold;
   padding-left: 10px;
-}
+}*/

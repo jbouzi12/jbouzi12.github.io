@@ -28,6 +28,13 @@ a, button {
 a:hover, .logo:hover {
 	color: rgb(91, 231, 178);
 }
+.fa-lg:hover {
+	color: rgb(8, 239, 249);
+}
+a img {
+	width: 25px;
+	height: 25px;
+}
 hr {
 	margin: 5em 3em 5em 3em;
 }
@@ -137,6 +144,35 @@ figcaption {
 	width: 50%;
 	overflow: hidden;
 }
+
+/* Projects */
+.wrapper {
+  margin-bottom: -2em;
+  margin-top: 0;
+  width: 100%;
+}
+
+.wrapper h2 {
+  text-align: center;
+  font-size: 4em;
+}
+
+#skills, #projects {
+  padding: 3em 5em 3em 5em;
+  position: relative;
+}
+#projects {
+  background-color: rgb(72, 187, 144);
+}
+
+#projects p {
+  font-size: 1.2em;
+}
+
+#skills {
+  margin: 0;
+}
+
  /* Contact */
  .email-form {
  	width: 65%;
