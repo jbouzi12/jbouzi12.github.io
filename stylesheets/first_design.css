@@ -147,8 +147,30 @@ figcaption {
 	width: 50%;
 	overflow: hidden;
 }
+/* Wrappers */
+.wrapper-pic1, .wrapper-pic2 {
+  height: 600px;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-attachment: fixed, scroll;
+  color: white;
+  text-shadow:0 0 1px rgba(0,0,0,0.05),0 1px 2px rgba(0,0,0,0.3);
+}
+.wrapper-pic1 h2, .wrapper-pic2 h2 {
+	padding-top: 280px;
+	line-height: 47px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+.wrapper-pic1 {
+  background-image: url(../imgs/amherst_trees.jpg);
+}
 
-/* Projects */
+.wrapper-pic2 {
+  background-image: url(../imgs/between_trees.jpg);
+
+}
 .wrapper {
   margin-bottom: -2em;
   margin-top: 0;
@@ -160,6 +182,7 @@ figcaption {
   font-size: 4em;
 }
 
+/* Projects */
 #skills, #projects {
   padding: 3em 5em 3em 5em;
   position: relative;
@@ -212,9 +235,11 @@ figcaption {
 footer {
  	background-color: #161616;
 	text-align: center;
+	width: 100%;
+	height: 20%;
 }
 footer i {
-	color: black;
+	color: white;
 }
 footer li {
 	display: inline-block;
