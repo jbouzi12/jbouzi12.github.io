@@ -131,22 +131,25 @@ header {
 }
 #about {
 	background-color: #F4F5F4;
-	display: inline-block;
+	/*display: inline-block;*/
 }
-#about img {
+/*#about img {
 	border-radius: 100%;
 	width: 33%;
 	height: 25%;
 	margin-left: 4em;
+}*/
+.about-img {
+	background-attachment: url(../imgs/dbc_profile_pic.jpg);
+
 }
-figcaption {
-	text-align: center;
-	padding-left: 36em;
-}
-#about article {
+.about-content, .about-img {
+	display: inline-block;
 	width: 50%;
+	height: 400px;
 	overflow: hidden;
 }
+
 /* Wrappers */
 .wrapper-pic1, .wrapper-pic2 {
   height: 600px;
