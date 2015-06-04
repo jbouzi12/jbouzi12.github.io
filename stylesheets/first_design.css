@@ -131,16 +131,10 @@ header {
 }
 #about {
 	background-color: #F4F5F4;
-	/*display: inline-block;*/
 }
-/*#about img {
-	border-radius: 100%;
-	width: 33%;
-	height: 25%;
-	margin-left: 4em;
-}*/
 .about-img {
-	background-attachment: url(../imgs/dbc_profile_pic.jpg);
+	background: url(../imgs/dbc_profile_pic.jpg) no-repeat center;
+
 
 }
 .about-content, .about-img {
@@ -148,6 +142,11 @@ header {
 	width: 50%;
 	height: 400px;
 	overflow: hidden;
+	margin: 0;
+}
+
+.about-content {
+	padding: 10px;
 }
 
 /* Wrappers */
