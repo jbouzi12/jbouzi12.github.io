@@ -78,7 +78,7 @@ blockquote:after {
 /* Header */
 header {
 	color: white;
-	background-color: rgba(0, 0, 0, 0.1);
+	background-color: rgba(0, 0, 0, 0.5);
 	margin-top: -16px;
 	position: fixed;
 	width: 100%;
