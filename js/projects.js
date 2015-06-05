@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$('#nav-button').click(function() {
-		$(".slide-menu").addClass("is-visible");
+		$(".slide-menu").toggleClass("is-visible");
 	})
 	$('.fadeable').each (function(i, img) {
 		$(img).load(function(e) {
@@ -12,3 +12,8 @@ $(document).ready(function() {
 		$(this).fadeIn(14000);
 	})
 })
+	$('#button-blue').click(function() {
+		$('#form-div').hide();
+		$('.thank-you').show();
+	})
+});
