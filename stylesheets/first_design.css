@@ -43,7 +43,7 @@ a img {
 	width: 25px;
 	height: 25px;
 }
-hr {
+#gallery hr {
 	margin: 5em 3em 5em 3em;
 }
 li {
@@ -142,9 +142,13 @@ header {
 #gallery p, #about p {
 	font-size: 1.5em;
 }
+#about h2 {
+	text-align: left;
+}
 #about {
 	background-color: #f0efec;
 	margin: 0;
+	text-align: left;
 }
 .about-img img{
 	/*border-radius: 100%;*/
