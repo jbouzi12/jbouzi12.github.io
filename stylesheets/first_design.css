@@ -146,7 +146,6 @@ header {
 .about-content, .about-img {
 	display: inline-block;
 	width: 50%;
-	height: 400px;
 	overflow: hidden;
 	margin: 0;
 	position: relative;
@@ -192,7 +191,7 @@ header {
 }
 
 /* Projects */
-#skills, #projects {
+#skills, #projects, #contact, #about, #gallery {
   padding: 3em 6em 3em 6em;
   position: relative;
 }
