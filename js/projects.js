@@ -10,8 +10,8 @@ $(document).ready(function() {
 
 	$('.fadeable_last').load(function(e) {
 		$(this).fadeIn(14000);
-	})
-})
+	});
+
 	$('#button-blue').click(function() {
 		$('#form-div').hide();
 		$('.thank-you').show();
