@@ -1,26 +1,41 @@
 <!DOCTYPE html>
 <html>
   <head>
+    
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="UTF-8">  
+    <meta name="description" content="Jensen Bouzi is a Full Stack Web Developer based in New York City." />
+    <meta name="keywords" content="Jensen Bouzi, web development" />
+    <title>Jensen|Bouzi</title>
+
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
+
+    <!-- Stylesheets -->
+
     <link type="text/css" rel="stylesheet" href="stylesheets/new_home.css"></link>
     <link type="text/css" rel="stylesheet" href="stylesheets/grid.css"></head>
     <link type="text/css" rel="stylesheet" href="stylesheets/scroll-top.css"></link>
-    <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"></link>
     <link rel="stylesheet" href="stylesheets/normalize.css" type="text/css"></link>
     <link rel="stylesheet" href="stylesheets/responsive.css" type="text/css"></link>
-    <meta name="viewport" content="initial-scale=1.0">
-    <meta charset="UTF-8">    
-    <title>Jensen Bouzi</title>
+
+    <!-- Fontawesome Icons -->
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"></link>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    
   </head>
   <body>
     <header class = "header-wrapper">
-      <a href="www.jensenbouzi.com"class = "logo">
+      <a href="http://www.jensenbouzi.com"class = "logo">
         <h1 id="my-name">Jensen Bouzi</h1>
         <h2 id="sub-name">Full Stack Web Developer</h2>
       </a>
       <nav>
         <ul>
-          <li><a href="http://jbouzi12.github.io/">Home</a></li>
+          <li><a href="http://www.jensenbouzi.com/">Home</a></li>
           <li><a class="about" href="#about">About</a></li>
           <li><a class="projects" href="#projects">Projects</a></li>
           <li><a class="skills" href="#skills">Skills</a></li>
@@ -30,7 +45,7 @@
       <span id="nav-button">
         <i class="fa fa-bars"></i>
         <ul class = "slide-menu from-right">
-          <li><a href="http://jbouzi12.github.io/">Home</a></li>
+          <li><a href="http://www.jensenbouzi.com/">Home</a></li>
           <li><a class="about" href="#about">About</a></li>
           <li><a class="projects" href="#projects">Projects</a></li>
           <li><a class="skills" href="#skills">Skills</a></li>
@@ -78,9 +93,9 @@
           </div>
           <div class="row">
             <div class="col-1">
-              <a href="http://jb-avalanche.herokuapp.com/"><img src="imgs/pair_me.png"/></a>
+              <a href="http://pair-me-up.herokuapp.com/"><img src="imgs/pair_me.png"/></a>
               <h3>Pair Me Up</h3>
-              <p>Pair Me Up is a Chrome Extension built to optimize the pair programming experience. Users can use the extension to coordinate roles during a pairing session, give eachother feedback, time their session and log their times in both navigator and driver roles, and keep track of their skills in both of these roles.</p>
+              <p>Pair Me Up is a Chrome Extension built to optimize the pair programming experience for students. Users can use the extension to coordinate roles during a pairing session, give eachother feedback, time their session and log their times in both navigator and driver roles, and keep track of their skills in both of these roles.</p>
               <p><strong>Built with:</strong> Sinatra, Ruby, CSS, JavaScript, AJAX, jQuery, ActiveRecord, Google Chrome API</p>
             </div>
             <div class="col-1">
@@ -135,12 +150,31 @@
     <section class="wrapper">
       <section id="contact">
         <h2>Contact</h2>
-        <ul>
-          <li>Jensen.Bouzi@gmail.com</li>
-          <li>1.917.470.4307</li>
-          <li>You can also refer to the links below <i class="fa fa-arrow-down"></i></li> 
-          <li>Or view my <a href="https://resume.creddle.io/resume/1vwjbdpgcrj">resume</a> for more information on my background</li>
-      </ul>
+        <div id="form-div">
+          <form method="POST" action="mailto:jensen.bouzi@gmail.com?Subject=Hello Jensen, Looking to Connect" class="form" id="form1">
+      
+            <p class="name">
+              <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+            </p>
+            
+            <p class="email">
+              <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+            </p>
+            
+            <p class="text">
+              <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Enter a message..."></textarea>
+            </p>
+            
+            
+            <div class="submit">
+              <input type="submit" value="SEND" id="button-blue"/>
+            <div class="ease"></div>
+            </div>
+          </form>
+        </div>
+        <div class="thank-you">
+          <h3>Thank you for submitting.  I will respond as soon as possible.</h3>
+        </div>
       </section>
     </section>
     <section class="scroll-top-wrapper ">
