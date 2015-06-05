@@ -163,6 +163,10 @@ header {
 	padding: 10px;
 }
 
+.about-img {
+  padding: 10.5em 6em 3em 6em;
+}
+
 /* Wrappers */
 .wrapper-pic1, .wrapper-pic2 {
   height: 600px;
@@ -199,7 +203,7 @@ header {
 }
 
 /* Projects */
-#skills, #projects, #contact, .about-content, .about-img, #gallery {
+#skills, #projects, #contact, .about-content, #gallery {
   padding: 3em 6em 3em 6em;
   position: relative;
 }
