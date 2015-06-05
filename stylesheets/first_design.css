@@ -199,7 +199,7 @@ header {
 }
 
 /* Projects */
-#skills, #projects, #contact, #about, #gallery {
+#skills, #projects, #contact, .about-content, .about-img, #gallery {
   padding: 3em 6em 3em 6em;
   position: relative;
 }
