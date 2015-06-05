@@ -104,7 +104,7 @@ header {
 	background-color: rgba(13, 13, 13, 0.39);
 }
 /* Gallery */
-#gallery, #about, #contact, footer {
+#gallery, #contact, footer {
 	padding: 2em;
 }
 .container {
@@ -131,11 +131,11 @@ header {
 }
 #about {
 	background-color: #F4F5F4;
+	margin: 0;
 }
-.about-img {
-	background: url(../imgs/dbc_profile_pic.jpg) no-repeat center;
-
-
+.about-img img{
+	border-radius: 100%;
+	width: 60%;
 }
 .about-content, .about-img {
 	display: inline-block;
@@ -143,6 +143,7 @@ header {
 	height: 400px;
 	overflow: hidden;
 	margin: 0;
+	position: relative;
 }
 
 .about-content {
