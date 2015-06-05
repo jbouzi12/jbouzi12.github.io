@@ -1,9 +1,14 @@
 body {
-  font-size: 12px;
   margin: 0;
   background: #151615;
   background-size: cover;
-  font-family: Lato, sans-serif;
+  font-family: 'Lato', sans-serif;
+}
+
+p {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .fa-lg {
@@ -32,7 +37,7 @@ img {
 #nav-button {
   display: none;
   float: right;
-  margin-right: 5em;
+  /*margin-right: 5em;*/
   padding-top: .5em;
   transition-property: transform;
   transition-duration: 0.3s;
@@ -104,6 +109,7 @@ li:first-child:before {
   position: fixed;
   z-index: 1000;
   margin-top: -1em;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.54);
 }
 
 .logo {
@@ -161,7 +167,7 @@ h5:after{
 }
 
 /* Wrappers separating each section of the site */
- Each wrapper will have a background image, breaking up the content as users scroll*/
+/* Each wrapper will have a background image, breaking up the content as users scroll*/
 .wrapper {
   margin-bottom: -2em;
   margin-top: 0;
@@ -187,18 +193,16 @@ h5:after{
   background-image: url(../imgs/between_trees.jpg);
 
 }
-/* About Me & Contact section */
+/* About Me */
 #skills, #about, #projects {
   padding: 3em 5em 3em 5em;
   position: relative;
 }
-
 #about {
   background-color:white;
 }
 
 #about p {
-  font-size: 1.5em;
   text-indent: 2em;
 }
 
@@ -217,25 +221,137 @@ hr {
 #skills, #contact, #projects {
   color: white;
 }
+/* Contact Section */
 #contact {
   background-color: rgb(6, 74, 249);
   padding: 7em;
 }
-#contact ul li{
-  display: block;
-  font-size: 1.45em;
-}
-#contact ul li:before {
-  content: none;
+#contact h2 {
+  margin: -1em auto 1em auto;
 }
 
- Projects section 
+#form-div {
+  width: 100%;
+  margin-top:30px;
+}
+
+.feedback-input {
+  font-size: 18px;
+  border-radius: 0;
+  line-height: 22px;
+  padding: 13px 13px 13px 54px;
+  width:100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus{
+  background: #fff;
+  box-shadow: 0;
+  border: 3px solid rgb(12, 255, 24);
+  outline: none;
+}
+
+/* Contact Icons ---------------------------------- */
+#name{
+  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#name:focus{
+  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#email{
+  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#email:focus{
+  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#comment{
+  background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+
+#button-blue{
+  float:left;
+  width: 30%;
+  border: #fbfbfb solid 4px;
+  cursor:pointer;
+  background-color: rgb(6, 74, 249);
+  color:white;
+  font-size:24px;
+  padding-top:22px;
+  padding-bottom:22px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-top:-4px;
+}
+
+#button-blue:hover{
+  background-color: rgba(0,0,0,0);
+  color: rgb(6, 74, 249);
+}
+  
+.submit:hover {
+  color: #3498db;
+}
+  
+.ease {
+  width: 0px;
+  height: 74px;
+  background-color: #fbfbfb;
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -o-transition: .3s ease;
+  -ms-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:30%;
+  background-color:white;
+}
+.thank-you {
+  display: none;
+  color: white;
+}
+
+
+/* Projects section */
 #projects {
   background-color: rgb(72, 187, 144);
 }
 
-#projects p {
-  font-size: 1.2em;
+#projects img:hover {
+  opacity: .8;
 }
 
 #skills {
