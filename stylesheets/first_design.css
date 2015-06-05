@@ -94,6 +94,7 @@ header {
 }
 .menu ul {
 	margin-right: 3em;
+	padding-top: 1.4em;
 }
 .menu li {
 	display: inline-block;
