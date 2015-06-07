@@ -119,6 +119,12 @@ header {
 	border: 2px solid white;
 	background-color: rgba(13, 13, 13, 0.39);
 }
+
+#gallery h2, #skills h2, #about h2,#projects h2, #contact h2 {
+	font-size: 4em;
+	margin-bottom: 15px;
+}
+
 /* Gallery */
 #gallery, #contact, footer {
 	padding: 2em;
@@ -150,7 +156,6 @@ header {
 }
 #about {
 	background-color: #f0efec;
-	margin: 0;
 	text-align: left;
 }
 .about-img img{
@@ -173,41 +178,6 @@ header {
 	left: 8em;
 	top: 6em;
 
-}
-
-/* Wrappers */
-.wrapper-pic1, .wrapper-pic2 {
-  height: 600px;
-  margin: 0;
-  padding: 0;
-  background-size: cover;
-  background-attachment: fixed, scroll;
-  color: white;
-  text-shadow:0 0 1px rgba(0,0,0,0.05),0 1px 2px rgba(0,0,0,0.3);
-}
-.wrapper-pic1 h2, .wrapper-pic2 h2 {
-	padding-top: 280px;
-	line-height: 47px;
-	letter-spacing: 3px;
-	text-transform: uppercase;
-}
-.wrapper-pic1 {
-  background-image: url(../imgs/amherst_trees.jpg);
-}
-
-.wrapper-pic2 {
-  background-image: url(../imgs/between_trees.jpg);
-
-}
-.wrapper {
-  margin-bottom: -2em;
-  margin-top: 0;
-  width: 100%;
-}
-
-.wrapper h2 {
-  text-align: center;
-  font-size: 4em;
 }
 
 /* Projects */
