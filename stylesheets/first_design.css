@@ -202,11 +202,15 @@ header {
 #skills {
   background-color: #307972;
   color: white;
-  
+  text-align: center;
+  padding: 3em 
+}
+#skills .col-md-8 {
+	width: 400px;
 }
 
-#skills div * {
-	display: inline-block;
+#skills ul li {
+	display: inline-block !important;
 }
 
 #skills h3 {
