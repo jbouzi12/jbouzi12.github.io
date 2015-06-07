@@ -190,14 +190,28 @@ header {
 }
 
 #projects p {
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
-/* Skills */
 
+.col-1 h3 {
+	font-size: 1.5em;
+}
+
+/* Skills */
 
 #skills {
   background-color: #307972;
   color: white;
+  
+}
+
+#skills div * {
+	display: inline-block;
+}
+
+#skills h3 {
+	border: 2px solid white;
+	padding: 5px;
 }
 
  /* Contact */
