@@ -202,20 +202,26 @@ header {
 #skills {
   background-color: #307972;
   color: white;
+}
+
+#skills .col-md-6 {
+	width: 45%;
+}
+#skills h3{
+	text-align: left;
+	font-size: 1.8em;
+	color: rgb(208, 199, 152);
+
+}
+#skills h2 {
+  margin-left: 0;
   text-align: center;
-  padding: 3em 
-}
-#skills .col-md-8 {
-	width: 400px;
+
 }
 
-#skills ul li {
-	display: inline-block !important;
-}
-
-#skills h3 {
-	border: 2px solid white;
-	padding: 5px;
+#skills li {
+	font-size: 1.8em;
+	text-align: left;
 }
 
  /* Contact */
