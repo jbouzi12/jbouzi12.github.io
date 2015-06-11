@@ -52,7 +52,7 @@ a img {
 li {
 	list-style: none;
 }
-span, button {
+#banner span, #banner button, #contact button {
 	color: white;
 	background-color: rgb(72, 187, 144);
 	padding: 10px;
@@ -95,14 +95,8 @@ header {
 	z-index: 1000;
 	padding:1em;
 }
-.menu ul {
-	margin-right: 3em;
-	padding-top: 1.4em;
-}
-.menu li {
-	display: inline-block;
-	padding-right: 1em;
-}
+
+
 /* Main Banner */
 #banner {
 	background-image:url(../imgs/wash_monument_opt.JPG);
