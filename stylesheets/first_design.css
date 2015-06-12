@@ -36,7 +36,8 @@ a, .logo {
 a, button {
 	cursor: pointer;
 }
-a:hover, .logo:hover {
+
+.navbar-default .navbar-nav>li>a:hover, a:hover, .logo:hover {
 	color: rgb(91, 231, 178);
 }
 .fa-lg:hover {
@@ -87,12 +88,19 @@ blockquote:after {
 }
 /* Header */
 .navbar-default {
-	color: white;
 	background-color: rgba(0, 0, 0, 0.7);
 	padding:1em;
 	border:none;
 }
 
+.navbar-default .navbar-nav>li>a {
+	color: white;
+	line-height: 34px;
+}
+
+.navbar-nav>li>a {
+	line-height: 0px;
+}
 /*.menu ul {
 	margin-right: 3em;
 	padding-top: 1.4em;
