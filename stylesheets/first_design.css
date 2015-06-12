@@ -96,6 +96,15 @@ header {
 	padding:1em;
 }
 
+/*.menu ul {
+	margin-right: 3em;
+	padding-top: 1.4em;
+}
+.menu li {
+	display: inline-block;
+	padding-right: 1em;
+}
+*/
 
 /* Main Banner */
 #banner {
