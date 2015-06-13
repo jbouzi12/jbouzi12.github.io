@@ -170,7 +170,8 @@ blockquote:after {
 	text-align: left;
 }
 .about-img img{
-	width: 300px;
+	width: 360px;
+	height: 500px;
 }
 .about-content, .about-img {
 	display: inline-block;
@@ -186,8 +187,8 @@ blockquote:after {
 
 .about-img {
   /*padding: 3em 6em 3em 6em;*/
-	left: 8em;
-	top: 6em;
+	left: 4em;
+	top: 8em;
 
 }
 
