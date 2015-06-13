@@ -34,12 +34,7 @@
 
 }
 @media all and (max-width: 585px){
-  #welcome {background-size: 110%;height:28em;}
-  #title-box h1 {padding-top:40%;}
-
-}
-@media all and (max-width: 545px){
-  #welcome {background-size: 120%;height:28em}
+  #gallery hr {padding: 1em 0em 1em 0em}
 }
 @media all and (max-width: 495px){
   #welcome {background-size: 125%;height:25em;}
