@@ -12,11 +12,13 @@
 
 
 /* Tablet/Iphone Devices, Vertical View*/
+@media all and (max-width: 955px){
+	.col-1 {width: 100%; font-size: 1.5em;margin-bottom: 0;}
+	.col-1 img {width: 90%; height:90%}
+}
+
 @media all and (max-width: 800px) {
 	.col-1{width: 100%; padding: 1em}
-	#projects {padding: 1em}
-  	#projects h3 {font-size: 2em}
-  	#projects p {font-size: 1.5em}}
 }
 
 @media only screen and (max-width: 480px) {
@@ -25,12 +27,14 @@
 
 }
 
-@media all and (max-width: 955px){
-	.col-1 {width: 100%; font-size: 1.5em;margin-bottom: 0;}
-	.col-1 img {width: 100%; height:100%}
-  	#projects h3 {font-size: 2em}
-  	#projects p {font-size: 1em}}
-
+/* Iphone 6 and under horizontal*/
+@media all and (max-width: 667px){
+	.col-4 {width: 50%;padding: .2em}
+	.col-1 img {width: 100%;height: 100%}
+	.col-1 {width:100%;height:100%; padding: .5em .5em 0 .5em}
+	#projects {padding: 1em}
+	#projects h3 {font-size: 1.5em}
+	#projects p {font-size: .8em}
 }
 
 /* Iphone 6 and under vertical */
@@ -42,11 +46,3 @@
 	#projects h3 {font-size: 1.5em}
 	#projects p {font-size: .8em}
 }
-/* Iphone 6 and under horizontal*/
-@media all and (max-width: 667px){
-	.col-4 {width: 50%;padding: .2em}
-	.col-1 img {width: 100%;height: 100%}
-	.col-1 {width:100%;height:100%; padding: .5em .5em 0 .5em}
-	#projects {padding: 1em}
-	#projects h3 {font-size: 1.5em}
-	#projects p {font-size: .8em}}
