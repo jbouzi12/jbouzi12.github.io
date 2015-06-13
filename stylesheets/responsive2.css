@@ -10,7 +10,7 @@
   .navbar-default .navbar-collapse, .navbar-default .navbar-form {padding-right: 60px}
 
   #gallery hr {padding: 2em 3em 3em 3em }
-  #projects {padding: 1em}
+  #projects {padding: 2em}
   #projects p {font-size: .8em}
   #projects h3 {font-size: 1.5em}
   footer {width: 100%;height:40%;text-align: center;padding: 2em 5em 1em 0}
@@ -21,14 +21,17 @@
   header nav {display: none}
   #nav-button {display:block;margin-top:1em;margin-bottom: -7em;margin-right:0em;padding-top: 0}
   footer span{display: none}
-  footer .fa {font-size: 2em}
+  footer .fa {font-size: 1.4em}
   #about, #contact {padding:1em;}
   #about {margin-bottom: 2em}
   #welcome {background-size: 100%; height:30em;}
   #title-box h1 {font-size: 5.5em;padding-top:30%;}
-}
-@media all and (max-width: 635px){
-  #welcome {background-size: 110%}
+
+  input, textarea {padding-right: 10px;font-size: .8em}
+  .email-form button {font-size: 8px;}
+  #projects {padding: 1em}
+  #contact h2 {font-size: 3em;margin-bottom: 30px;}
+
 }
 @media all and (max-width: 585px){
   #welcome {background-size: 110%;height:28em;}
@@ -49,7 +52,5 @@
 @media all and (max-width: 375px){
   #welcome {background-size: 130%;height:21em;}
   #title-box h1 {font-size: 4em; padding-top: 45%}
-/*  #contact {margin-left: -2em;margin-right: -1em;}
-*/
   #about {margin-bottom: 1em}
 }
