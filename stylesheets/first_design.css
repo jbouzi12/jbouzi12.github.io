@@ -36,6 +36,13 @@ a, .logo {
 a, button {
 	cursor: pointer;
 }
+button {
+	opacity: .7;
+}
+
+button:hover {
+	opacity: 1;
+}
 
 .navbar-default .navbar-nav>li>a:hover, a:hover, .logo:hover {
 	color: rgb(91, 231, 178);
