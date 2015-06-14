@@ -9,6 +9,9 @@
   #contact {padding: 2em 1em 2em 1em}
   .navbar-default .navbar-collapse, .navbar-default .navbar-form {padding-right: 60px}
 
+  .about-img {float: none; top:8em;left: 0;text-align: center;margin-bottom: 40px;}
+  .about-img img {width: 70%;height: 70%}
+  .about-content, .about-img {width: 100%}
   #gallery hr {padding: 2em 3em 3em 3em }
   #projects {padding: 2em}
   #projects p {font-size: .8em}
