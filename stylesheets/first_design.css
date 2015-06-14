@@ -226,7 +226,7 @@ blockquote:after {
     white-space: nowrap;
 }
 .col-1 a img:hover {
-    border-bottom: 3px solid rgb(104, 250, 196);
+    border-bottom: 3px solid rgb(72, 187, 144);
     border-bottom-width: 100%;
 }
 
