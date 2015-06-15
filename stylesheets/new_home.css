@@ -74,7 +74,7 @@ button {
 }
 blockquote {
   font-style: italic;
-  color: rgb(224, 206, 111);
+  color: rgb(224, 201, 77);
 }
 blockquote:before {
   content: "\"";
