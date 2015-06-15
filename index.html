@@ -1,207 +1,292 @@
 <!DOCTYPE html>
 <html>
   <head>
+
+      <meta name="viewport" content="initial-scale=1.0">
+      <meta charset="UTF-8">    
+      <meta name="description" content="Jensen Bouzi is a Full Stack Web Developer based in New York City." />
+      <meta name="keywords" content="Jensen Bouzi, web development" />
+      <title>Jensen|Bouzi</title>
     
-    <meta name="viewport" content="initial-scale=1.0">
-    <meta charset="UTF-8">  
-    <meta name="description" content="Jensen Bouzi is a Full Stack Web Developer based in New York City." />
-    <meta name="keywords" content="Jensen Bouzi, web development" />
-    <title>Jensen|Bouzi</title>
-
-    <!-- Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
-
     <!-- Stylesheets -->
 
-    <link type="text/css" rel="stylesheet" href="stylesheets/new_home.css"></link>
-    <link type="text/css" rel="stylesheet" href="stylesheets/grid.css"></head>
-    <link type="text/css" rel="stylesheet" href="stylesheets/scroll-top.css"></link>
-    <link rel="stylesheet" href="stylesheets/normalize.css" type="text/css"></link>
-    <link rel="stylesheet" href="stylesheets/responsive.css" type="text/css"></link>
+    <link rel="stylesheet" href="../stylesheets/animate.css">
 
-    <!-- Fontawesome Icons -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.cs"> -->
+    
+    <link rel="stylesheet" type="text/css" href="../stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="../stylesheets/normalize.css" type="text/css">
+    <link rel="stylesheet" href="../stylesheets/grid.css" type="text/css">
+    <link rel="stylesheet" href="../stylesheets/first_design.css" type="text/css">
+      <link rel="stylesheet" href="../stylesheets/responsive2.css" type="text/css">
 
+    <!-- Icons & Fonts -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"></link>
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    
-    
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:100,400,700|Titillium+Web' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    <header class = "header-wrapper">
-      <a href="http://www.jensenbouzi.com"class = "logo">
-        <h1 id="my-name">Jensen Bouzi</h1>
-        <h2 id="sub-name">Full Stack Web Developer</h2>
-      </a>
-      <nav>
-        <ul>
-          <li><a href="http://www.jensenbouzi.com/">Home</a></li>
-          <li><a class="about" href="#about">About</a></li>
-          <li><a class="projects" href="#projects">Projects</a></li>
-          <li><a class="skills" href="#skills">Skills</a></li>
-          <li><a class="contact" href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-      <span id="nav-button">
-        <i class="fa fa-bars"></i>
-        <ul class = "slide-menu from-right">
-          <li><a href="http://www.jensenbouzi.com/">Home</a></li>
-          <li><a class="about" href="#about">About</a></li>
-          <li><a class="projects" href="#projects">Projects</a></li>
-          <li><a class="skills" href="#skills">Skills</a></li>
-          <li><a class="contact" href="#contact">Contact</a></li>
-        </ul>
-      </span>
-    </header>
-    <section id = "welcome">
-      <div class="clear">
-        <h5><!-- CLEARANCE SPACE --></h5>
-      </div>
-      <div id = "title-box" >
-        <h1>Welcome</h1>
-      </div>
-    </section>
-    <section class ="wrapper">
-      <section id="about">
-        <h2>About Me</h2>
-        <img src="imgs/dbc_profile_pic.jpg"/>
-        <hr>
-        <p>My name is Jensen Bouzi and was born in Brooklyn but I grew up in Queens, NY. I recently graduated from Amherst College with a B.A. in Asian Languages and Civilizations and a minor concentration in Mathematics. Although I've had a unique undergraduate experience, seemingly unrelated to computer programming, I've had a passion for technology ever since joining an after school engineering program in the 7th grade.</p>
+    <header class="wow fadeInDown" data-wow-delay="1.5s">
+      <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class ="logo left">
+          <h1><a href="www.jensenbouzi.com">J | B</a></h1>
+        </div>
+        <div class='navbar-header'>
+              <button type="button" class='navbar-toggle' data-toggle='collapse' data-target='.navbar-collapse'>
+                <span class='sr-only'>Toggle naviation</span>
+                <span class='icon-bar'></span>
+                <span class='icon-bar'></span>
+                <span class='icon-bar'></span>
+              </button>
+            </div>
 
-        <p>I have experience developing applications with Ruby on Rails, JavaScript, PostgreSQL, RSpec, Sinatra, MVC, among other technologies and methodologies. My meticulous nature drives me to procude modular, flexible code with a proven track record for learning and implementing new technologies quickly. If I am not coding I am most likely enthusiastically watching a soccer game or heavily involved in a music debate with other music connoisseurs.</p>
+            <ul id="header-nav" class='header nav navbar-nav navbar-right collapse navbar-collapse'>
+          <li><a href='#/'>Home</a></li>
+
+          <!-- Shop Dropdown Submenu -->
+          
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Photography</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section id="banner">
+        <center>
+          <h1 class="wow fadeInDown" data-wow-delay="1.5s"><span>Jensen Bouzi</span></h1>
+        </center>
+        <center><button class="wow fadeInDown" data-wow-delay="1.5s">Learn More</button></center>
       </section>
-    </section>
-    <section class = "wrapper wrapper-pic1">
-    </section>
-    <section class = "wrapper">
-      <section id="projects">
-        <h2>Recent Projects</h2>
-        <section class="grid-container">
-          <div class="row">
-            <div class="col-1">
-              <center><a href="https://github.com/jbouzi12/Continued-Care-Website"><img src="imgs/continued-care.png"/></a></center>
-              <h3>Continued Care of LI,Inc</h3>
-              <p>An e-commerce website that serves as both an informational as well as storefront for the health care services organization. The site is currently under construction, however, the prototype can be viewed above.</p>
-              <p><strong>Building with:</strong> Rails, Ruby, AngularJS, Spreecommerce, JavaScript, CSS3, Bootstrap</p>
-            </div>
-            <div class="col-1">
-              <center><a href="https://chrome.google.com/webstore/detail/pinpoint/khcfpddiephakfkdhfnbbdihopbdopam"><img src="imgs/pinpoint.png"/></a></center>
-              <h3>PinPoint</h3>
-              <p>PinPoint is a Chrome Extension that allows you to take notes on Youtube videos in real time and keep track of your annotated videos. Each note automatically has a time associated with it, allowing the user to easily jump to key moments in a video, and is saved and readily accessible for future reference.</p>
-              <p><strong>Built with:</strong> JavaScript, Google-Chrome API</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-1">
-              <center><a href="https://github.com/jbouzi12/GameOverflow"><img src="imgs/game-overflow.png"/></a></center>
-              <h3>GameOverflow</h3>
-              <p>GameOverflow is a web application that revolves around gaming. Users can create a profile, post articles on any game, genre, or console, and comment as well as vote on other user's content. Along with the Ruby on Rails backend, GameOverflow was built using Test Driven Development via an RSpec test suite, an ActiveRecord database, and HTML and CSS for our web design.</p>
-              <p><strong>Built with:</strong> Ruby, Rails, TDD, RSpec, PostgreSQL, CSS</p>
-            </div>
-            <div class="col-1">
-              <center><a href="https://github.com/jbouzi12/Weather-Forecast"><img src="imgs/forecast-app.png"/></a></center>
-              <h3>Weather Forecast</h3>
-              <p>A simple application that displays the weather forecast of any city on the planet. Just type in a city and you have the option of viewing a 2-day, 5-day, or 7-day forecast.</p>
-              <p><strong>Built with:</strong> AngularJS, JavaScript, Google Maps API, OpenWeather API, Bootstrap</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-1">
-              <center><a href="http://themiddleground.herokuapp.com"><img src="imgs/middle-ground.png"/></a></center>
-              <h3>MiddleGround</h3>
-              <p>MiddleGround is an app that helps two friends find interesting places to meet at a place between them so neither has to travel longer than the other. This app is unique because we find the midpoint based on travel time, not distance.</p>
-              <p><strong>Built with: Ruby, Google Maps API, Yelp API, Sinatra, jQuery, AJAX</strong></p>
-            </div>
-    
-          </div>
-        </section>
+      <section id="about">
+          <div class="wow slideInRight about-img right" data-wow-duration="2s">
+            <img src="../imgs/red_shirt_closeup_opt.jpg" alt="Jensen Bouzi is a Web Developer from Queens, NY">
+        </div>
+
+        <div class="wow slideInLeft about-content" data-wow-duration="2s" class="left">
+          <article>
+            <h2>About</h2>
+            <h3>Web Developer</h3>
+            <p class ="left">Jensen Bouzi is a Web Developer from Queens, New York with nack for solving complex problems and a passion for learning that sees him pick up new technologies swiftly. A recent graduate of Amherst College where he recieved a B.A.  in Asian Languages and Civilizations, minored in Mathematics, and gained fluency in Japanese, Jensen's journey into tech was quiet unorthodox. Growing up, he attended the Hayden Engineering & Applied Sciences program at Columbia University where he studied chemistry, physics, biology, robotics, and computer science. However after persuing various academic passions and traveling the world during his undergraduate years, it was only in his final year that he rekindled his passion for technology.</p>
+            <p>Since graduating from Amherst College in the spring of 2014, Jensen has rigorously ventured to expand his skillset and depth of coding knowledge by leveraging online resources, books, and even completing the intensive web development program, Dev Bootcamp. He has experience developing applications with Ruby on Rails, Sinatra, JavaScript, Angular, PostgreSQL, Test Driven Development, among other technologies and methodologies. Jensen's meticulous nature drives him to produce modular, flexible code with a proven track record for learning and implementing new technologies quickly. </p>
+            <p class ="left">If Jensen is not reading about JavaScript or attempting to re-solve a problem in half the amount of code,  he is most likely enthusiastically watching his favorite soccer team, Arsenal, or heavily involved in a music debate with other music connoisseurs.</p>
+            </article>
+        </div>
       </section>
-    </section>
-    <section class="wrapper">
-      <section id="skills">
-        <h2>Skills</h2>
-        <section class="grid-container">
-          <div class="row">
-            <div class="col-4"><h3>Ruby</h3></div>
-            <div class="col-4"><h3>JavaScript</h3></div>
-            <div class="col-4"><h3>AJAX & jQuery</h3></div>
-            <div class="col-4"><h3>Python</h3></div>
-          </div>
-          <div class="row">
-            <div class="col-4"><h3>CSS3</h3></div>
-            <div class="col-4"><h3>HTML5</h3></div>
-            <div class="col-4"><h3>Responsive Design</h3></div>
-            <div class="col-4"><h3>Wireframes</h3></div>
-          </div>
-          <div class="row">
-            <div class="col-4"><h3>Rails</h3></div>
-            <div class="col-4"><h3>Sinatra</h3></div>
-            <div class="col-4"><h3>PostgreSQL</h3></div>
-            <div class="col-4"><h3>SQLite</h3></div>
-          </div>
-          <div class="row">
-            <div class="col-4"><h3>ActiveRecord</h3></div>
-            <div class="col-4"><h3>Jasmine</h3></div>
-            <div class="col-4"><h3>RSpec</h3></div>
-            <div class="col-4"><h3>Test Driven Development</h3></div>
-          </div>
-          <div class="row">
-            <div class="col-4"><h3>Agile Development</h3></div>
-            <div class="col-4"><h3>RESTful Architecture</h3></div>
-            <div class="col-4"><h3>MVC</h3></div>
-            <div class="col-4"><h3>Object Oriented Programming</h3></div>
-          </div>
+          <section id="projects">
+            <center><h2>Projects</h2></center>
+            <section class="grid-container">
+              <div class="my-row">
+                    <div class="col-1 wow slideInLeft" data-wow-duration="2s">
+                  <center><a href="https://github.com/jbouzi12/Continued-Care-Website"><img src="../imgs/continued-care.png"/></a></center>
+                  <h3>Continued Care of LI,Inc</h3>
+                  <p>An e-commerce website that serves as both an informational as well as storefront for the health care services organization. The site is currently under construction, however, the prototype can be viewed above.</p>
+                  <p><strong>Building with:</strong> Rails, Ruby, AngularJS, Spreecommerce, JavaScript, CSS3, Bootstrap</p>
+                </div>
+                <div class="col-1 wow slideInRight" data-wow-duration="2s">
+                  <center><a href="https://chrome.google.com/webstore/detail/pinpoint/khcfpddiephakfkdhfnbbdihopbdopam"><img src="../imgs/pinpoint.png"/ alt="Pin Point Google Chrome Extension"></a></center>
+                  <h3>PinPoint</h3>
+                  <p>PinPoint is a Chrome Extension that allows you to take notes on Youtube videos in real time and keep track of your annotated videos. Each note automatically has a time associated with it, allowing the user to easily jump to key moments in a video, and is saved and readily accessible for future reference.</p>
+                  <p><strong>Built with:</strong> JavaScript, Google-Chrome API</p>
+                </div>
+              </div>
+              <div class="my-row">
+                <div class="col-1 wow slideInLeft" data-wow-duration="2s">
+                  <center><a href="https://github.com/jbouzi12/GameOverflow"><img src="../imgs/game-overflow.png" alt="GameOverflow App"/></a></center>
+                  <h3>GameOverflow</h3>
+                  <p>GameOverflow is a web application that revolves around gaming. Users can create a profile, post articles on any game, genre, or console, and comment as well as vote on other user's content. Along with the Ruby on Rails backend, GameOverflow was built using Test Driven Development via an RSpec test suite, an ActiveRecord database, and HTML and CSS for our web design.</p>
+                  <p><strong>Built with:</strong> Ruby, Rails, TDD, RSpec, PostgreSQL, CSS</p>
+                </div>
+                <div class="col-1 wow slideInRight" data-wow-duration="2s">
+                  <center><a href="https://github.com/jbouzi12/Weather-Forecast"><img src="../imgs/forecast-app.png" alt="Angular Weather Forecast App"/></a></center>
+                  <h3>Weather Forecast</h3>
+                  <p>A simple application that displays the weather forecast of any city on the planet. Just type in a city and you have the option of viewing a 2-day, 5-day, or 7-day forecast.</p>
+                  <p><strong>Built with:</strong> AngularJS, JavaScript, Google Maps API, OpenWeather API, Bootstrap</p>
+                </div>
+              </div>
+              <div class="my-row">
+                <div class="col-1 wow slideInLeft" data-wow-duration="2s">
+                  <center><a href="http://themiddleground.herokuapp.com"><img src="../imgs/middle-ground.png" alt="The Middle Ground"/></a></center>
+                  <h3>MiddleGround</h3>
+                  <p>MiddleGround is an app that helps two friends find interesting places to meet at a place between them so neither has to travel longer than the other. This app is unique because we find the midpoint based on travel time, not distance.</p>
+                  <p><strong>Built with: Ruby, Google Maps API, Yelp API, Sinatra, jQuery, AJAX</strong></p>
+                </div>
+              </div>
+            </section>
+          </section>
+        <section id="skills" class="container">
+            <center><h2>Skills</h2></center>
+          <hr />
+
+            <h3>Languages</h3>
+            <div class="row">
+              <div class="col-md-6">
+                <ul>
+                  <li>Ruby</li>
+                  <li>JavaScript</li>
+                  <li>Python</li>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+
+                </ul>
+              </div>
+            </div>
+            <h3>Frameworks</h3>
+            <div class="row">
+              <div class="col-md-6">
+                <ul>
+                  <li>Rails</li>
+                  <li>AngularJS</li>
+                  <li>Sinatra</li>
+                  <li>Bootstrap</li>
+                  <li>Google Chrome Extensions</li>
+                </ul>
+              </div>
+            </div>
+
+            <h3>Databases</h3>
+            <div class="row">
+              <div class="col-md-6">
+                <ul>
+                  <li>Active Record</li>
+                  <li>PostgreSQL</li>
+                  <li>SQLite</li>
+                </ul>
+              </div>
+            </div>
+
+            <h3>Testing</h3>
+            <div class="row">
+              <div class="col-md-6">
+                <ul>
+                  <li>RSpec</li>
+                  <li>Jasmine</li>
+                  <li>CircleCi</li>
+                </ul>
+              </div>
+            </div>
+            <h3>Methodologies</h3>
+            <div class="row">
+              <div class="col-md-6">
+                <ul>
+                  <li>Test Driven Development</li>
+                  <li>Object Oriented Programming</li>
+                  <li>Agile Development</li>
+                  <li>RESTful Architecture</li>
+                  <li>MVC</li>
+                  <li>MV*</li>
+                </ul>
+              </div>
+            </div>
+            <h3>Front End</h3>
+            <div class="row">
+              <div class="col-md-6">
+                <ul>
+                  <li>UX/UI</li>
+                  <li>Photoshop</li>
+                  <li>Wireframes</li>
+                  <li>Responsive Design</li>
+                  <li>SEO</li>
+                  <li>Flash</li>
+                </ul>
+              </div>
+            </div>
+            <h3>Version Control</h3>
+            <div class="row">
+              <div class="col-md-6">
+                <ul>
+                  <li>Git</li>
+                  <li>GitHub</li>
+                </ul>
+              </div>
+            </div>
+            <h3>Soft Skills</h3>
+            <div class="row">
+              <div class="col-md-6">
+                <ul>
+                  <li>Writing</li>
+                  <li>Data Analysis</li>
+                  <li>Leadership</li>
+                  <li>Public Speaking</li>
+                  <li>Emotional Intelligence</li>
+                  <li>Communication</li>
+                  <li>Adaptability</li>
+                  <li>Patience & Humility</li>
+                </ul>
+              </div>
+            </div>
+            <h3>Spoken Language</h3>
+            <div class="row">
+              <div class="col-md-6">
+                <ul>
+                  <li>Japanese</li>
+                </ul>
+              </div>
+            </div>
+
         </section>
-      </section> 
-    </section>
-    <section class = "wrapper wrapper-pic2">
-    </section>
-    <section class="wrapper">
-      <section id="contact">
-        <h2>Contact</h2>
-        <div id="form-div">
-          <form method="POST" action="mailto:jensen.bouzi@gmail.com?Subject=Hello Jensen, Looking to Connect" class="form" id="form1">
       
-            <p class="name">
-              <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
-            </p>
-            
-            <p class="email">
-              <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
-            </p>
-            
-            <p class="text">
-              <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Enter a message..."></textarea>
-            </p>
-            
-            
-            <div class="submit">
-              <input type="submit" value="SEND" id="button-blue"/>
-            <div class="ease"></div>
-            </div>
-          </form>
-        </div>
-        <div class="thank-you">
-          <h3>Thank you for submitting.  I will respond as soon as possible.</h3>
-        </div>
+      <section id="gallery">
+        <h2>Photography</h2>
+        <center><blockquote>Beyond the walls of intelligence, life is defined.</blockquote></center>
+        <center><p>- Nasir Jones</p></center>
+        <hr>
+
+        <div class="container">
+          <div class="my-row">
+            <div class="col-3"><figure><img class="wow fadeIn" src="../imgs/american_flag.JPG"></figure></div>
+            <div class="col-3"><figure><img class="wow fadeIn" src="../imgs/malcolm_closeup.JPG"></figure></div>
+            <div class="col-3"><figure><img class="wow fadeIn" src="../imgs/crooked_stairs.JPG"></figure></div>
+          </div>
+          <div class="my-row">
+            <div class="col-3"><figure><img class="wow fadeIn" src="../imgs/buddha_head_opt.JPG"></figure></div>
+            <div class="col-3"><figure><img class="wow fadeIn" src="../imgs/blk_wht_boat.JPG"></figure></div>
+            <div class="col-3"><figure><img class="wow fadeIn" src="../imgs/concert_shoes.JPG"></figure></div>
+          </div>
+          <div class="my-row">
+            <div class="col-3"><figure><img class="wow fadeIn" src="../imgs/light_through_buildings.JPG"></figure></div>
+            <div class="col-3"><figure><img class="wow fadeIn" src="../imgs/malcolm_beats.JPG"></figure></div>
+            <div class="col-3"><figure><img class="wow fadeIn" src="../imgs/white_mpc.JPG"></figure></div>
+          </div>
+          <div class="my-row">
+            <div class="col-3"><figure><img class="wow fadeIn" src="../imgs/smith_lake.JPG"></figure></div>
+            <div class="col-3"><figure><img class="wow fadeIn" src="../imgs/memorial_hill.JPG"></figure></div>
+            <div class="col-3"><figure><img class="wow fadeIn" src="../imgs/between_trees.jpg"></figure></div>
+          </div>
+        </div>        
       </section>
-    </section>
-    <section class="scroll-top-wrapper ">
-      <span class="scroll-top-inner">
-        Top
-      </span>
-    </section>
+      <section id = "contact">
+        <center>
+          <h2>Contact</h2>
+              <form class="email-form" action="mailto:jensen.bouzi@gmail.com" method="post" enctype="text/plain">
+                <input name="Name" placeholder="Name"><br>
+                <input name="Email" placeholder="Email"><br>
+                <input name="Phone" placeholder="Phone"><br>
+                <textarea name="Message" placeholder="Message... "></textarea><br>
+              <button>Submit</button> 
+              </form>
+        </center>
+      </section>
+    </main>
     <footer>
-      <h4>
-        <span>Jensen Bouzi &copy; 2015  | Follow me on:</span>
-        <a href="http://www.linkedin.com/in/jensenbouzi/"><i class="fa fa-linkedin-square fa-lg"></i></a>
-        <a href="https://github.com/jbouzi12"><i class="fa fa-github-square fa-lg"></i></a>
-        <a href="https://twitter.com/jensenbouzi"><i class="fa fa-twitter-square fa-lg"></i></a>
-        <a href="https://plus.google.com/u/0/118433877871429485489/posts?cfem=1"><i class="fa fa-google-plus-square fa-lg"></i></a>
-        </h4>
+      <ul>
+        <li>Jensen Bouzi &copy; 2015</li>
+        <li><a href="http://www.linkedin.com/in/jensenbouzi/"><i class="fa fa-linkedin-square fa-lg"></i></a></li>
+        <li><a href="https://github.com/jbouzi12"><i class="fa fa-github-square fa-lg"></i></a></li>
+        <li><a href="https://twitter.com/jensenbouzi"><i class="fa fa-twitter-square fa-lg"></i></a></li>
+        <li><a href="https://plus.google.com/u/0/118433877871429485489/posts?cfem=1"><i class="fa fa-google-plus-square fa-lg"></i></a></li>
+        <li>Designed by Jensen Bouzi</li>   
+      </ul>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script type="text/javascript" src="js/menu.js"></script>
-    <script type="text/javascript" src="js/projects.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script src="../js/projects.js"></script>
+    <script src="../js/app.js"></script>
+
   </body>
 </html>
