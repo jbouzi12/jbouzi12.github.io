@@ -150,9 +150,6 @@ blockquote:after {
 .container {
   width: 100%;
 }
-#gallery blockquote {
-  font-size: 2em;
-}
 #gallery .left{
   margin-left: 1em;
   width: 55%;
@@ -204,6 +201,10 @@ blockquote:after {
   padding: 3em 6em 3em 6em;
   position: relative;
 }
+#projects blockquote {
+  font-size: 2em;
+}
+
 #projects {
   background-color: #e1e3e4;
 }
