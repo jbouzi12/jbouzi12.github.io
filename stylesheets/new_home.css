@@ -1,379 +1,310 @@
 body {
-  margin: 0;
-  background: #151615;
-  background-size: cover;
-  font-family: 'Lato', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  font-size: 12px;
+  display: block;
+  font-weight: 100;
+  font-family: 'Titillium Web', sans-serif;
 }
-
 p {
-  font-family: 'Libre Baskerville', serif;
-  font-size: 16px;
-  line-height: 1.5;
-}
+  font-family: 'Josefin Slab', serif;
 
-.fa-lg {
-  color: white;
 }
+.built-with, .logo {
+  font-family: 'Josefin Slab', serif;
 
+}
+img {
+  width: 100%;
+  height:100%;
+}
+h1, h2 {
+  font-size: 2em;
+  text-align: center;
+}
 a {
   text-decoration: none;
-  color:black;
-}
-a:hover, .fa-lg:hover {
-  color:rgb(8, 239, 249);
-  transition:all .2s ease-in;
-}
-
-a img {
-  width:25px;
-  height:25px;
-}
-
-img {
-  width:75%;
-}
-
-/* Top Navigation Menu */
-#nav-button {
-  display: none;
-  float: right;
-  /*margin-right: 5em;*/
-  padding-top: .5em;
-  transition-property: transform;
-  transition-duration: 0.3s;
-  transition-delay 0.3s;
-  transform:translate3d(100%, 0, 0);
-}
-#nav-button i {
-  font-size: 3.5em;
-}
-.slide-menu {
-  margin-right: 1em;
-  visibility: hidden;
-  transition:visibility 0s .6s;
-  position: relative;
-}
-.slide-menu li {
-  background-color: rgba(0, 0, 0, 0.71);
-}
-.slide-menu li a {
-  color:white;
-}
-.slide-menu.is-visible {
+  color: white;
   font-size: 1.5em;
-  visibility: visible;
-  transition: visibility 0s 0s;
-  margin-bottom: -4em;
 }
-.slide-menu li {
-  display: block;
-  margin-left: -2em;
+a, .logo {
+  transition:.2s ease-in;
 }
-.slide-menu li:before {
-  content:none;
-  padding: 0;
+a, button {
+  cursor: pointer;
 }
-.is-visible {
-  top: 0;
-  transition: top 0.3s 0.3s;
-}
-.is-visible #nav-button {
-  transform: translate3d(0, 0, 0);
-  transition-delay:0s;
+button {
+  opacity: .7;
 }
 
-nav {
-  float:right;
-  font-size:1.45em;
+button:hover {
+  opacity: 1;
+}
+
+.navbar-default .navbar-nav>li>a:hover, a:hover, .logo:hover {
+  color: rgb(91, 231, 178);
+}
+.fa-lg:hover {
+  color: rgb(8, 239, 249);
+}
+a img {
+  width: 25px;
+  height: 25px;
+}
+#gallery hr {
+  margin: 5em 3em 5em 3em;
+}
+li {
+  list-style: none;
+}
+#banner span, #banner button, #contact button {
+  color: white;
+  background-color: rgb(72, 187, 144);
+  padding: 10px;
+}
+button {
+  -moz-box-shadow: inset 0 -2px rgba(64, 168, 129);
+  -webkit-box-shadow: inset 0 -2px rgb(64, 168, 129);
+  -o-box-shadow: inset 0 -2px rgb(64, 168, 129);
+  box-shadow: inset 0 -2px rgb(64, 168, 129); 
+  border: none;
+}
+blockquote {
+  font-style: italic;
+  color: rgb(224, 206, 111);
+}
+blockquote:before {
+  content: "\"";
+}
+blockquote:after {
+  content:"\"";
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+.navbar-default, button, img, i {
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.26),0 2px 10px 0 rgba(0,0,0,.16);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,.26),0 2px 10px 0 rgba(0,0,0,.16);
+  -o-box-shadow: 0 2px 5px 0 rgba(0,0,0,.26),0 2px 10px 0 rgba(0,0,0,.16);
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.26),0 2px 10px 0 rgba(0,0,0,.16);
+
+}
+/* Header */
+.navbar-default {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding:1em;
+  border:none;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+  line-height: 34px;
+}
+
+.navbar-nav>li>a {
+  line-height: 0px;
+}
+/*.menu ul {
+  margin-right: 3em;
+  padding-top: 1.4em;
+}
+.menu li {
+  display: inline-block;
   padding-right: 1em;
 }
+*/
 
-
-li {
-  display: inline-block;
-  position: relative;
-}
-
-li:before {
-  content: "|";
-  padding-right:.5em;
-}
-li:first-child:before {
-  content: none;
-}
-
-.header-wrapper {
-  background-color:white;
-  width: 100%;
-  padding: 1em 0 0 1em;
-  position: fixed;
-  z-index: 1000;
-  margin-top: -1em;
-  box-shadow: 2px 2px rgba(0, 0, 0, 0.54);
-}
-
-.logo {
-  float:left;
-  margin-top: -10px;
-}
-
-.logo h1 {
-  font-size: 2.2em;
-  margin-bottom: 0;
-}
-.logo h2 {
-  margin-top: 0;
-  font-size: 1em;
-}
-
-/* Welcome Section, both background and 'Welcome' sign*/
-.clear {
-  clear:both;
-  overflow: hidden;
-  visibility: hidden;
-  width: 0;
-  height: 0;
-  vertical-align: baseline;
-  background: transparent;
-}
-#welcome {
-  background: url(../imgs/road-image.JPG);
+/* Main Banner */
+#banner {
+  background-image:url(../imgs/wash_monument_opt.JPG);
   background-attachment: fixed, scroll;
-  height: 35em;
-  line-height: 1.4;
-  background-size: cover;
+  height: 52em;
+  background-size: 100%;
+  margin-top: -2em;
 }
-#title-box {
-  height:200px;
-  padding-top: 0px;
+#banner h1 {
+  padding-top: 8em;
+  font-size: 3em;
 }
-
-#title-box h1 {
-  color: rgb(6, 5, 31);
-  text-align: center;
-  margin: 0 auto;
-  font-size: 6em;
-  transition: .4s ease-in;
-  padding-left: 4.5%;
-  padding-top: 23%;
+#banner h1 span {
+  border: 2px solid white;
+  background-color: rgba(13, 13, 13, 0.39);
 }
 
-h5 {
- display: inline;
-}
-h5:after{
- content:"\a";
- white-space: pre;
-}
-
-/* Wrappers separating each section of the site */
-/* Each wrapper will have a background image, breaking up the content as users scroll*/
-.wrapper {
-  margin-bottom: -2em;
-  margin-top: 0;
-  width: 100%;
-}
-
-.wrapper h2 {
-  text-align: center;
+#gallery h2, #skills h2, #about h2,#projects h2, #contact h2 {
   font-size: 4em;
+  margin-bottom: 15px;
 }
 
-.wrapper-pic1, .wrapper-pic2 {
-  height: 18em;
-  background-size: cover;
-  background-attachment: fixed, scroll;
+/* Gallery */
+#gallery, #contact, footer {
+  padding: 2em;
 }
-
-.wrapper-pic1 {
-  background-image: url(../imgs/amherst_trees.jpg);
+.container {
+  width: 100%;
 }
-
-.wrapper-pic2 {
-  background-image: url(../imgs/between_trees.jpg);
-
+#gallery blockquote {
+  font-size: 2em;
 }
-/* About Me */
-#skills, #about, #projects {
-  padding: 3em 5em 3em 5em;
-  position: relative;
+#gallery .left{
+  margin-left: 1em;
+  width: 55%;
+  height:45%;
+}
+#gallery .right{
+  display: block;
+  width: 28%;
+  height: 25%;
+  padding: 1em;
+  margin-right: 6em;
+}
+/* About */
+#gallery p, #about p {
+  font-size: 1.3em;
+}
+#about h2 {
+  text-align: left;
 }
 #about {
-  background-color:white;
+  background-color: #f0efec;
+  text-align: left;
+}
+.about-img img{
+  width: 360px;
+  height: 500px;
+}
+.about-content, .about-img {
+  display: inline-block;
+  width: 50%;
+  overflow: hidden;
+  margin: 0;
+  position: relative;
 }
 
-#about p {
-  text-indent: 2em;
+.about-content {
+  padding: 10px;
 }
 
-#about img {
-  text-align: center;
-  border-radius: 100%;
-  margin: 0px auto auto;
-  max-width: 200px;
-  display: block;
-  margin-bottom: 4em;
+.about-img {
+  /*padding: 3em 6em 3em 6em;*/
+  left: 4em;
+  top: 8em;
+
 }
 
-hr {
-  margin-bottom: 3em;
+/* Projects */
+#skills, #projects, #contact, .about-content, #gallery {
+  padding: 3em 6em 3em 6em;
+  position: relative;
 }
-#skills, #contact, #projects {
-  color: white;
-}
-/* Contact Section */
-#contact {
-  background-color: rgb(6, 74, 249);
-  padding: 7em;
-}
-#contact h2 {
-  margin: -1em auto 1em auto;
-}
-
-#form-div {
-  width: 100%;
-  margin-top:30px;
-}
-
-.feedback-input {
-  font-size: 18px;
-  border-radius: 0;
-  line-height: 22px;
-  padding: 13px 13px 13px 54px;
-  width:100%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-  border: 3px solid rgba(0,0,0,0);
-}
-
-.feedback-input:focus{
-  background: #fff;
-  box-shadow: 0;
-  border: 3px solid rgb(12, 255, 24);
-  outline: none;
-}
-
-/* Contact Icons ---------------------------------- */
-#name{
-  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
-  background-size: 30px 30px;
-  background-position: 11px 8px;
-  background-repeat: no-repeat;
-}
-
-#name:focus{
-  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
-  background-size: 30px 30px;
-  background-position: 11px 8px;
-  background-repeat: no-repeat;
-}
-
-#email{
-  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
-  background-size: 30px 30px;
-  background-position: 11px 8px;
-  background-repeat: no-repeat;
-}
-
-#email:focus{
-  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
-  background-size: 30px 30px;
-  background-position: 11px 8px;
-  background-repeat: no-repeat;
-}
-
-#comment{
-  background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
-  background-size: 30px 30px;
-  background-position: 11px 8px;
-  background-repeat: no-repeat;
-}
-
-textarea {
-    width: 100%;
-    height: 150px;
-    line-height: 150%;
-    resize:vertical;
-}
-
-
-#button-blue{
-  float:left;
-  width: 30%;
-  border: #fbfbfb solid 4px;
-  cursor:pointer;
-  background-color: rgb(6, 74, 249);
-  color:white;
-  font-size:24px;
-  padding-top:22px;
-  padding-bottom:22px;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-  margin-top:-4px;
-}
-
-#button-blue:hover{
-  background-color: rgba(0,0,0,0);
-  color: rgb(6, 74, 249);
-}
-  
-.submit:hover {
-  color: #3498db;
-}
-  
-.ease {
-  width: 0px;
-  height: 74px;
-  background-color: #fbfbfb;
-  -webkit-transition: .3s ease;
-  -moz-transition: .3s ease;
-  -o-transition: .3s ease;
-  -ms-transition: .3s ease;
-  transition: .3s ease;
-}
-
-.submit:hover .ease{
-  width:30%;
-  background-color:white;
-}
-.thank-you {
-  display: none;
-  color: white;
-}
-
-
-/* Projects section */
 #projects {
-  background-color: rgb(72, 187, 144);
+  background-color: #e1e3e4;
 }
 
-#projects img:hover {
-  opacity: .8;
+#projects p {
+  font-size: 1.3em;
 }
+
+.col-1 h3 {
+  font-size: 1.5em;
+}
+
+.col-1 a img {
+    border-bottom: 3px solid transparent;   
+    border-bottom-width: 0%; 
+    -webkit-transition: .5s ease-in;
+    -moz-transition: .5s ease-in;
+    -o-transition: .5s ease-in;
+    transition: .5 ease-in;
+    white-space: nowrap;
+}
+.col-1 a img:hover {
+    border-bottom: 3px solid rgb(72, 187, 144);
+    border-bottom-width: 100%;
+}
+
+/* Skills */
 
 #skills {
-  margin: 0;
+  background-color: #307972;
+  color: white;
 }
 
-/* Footer */
-footer {
-  width: 100%;
-  height:20%;
+#skills .col-md-6 {
+  width: 45%;
+}
+#skills h3{
+  text-align: left;
+  font-size: 1.8em;
+  color: rgb(208, 199, 152);
+
+}
+#skills h2 {
+  margin-left: 0;
   text-align: center;
-  margin:20px 4% 20px 2%;
-  padding-top: 2%;
-  padding-bottom: 2%;
-}
-footer h4 a {
-  padding-left: 5px;
-  padding-right: 5px;
+
 }
 
-footer h4 span {
-  color:white;
-  font-weight: bold;
-  padding-left: 10px;
+#skills li {
+  font-size: 1.8em;
+  text-align: left;
+}
+
+ /* Contact */
+ .email-form {
+  position: relative;
+  width: 65%;
+ }
+ input {
+  width: 100%;
+  height: 30px;
+ }
+ textarea {
+  width: 100%;
+  height: 100px;
+ }
+ input, textarea {
+  margin-bottom: 1em !important;
+  padding: 14px 20px !important;
+  font-size: 1.3em !important;
+  background-color: #434242;
+  border: 0;
+  outline: none;
+  font-family: inherit;
+ }
+.email-form button{
+  font-size: 20px;
+  letter-spacing: 4px;
+  padding: 20px 28px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+ #contact {
+  background-color: #222222;
+  color: white;
+  padding-bottom: 4em;
+ }
+ /*Footer*/
+footer {
+  background-color: #161616;
+  text-align: center;
+  width: 100%;
+  height: 20%;
+  color: rgb(182, 179, 179);
+}
+footer i {
+  color: white;
+}
+footer li {
+  display: inline-block;
+}
+footer li a {
+  padding: .5em;
 }

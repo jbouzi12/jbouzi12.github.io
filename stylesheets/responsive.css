@@ -1,12 +1,5 @@
 @media all and (max-width: 800px) {
-  nav {float:right;font-size:1.6em;padding-right: 1em}
-  .header-wrapper {background-color:white;width: 100%;position: fixed;z-index: 1000;}
   .logo h1 {font-size: 2em;margin-bottom: 0;}
-  #title-box {height:10em;padding-top: 0px;}
-  #title-box h1 {color: white;font-size: 9em;transition: .4s ease-in;padding-left: 4.5%;padding-top: 30%;}
-  #about {padding-bottom: 3em}
-  #about p{font-size: 1.3em}
-  #contact {padding: 2em 1em 2em 1em}
   .navbar-default .navbar-collapse, .navbar-default .navbar-form {padding-right: 60px}
 
   .about-img {float: none; top:8em;left: 0;text-align: center;margin-bottom: 40px;}
@@ -21,11 +14,7 @@
 }
 
 @media all and (max-width: 690px) {
-  header nav {display: none}
-  #nav-button {display:block;margin-top:1em;margin-bottom: -7em;margin-right:0em;padding-top: 0}
-  footer span{display: none}
-  footer .fa {font-size: 1.4em}
-  #about, #contact {padding:1em;}
+  /*#about, #contact {padding:1em;}*/
   #about {margin-bottom: 2em}
   #welcome {background-size: 100%; height:30em;}
   #title-box h1 {font-size: 5.5em;padding-top:30%;}
@@ -38,17 +27,4 @@
 }
 @media all and (max-width: 585px){
   #gallery hr {padding: 1em 0em 1em 0em}
-}
-@media all and (max-width: 495px){
-  #welcome {background-size: 125%;height:25em;}
-  #title-box h1 {padding-top:35%;}
-}
-
-@media all and (max-width: 406px){
-  #nav-button {display:block;margin-bottom: -6.5em;padding-top: 0}
-}
-@media all and (max-width: 375px){
-  #welcome {background-size: 130%;height:21em;}
-  #title-box h1 {font-size: 4em; padding-top: 45%}
-  #about {margin-bottom: 1em}
 }
