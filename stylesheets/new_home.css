@@ -158,6 +158,8 @@ blockquote:after {
 /* About */
 #gallery p, #about p {
   font-size: 1.3em;
+  font-weight: 400;
+  color: black;
 }
 #about h2 {
   text-align: left;
