@@ -1,3 +1,6 @@
+@media all and (max-width: 1200px) {
+  #banner {height: 58em;}
+}
 @media all and (max-width: 800px) {
   .logo h1 {font-size: 2em;margin-bottom: 0;}
   .navbar-default .navbar-collapse, .navbar-default .navbar-form {padding-right: 60px}
