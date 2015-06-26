@@ -1,6 +1,9 @@
 @media all and (max-width: 1200px) {
   #banner {height: 58em;}
 }
+@media all and (max-width: 955px) {
+  #gallery hr {margin: 0 1em 1em 1em; padding: 0}
+}
 @media all and (max-width: 800px) {
   nav {float:right;font-size:1.6em;padding-right: 1em}
   .header-wrapper {background-color:white;width: 100%;position: fixed;z-index: 1000;}
@@ -18,7 +21,7 @@
   .about-img img {width: 80%;height: 80%}
   .about-content, .about-img {width: 100%}
   .about-content {padding: 1em}
-  #gallery {width: 100%; padding: 0}
+  #gallery {width: 100%; padding: 0 0 4em 0}
   #projects {padding: 2em}
   #projects p {font-size: .8em}
   #projects h3 {font-size: 1.5em}

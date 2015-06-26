@@ -157,7 +157,7 @@ blockquote:after {
   margin-right: 6em;
 }
 /* About */
-#gallery p, #about p {
+#gallery p, #about p, #projects {
   font-size: 1.3em;
   font-weight: 400;
   color: black;
