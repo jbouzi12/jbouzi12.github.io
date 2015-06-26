@@ -111,21 +111,12 @@ blockquote:after {
 .navbar-nav>li>a {
   line-height: 0px;
 }
-/*.menu ul {
-  margin-right: 3em;
-  padding-top: 1.4em;
-}
-.menu li {
-  display: inline-block;
-  padding-right: 1em;
-}
-*/
 
 /* Main Banner */
 #banner {
   background-image:url(../imgs/wash_monument_opt.JPG);
   background-attachment: fixed, scroll;
-  height: 52em;
+  height: 66em;
   background-size: 100%;
   margin-top: -2em;
 }
@@ -261,7 +252,7 @@ blockquote:after {
  /* Contact */
  .email-form {
   position: relative;
-  width: 65%;
+  width: 90%;
  }
  input {
   width: 100%;
