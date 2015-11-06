@@ -1,13 +1,15 @@
 body {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
   font-size: 12px;
   display: block;
   font-weight: 100;
   font-family: 'Titillium Web', sans-serif;
+}
+body, html {
+  margin:0 !important;
+  padding: 0 !important;
 }
 p {
   font-family: 'Josefin Slab', serif;
@@ -101,6 +103,7 @@ blockquote:after {
   background-color: rgba(0, 0, 0, 0.7);
   padding:1em;
   border:none;
+  max-width: 100% !important;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -154,8 +157,10 @@ blockquote:after {
   margin-right: 6em;
 }
 /* About */
-#gallery p, #about p {
+#gallery p, #about p, #projects {
   font-size: 1.3em;
+  font-weight: 400;
+  color: black;
 }
 #about h2 {
   text-align: left;
