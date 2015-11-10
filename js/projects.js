@@ -1,31 +1,36 @@
-  wow = new WOW(
-    {
-      boxClass:     'wow',      // default
-      animateClass: 'animated', // default
-      offset:       0,          // default
-      mobile:       true,       // default
-      live:         true        // default
-    }
-  )
-$(document).ready(function() {
-	
-	wow.init();
-	
-	$('#nav-button').click(function() {
-		$(".slide-menu").toggleClass("is-visible");
-	})
-	$('.fadeable').each (function(i, img) {
-		$(img).load(function(e) {
-			$(this).fadeIn(10000);
-		})
+(function(jQuery){
+	var wow = new WOW(
+		{
+	  		boxClass:     'wow',      // default
+			  animateClass: 'animated', // default
+			  offset:       0,          // default
+			  mobile:       true,       // default
+			  live:         true        // default
+		}
+	);
+
+	jQuery(document).ready(function() {
+		
+		wow.init();
+
+		jQuery('#nav-button').click(function() {
+			jQuery(".slide-menu").toggleClass("is-visible");
+		});
+
+		jQuery('.fadeable').each (function(i, img) {
+			jQuery(img).load(function(e) {
+				jQuery(this).fadeIn(10000);
+			});
+		});
+
+		jQuery('.fadeable_last').load(function(e) {
+			jQuery(this).fadeIn(14000);
+		});
+
+		jQuery('#button-blue').click(function() {
+			jQuery('#form-div').hide();
+			jQuery('.thank-you').show();
+		});
 	});
 
-	$('.fadeable_last').load(function(e) {
-		$(this).fadeIn(14000);
-	});
-
-	$('#button-blue').click(function() {
-		$('#form-div').hide();
-		$('.thank-you').show();
-	})
-});
+})($);
