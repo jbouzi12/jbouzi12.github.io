@@ -1,4 +1,4 @@
-(function(jQuery){
+(function($){
 	var wow = new WOW(
 		{
 	  		boxClass:     'wow',      // default
@@ -9,28 +9,28 @@
 		}
 	);
 
-	jQuery(document).ready(function() {
-		
+	$(document).ready(function() {
+
 		wow.init();
 
-		jQuery('#nav-button').click(function() {
-			jQuery(".slide-menu").toggleClass("is-visible");
+		$('#nav-button').click(function() {
+			$(".slide-menu").toggleClass("is-visible");
 		});
 
-		jQuery('.fadeable').each (function(i, img) {
-			jQuery(img).load(function(e) {
-				jQuery(this).fadeIn(10000);
+		$('.fadeable').each (function(i, img) {
+			$(img).load(function(e) {
+				$(this).fadeIn(10000);
 			});
 		});
 
-		jQuery('.fadeable_last').load(function(e) {
-			jQuery(this).fadeIn(14000);
+		$('.fadeable_last').load(function(e) {
+			$(this).fadeIn(14000);
 		});
 
-		jQuery('#button-blue').click(function() {
-			jQuery('#form-div').hide();
-			jQuery('.thank-you').show();
+		$('#button-blue').click(function() {
+			$('#form-div').hide();
+			$('.thank-you').show();
 		});
 	});
 
-})($);
+})(jQuery);
