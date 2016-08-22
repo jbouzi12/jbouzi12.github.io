@@ -13,7 +13,7 @@
 
 		wow.init();
 
-		$('#nav-button').click(function() {
+		$('#nav-button').click(function(e) {
 			$(".slide-menu").toggleClass("is-visible");
 		});
 
@@ -27,10 +27,16 @@
 			$(this).fadeIn(14000);
 		});
 
-		$('#button-blue').click(function() {
+		$('#button-blue').click(function(e) {
 			$('#form-div').hide();
 			$('.thank-you').show();
 		});
+
+		$('#start').click(function(e){
+			e.preventDefault();
+			$('html, body').animate({
+	      scrollTop: $("#about").offset().top
+	    }, 2000);		})
 	});
 
 })(jQuery);
